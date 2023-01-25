@@ -1,7 +1,7 @@
 from json import load, dumps
 
 inData = load(open("./.models.json"))
-outData = load(open("F:/Programming/GitHub/wynemGithub/bot_assets/json/cem_template_models.json"))
+outData = load(open("F:/Programming/GitHub/wynemCode/src/assets/json/cem_template_models.json"))
 
 for entity in outData["models"]:
   if inData["models"].get(entity):
@@ -14,5 +14,5 @@ for entity in outData["models"]:
   else:
     print(entity)
 
-with open("F:/Programming/GitHub/wynemGithub/bot_assets/json/cem_template_models.json", "w") as outFile:
+with open("F:/Programming/GitHub/wynemCode/src/assets/json/cem_template_models.json", "w") as outFile:
   outFile.write(dumps(outData, indent = 2))

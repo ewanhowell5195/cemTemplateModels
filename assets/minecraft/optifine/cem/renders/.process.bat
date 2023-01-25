@@ -1,0 +1,1 @@
+magick mogrify -path "F:\Programming\GitHub\wynemCode\src\assets\images\minecraft\renders" -background transparent -resize 116x66 -gravity center -extent 116x66 -quality 95 -format webp "./*.png"

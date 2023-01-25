@@ -67,10 +67,10 @@
 			"part": "knob_left",
 			"id": "knob_left",
 			"invertAxis": "xy",
-			"translate": [-16, -8, -7],
+			"translate": [-16, -9, -7],
 			"rotate": [-180, 0, 0],
 			"boxes": [
-				{"coordinates": [0, 5, 21, 1, 4, 1], "textureOffset": [0, 0]}
+				{"coordinates": [0, 7, 21, 1, 4, 1], "textureOffset": [0, 0]}
 			],
 			"animations": [
 				{
@@ -82,10 +82,10 @@
 			"part": "knob_right",
 			"id": "knob_right",
 			"invertAxis": "xy",
-			"translate": [0, -8, -7],
+			"translate": [0, -9, -7],
 			"rotate": [-180, 0, 0],
 			"boxes": [
-				{"coordinates": [-1, 5, 21, 1, 4, 1], "textureOffset": [0, 0]}
+				{"coordinates": [-1, 7, 21, 1, 4, 1], "textureOffset": [0, 0]}
 			],
 			"animations": [
 				{

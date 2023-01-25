@@ -1,4 +1,5 @@
 {
+	"credit": "By Ewan Howell",
 	"texture": "chest_single_bone.png",
 	"textureSize": [64, 64],
 	"models": [
@@ -33,13 +34,13 @@
 			"part": "lid",
 			"id": "lid",
 			"invertAxis": "xy",
-			"translate": [-8, -5, 7]
+			"translate": [0, 0, 0]
 		},
 		{
 			"part": "knob",
 			"id": "knob",
 			"invertAxis": "xy",
-			"translate": [-8, -6, 8]
+			"translate": [0, 0, 0]
 		}
 	]
 }
