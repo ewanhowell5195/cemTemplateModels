@@ -1,0 +1,47 @@
+{
+	"credit": "By Ewan Howell",
+	"texture": "hanging_sign.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "board",
+			"id": "board",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"boxes": [
+				{"coordinates": [-7, 0, -1, 14, 10, 2], "textureOffset": [0, 12]}
+			]
+		},
+		{
+			"part": "chain_wall",
+			"id": "chain_wall",
+			"invertAxis": "xy",
+			"translate": [0, -13, 0],
+			"rotate": [0, -45, 0],
+			"boxes": [
+				{"coordinates": [3.5, 10, -5, 0, 6, 3], "textureOffset": [0, 3]},
+				{"coordinates": [2, 10, -3.5, 3, 6, 0], "textureOffset": [6, 6]},
+				{"coordinates": [-3.5, 10, 2, 0, 6, 3], "textureOffset": [0, 3]},
+				{"coordinates": [-5, 10, 3.5, 3, 6, 0], "textureOffset": [6, 6]}
+			]
+		},
+		{
+			"part": "chain_hanging",
+			"id": "chain_hanging",
+			"invertAxis": "xy",
+			"translate": [0, -16, 0],
+			"boxes": [
+				{"coordinates": [-6, 10, 0, 12, 6, 0], "textureOffset": [14, 6]}
+			]
+		},
+		{
+			"part": "beam",
+			"id": "beam",
+			"invertAxis": "xy",
+			"translate": [0, -17, 0],
+			"boxes": [
+				{"coordinates": [-8, 16, -2, 16, 2, 4], "textureOffset": [0, 0]}
+			]
+		}
+	]
+}
