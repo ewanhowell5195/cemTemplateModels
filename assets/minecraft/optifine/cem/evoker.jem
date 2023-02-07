@@ -36,7 +36,6 @@
 			"invertAxis": "xy",
 			"translate": [0, -21.05, 1.05],
 			"rotate": [43, 0, 0],
-			"attach": true,
 			"boxes": [
 				{"coordinates": [-4, 15.05, -3.05, 8, 4, 4], "textureOffset": [40, 38]},
 				{"coordinates": [4, 15.05, -3.05, 4, 8, 4], "textureOffset": [44, 22]}
