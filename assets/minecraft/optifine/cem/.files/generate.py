@@ -19,17 +19,6 @@ for subdir, dirs, files in walk("../"):
 			filepath = path.join(subdir, file)
 			entityName = path.basename(filepath)[:-4]
 			models.append([filepath, entityName])
-	if subdir == "../":
-		for directory in dirs:
-			if directory == ".files":
-				continue
-			for subdir, dirs, files in walk(path.join("../", directory)):
-				for file in files:
-					if file.endswith(".jem"):
-						filepath = path.join(subdir, file)
-						entityName = path.basename(filepath)[:-4]
-						print(filepath)
-						models.append([filepath, entityName])
 
 models = sorted(models, key=lambda x: x[1])
 
