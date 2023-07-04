@@ -1068,18 +1068,6 @@
 					"texture_name": "armor_layer_1"
 				},
 				{
-					"name": "armor_layer_1",
-					"file_name": "armor_layer_1",
-					"display_name": "Armor Layer 1",
-					"texture_name": "armor_layer_1"
-				},
-				{
-					"name": "armor_layer_2",
-					"file_name": "armor_layer_2",
-					"display_name": "Armor Layer 2",
-					"texture_name": "armor_layer_2"
-				},
-				{
 					"name": "armor_layer_2",
 					"file_name": "armor_layer_2",
 					"display_name": "Armor Layer 2",
