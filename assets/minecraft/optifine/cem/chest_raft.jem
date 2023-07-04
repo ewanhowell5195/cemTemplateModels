@@ -1,7 +1,7 @@
 {
 	"credit": "By Ewan Howell",
-	"texture": "raft.png",
-	"textureSize": [128, 64],
+	"texture": "chest_raft.png",
+	"textureSize": [128, 128],
 	"models": [
 		{
 			"part": "bottom",
@@ -54,6 +54,33 @@
 					"this.ry": 0,
 					"this.rz": 0
 				}
+			]
+		},
+		{
+			"part": "chest_base",
+			"id": "chest_base",
+			"invertAxis": "xy",
+			"translate": [-6, -16, -2],
+			"boxes": [
+				{"coordinates": [-6, 8, 2, 12, 8, 12], "textureOffset": [0, 76]}
+			]
+		},
+		{
+			"part": "chest_lid",
+			"id": "chest_lid",
+			"invertAxis": "xy",
+			"translate": [-6, -20, -2],
+			"boxes": [
+				{"coordinates": [-6, 15, 2, 12, 5, 12], "textureOffset": [0, 59]}
+			]
+		},
+		{
+			"part": "chest_knob",
+			"id": "chest_knob",
+			"invertAxis": "xy",
+			"translate": [-1, -17, -1],
+			"boxes": [
+				{"coordinates": [-1, 13, 1, 2, 4, 1], "textureOffset": [0, 59]}
 			]
 		}
 	]
