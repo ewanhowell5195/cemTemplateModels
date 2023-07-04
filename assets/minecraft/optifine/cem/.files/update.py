@@ -1,6 +1,6 @@
 from json import load, dumps
 
-inData = load(open("./.models.json"))
+inData = load(open("models.json"))
 outData = load(open("F:/Programming/GitHub/wynemCode/src/assets/json/cem_template_models.json"))
 
 for entity in outData["models"]:

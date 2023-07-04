@@ -11,9 +11,7 @@ output["categories"] = [{
 	"entities": []
 }]
 
-rootdir =  getcwd()
-
-for subdir, dirs, files in walk(rootdir):
+for subdir, dirs, files in walk("../"):
 	for file in files:
 		if file.endswith(".jem"):
 			filepath = path.join(subdir, file)
@@ -47,5 +45,5 @@ for subdir, dirs, files in walk(rootdir):
 					"texture_name": entityName
 				})
 
-with open(".models.json", "w") as outFile:
+with open("models.json", "w") as outFile:
 	outFile.write(dumps(output, indent = "\t"))
