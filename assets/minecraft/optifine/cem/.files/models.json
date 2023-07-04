@@ -316,13 +316,17 @@
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAG1BMVEUAAABD6I1TYXRbvPR71P+01OH0hob43XL/+JkztYMiAAAAAXRSTlMAQObYZgAAAE9JREFUOMtjMDY2Li8vNy6H0AyYwMTFuaKj3bgcQo9cBQQDijU0VElJAUIaG5tjqhE2Nk4vL4eQJi7mmLYIuzind7RDyCGhgKA3GUbB0AYADU5iZYQDYcsAAAAASUVORK5CYII=",
 			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"cover_left\",\"id\":\"cover_left\",\"invertAxis\":\"xy\",\"translate\":[-7,-5,0],\"boxes\":[{\"coordinates\":[1,0,0,6,10,0],\"textureOffset\":[16,0]}]},{\"part\":\"cover_right\",\"id\":\"cover_right\",\"invertAxis\":\"xy\",\"translate\":[7,-5,0],\"boxes\":[{\"coordinates\":[-7,0,0,6,10,0],\"textureOffset\":[0,0]}]},{\"part\":\"book_spine\",\"id\":\"book_spine\",\"invertAxis\":\"xy\",\"translate\":[0,-5,0],\"boxes\":[{\"coordinates\":[-1,0,0,2,10,0],\"textureOffset\":[12,0]}]},{\"part\":\"pages_left\",\"id\":\"pages_left\",\"invertAxis\":\"xy\",\"translate\":[-5,-5,1.075],\"boxes\":[{\"coordinates\":[0,1,-1.1,5,8,1],\"textureOffset\":[12,10]}]},{\"part\":\"pages_right\",\"id\":\"pages_right\",\"invertAxis\":\"xy\",\"translate\":[0,-5,0.125],\"boxes\":[{\"coordinates\":[-5,1,-1.1,5,8,1],\"textureOffset\":[0,10]}]},{\"part\":\"flipping_page_left\",\"id\":\"flipping_page_left\",\"invertAxis\":\"xy\",\"translate\":[-5,-5,2.075],\"boxes\":[{\"coordinates\":[0,1,-2.1,5,8,0],\"textureOffset\":[24,10]}]},{\"part\":\"flipping_page_right\",\"id\":\"flipping_page_right\",\"invertAxis\":\"xy\",\"translate\":[0,-5,2.125],\"boxes\":[{\"coordinates\":[-5,1,-2.1,5,8,0],\"textureOffset\":[24,10]}]}]}"
 		},
-		"enderman": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAMFBMVEUAAAD43XL/+Jn///9D6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkiVUrxAAAABHRSTlMAAAAAs5NmmgAAAItJREFUeF5jAIFVQBAKBAxgYAwFDAyKq6BCq3fv3hVeXl6KrkCQkAKXtDN3SVdgjASoowDDmxgKXIAgDQjOAMFdIMBQ4Dlz5pSMjo62c+/evbn////foaaAsDcxAwqNhxnUaDyyFBC2AuJkiIOxKvCEeBrsZYIKML2JqQAzoNAUYAb1UFSA6U30oAYAfZDU0g/WBfMAAAAASUVORK5CYII=",
-			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-39,0],\"boxes\":[{\"coordinates\":[-4,27,-2,8,12,4],\"textureOffset\":[32,16]}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-39,0],\"boxes\":[{\"coordinates\":[-4,39,-4,8,8,8],\"textureOffset\":[0,0]}]},{\"part\":\"headwear\",\"id\":\"headwear\",\"invertAxis\":\"xy\",\"translate\":[0,-39,0],\"boxes\":[{\"coordinates\":[-4,39,-4,8,8,8],\"textureOffset\":[0,16],\"sizeAdd\":-0.5}]},{\"part\":\"right_arm\",\"id\":\"right_arm\",\"invertAxis\":\"xy\",\"translate\":[-5,-37,0],\"boxes\":[{\"coordinates\":[4,9,-1,2,30,2],\"textureOffset\":[56,0]}]},{\"part\":\"left_arm\",\"id\":\"left_arm\",\"invertAxis\":\"xy\",\"translate\":[5,-37,0],\"mirrorTexture\":\"u\",\"boxes\":[{\"coordinates\":[-6,9,-1,2,30,2],\"textureOffset\":[56,0]}]},{\"part\":\"right_leg\",\"id\":\"right_leg\",\"invertAxis\":\"xy\",\"translate\":[-2,-30,0],\"boxes\":[{\"coordinates\":[1,0,-1,2,30,2],\"textureOffset\":[56,0]}]},{\"part\":\"left_leg\",\"id\":\"left_leg\",\"invertAxis\":\"xy\",\"translate\":[2,-30,0],\"mirrorTexture\":\"u\",\"boxes\":[{\"coordinates\":[-3,0,-1,2,30,2],\"textureOffset\":[56,0]}]}]}"
+		"end_crystal": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAIhJREFUOE9jYACCciBQAgIGKEDnM1R0dLSruLg44eIPDQV4vSkIBMZAMBMIVgEBOp9BLC0t0TQ0NHj27t0715w5cwqdPzQUEPQmBCiBQTkYMGADwIAFBi0wiIGBPKqAEgV4gloQDFaBwUwwMAYDuAJg9AIjGBixwKgFRjEwkoGRDYxu4hUQsgIA7KcKfIS8KCAAAAAASUVORK5CYII=",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"base\",\"id\":\"base\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"rotate\":[-180,0,0],\"boxes\":[{\"coordinates\":[-6,-4,-6,12,4,12],\"textureOffset\":[0,16]}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"cube\",\"id\":\"cube\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[32,0]}]},{\"part\":\"glass\",\"id\":\"glass\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[0,0]}]}]}"
 		},
-		"endermite": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAKlBMVEUAAAD///9D6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkgU/CCAAAAAnRSTlMAAHaTzTgAAACESURBVDjLY2Do6DA2ZhDECRgIKlBycVm1ezc+BW4pq/bepsQERgGOjo5mY2MDBuwOAYpyzJzZHBpKvgIGBsIK8LtBSUnFxcVrFdAn2L3CoF6ukpbmdebU3ru3yVRA0AqODmMDQTyAQcVl9W78ClJW36bMBA68LgCZsJpSBYKCowroowAAtCxvuxSvsfkAAAAASUVORK5CYII=",
-			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body1\",\"id\":\"body1\",\"invertAxis\":\"xy\",\"translate\":[0,-3,3.5],\"boxes\":[{\"coordinates\":[-2,0,-4.5,4,3,2],\"textureOffset\":[0,0]}]},{\"part\":\"body2\",\"id\":\"body2\",\"invertAxis\":\"xy\",\"translate\":[0,-4,0],\"boxes\":[{\"coordinates\":[-3,0,-2.5,6,4,5],\"textureOffset\":[0,5]}]},{\"part\":\"body3\",\"id\":\"body3\",\"invertAxis\":\"xy\",\"translate\":[0,-3,-3],\"boxes\":[{\"coordinates\":[-1.5,0,2.5,3,3,1],\"textureOffset\":[0,14]}]},{\"part\":\"body4\",\"id\":\"body4\",\"invertAxis\":\"xy\",\"translate\":[0,-2,-4],\"boxes\":[{\"coordinates\":[-0.5,0,3.5,1,2,1],\"textureOffset\":[0,18]}]}]}"
+		"end_crystal_no_base_14": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAKlBMVEUAAAD///9D6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkgU/CCAAAAAnRSTlMAAHaTzTgAAABQSURBVHheYwCBDiAwBgIgByufoXPmzBmmoaHB6Pwho4CwN5WAwAUIVgHBbiBA5zOol5cXuaWlpaw5c+bU3rt3b6Pzh4QCwt4UJABGlIJRBQCjDOT5OkR26AAAAABJRU5ErkJggg==",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"cube\",\"id\":\"cube\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[32,0]}]},{\"part\":\"glass\",\"id\":\"glass\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[0,0]}]}]}"
+		},
+		"end_crystal_unedited": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAH9JREFUOE9jYACCciBQAgIGKEDnM1R0dLSruLg44eIPDQV4vSkIBMZAMBMIVgEBOp9BLC0t0TQ0NHj27t0715w5cwqdPzQUEPQmImgggYOUCpABMHAhwYscwKMKyFCAJ6gFBWHRA4kgSBTBI4kBFN2QCIZEMSSSQdFMtAJCVgAA4ksKfI4L1UoAAAAASUVORK5CYII=",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"base\",\"id\":\"base\",\"invertAxis\":\"xy\",\"translate\":[0,-4,0],\"boxes\":[{\"coordinates\":[-6,0,-6,12,4,12],\"textureOffset\":[0,16]}]},{\"part\":\"cube\",\"id\":\"cube\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[32,0]}]},{\"part\":\"glass\",\"id\":\"glass\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[0,0]}]}]}"
 		},
 		"ender_chest": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAPFBMVEUAAABD6I1TYXRbvPS01OH0hob43XL///9D6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JnThCAQAAAACHRSTlMAAAAAAAAAALfnUqEAAAB1SURBVFjD7dU7EoAgDEXRCMhPRaL736uNStJK4zDvLOAWhABRSqXQIylFISXcKDLXnN/AIqSyCwMHNAQQ+LpMCitVyUoLbELkU+B6CDWvwq8CvWdAzhnTM4XJ2tn7jnswQADrjACeNAQG+hdCJwQQQAABBJoLHICGFVqXVikAAAAASUVORK5CYII=",
@@ -348,17 +352,13 @@
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAGVJREFUSMdjYC9SYACCcghQggAGJCBsuQpEVXSAQLuKCwg40VkBFIwqgADckSUIAcYQMBMCVkEAWIFYGggkmoaCQPDs3SCwc80ZEDhFJQUE3UDQF6PRPZrkhp8CYvPFKBgFQwYAAC2/Zupf+n/JAAAAAElFTkSuQmCC",
 			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"base\",\"id\":\"base\",\"invertAxis\":\"xy\",\"translate\":[-8,-14,8],\"boxes\":[{\"coordinates\":[-7,4,-7,14,10,14],\"textureOffset\":[0,19]}]},{\"part\":\"lid\",\"id\":\"lid\",\"invertAxis\":\"xy\",\"translate\":[-8,-5,7],\"boxes\":[{\"coordinates\":[-7,0,-7,14,5,14],\"textureOffset\":[0,0]}]},{\"part\":\"knob\",\"id\":\"knob\",\"invertAxis\":\"xy\",\"translate\":[-8,-5,7],\"boxes\":[{\"coordinates\":[-1,3,7,2,4,1],\"textureOffset\":[0,0]}]}]}"
 		},
-		"end_crystal": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAIhJREFUOE9jYACCciBQAgIGKEDnM1R0dLSruLg44eIPDQV4vSkIBMZAMBMIVgEBOp9BLC0t0TQ0NHj27t0715w5cwqdPzQUEPQmBCiBQTkYMGADwIAFBi0wiIGBPKqAEgV4gloQDFaBwUwwMAYDuAJg9AIjGBixwKgFRjEwkoGRDYxu4hUQsgIA7KcKfIS8KCAAAAAASUVORK5CYII=",
-			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"base\",\"id\":\"base\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"rotate\":[-180,0,0],\"boxes\":[{\"coordinates\":[-6,-4,-6,12,4,12],\"textureOffset\":[0,16]}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"cube\",\"id\":\"cube\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[32,0]}]},{\"part\":\"glass\",\"id\":\"glass\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[0,0]}]}]}"
+		"enderman": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAMFBMVEUAAAD43XL/+Jn///9D6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkiVUrxAAAABHRSTlMAAAAAs5NmmgAAAItJREFUeF5jAIFVQBAKBAxgYAwFDAyKq6BCq3fv3hVeXl6KrkCQkAKXtDN3SVdgjASoowDDmxgKXIAgDQjOAMFdIMBQ4Dlz5pSMjo62c+/evbn////foaaAsDcxAwqNhxnUaDyyFBC2AuJkiIOxKvCEeBrsZYIKML2JqQAzoNAUYAb1UFSA6U30oAYAfZDU0g/WBfMAAAAASUVORK5CYII=",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-39,0],\"boxes\":[{\"coordinates\":[-4,27,-2,8,12,4],\"textureOffset\":[32,16]}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-39,0],\"boxes\":[{\"coordinates\":[-4,39,-4,8,8,8],\"textureOffset\":[0,0]}]},{\"part\":\"headwear\",\"id\":\"headwear\",\"invertAxis\":\"xy\",\"translate\":[0,-39,0],\"boxes\":[{\"coordinates\":[-4,39,-4,8,8,8],\"textureOffset\":[0,16],\"sizeAdd\":-0.5}]},{\"part\":\"right_arm\",\"id\":\"right_arm\",\"invertAxis\":\"xy\",\"translate\":[-5,-37,0],\"boxes\":[{\"coordinates\":[4,9,-1,2,30,2],\"textureOffset\":[56,0]}]},{\"part\":\"left_arm\",\"id\":\"left_arm\",\"invertAxis\":\"xy\",\"translate\":[5,-37,0],\"mirrorTexture\":\"u\",\"boxes\":[{\"coordinates\":[-6,9,-1,2,30,2],\"textureOffset\":[56,0]}]},{\"part\":\"right_leg\",\"id\":\"right_leg\",\"invertAxis\":\"xy\",\"translate\":[-2,-30,0],\"boxes\":[{\"coordinates\":[1,0,-1,2,30,2],\"textureOffset\":[56,0]}]},{\"part\":\"left_leg\",\"id\":\"left_leg\",\"invertAxis\":\"xy\",\"translate\":[2,-30,0],\"mirrorTexture\":\"u\",\"boxes\":[{\"coordinates\":[-3,0,-1,2,30,2],\"textureOffset\":[56,0]}]}]}"
 		},
-		"end_crystal_no_base_14": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAKlBMVEUAAAD///9D6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkgU/CCAAAAAnRSTlMAAHaTzTgAAABQSURBVHheYwCBDiAwBgIgByufoXPmzBmmoaHB6Pwho4CwN5WAwAUIVgHBbiBA5zOol5cXuaWlpaw5c+bU3rt3b6Pzh4QCwt4UJABGlIJRBQCjDOT5OkR26AAAAABJRU5ErkJggg==",
-			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"cube\",\"id\":\"cube\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[32,0]}]},{\"part\":\"glass\",\"id\":\"glass\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[0,0]}]}]}"
-		},
-		"end_crystal_unedited": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAH9JREFUOE9jYACCciBQAgIGKEDnM1R0dLSruLg44eIPDQV4vSkIBMZAMBMIVgEBOp9BLC0t0TQ0NHj27t0715w5cwqdPzQUEPQmImgggYOUCpABMHAhwYscwKMKyFCAJ6gFBWHRA4kgSBTBI4kBFN2QCIZEMSSSQdFMtAJCVgAA4ksKfI4L1UoAAAAASUVORK5CYII=",
-			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"base\",\"id\":\"base\",\"invertAxis\":\"xy\",\"translate\":[0,-4,0],\"boxes\":[{\"coordinates\":[-6,0,-6,12,4,12],\"textureOffset\":[0,16]}]},{\"part\":\"cube\",\"id\":\"cube\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[32,0]}]},{\"part\":\"glass\",\"id\":\"glass\",\"invertAxis\":\"xy\",\"translate\":[0,-10,0],\"boxes\":[{\"coordinates\":[-4,6,-4,8,8,8],\"textureOffset\":[0,0]}]}]}"
+		"endermite": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAKlBMVEUAAAD///9D6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkgU/CCAAAAAnRSTlMAAHaTzTgAAACESURBVDjLY2Do6DA2ZhDECRgIKlBycVm1ezc+BW4pq/bepsQERgGOjo5mY2MDBuwOAYpyzJzZHBpKvgIGBsIK8LtBSUnFxcVrFdAn2L3CoF6ukpbmdebU3ru3yVRA0AqODmMDQTyAQcVl9W78ClJW36bMBA68LgCZsJpSBYKCowroowAAtCxvuxSvsfkAAAAASUVORK5CYII=",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body1\",\"id\":\"body1\",\"invertAxis\":\"xy\",\"translate\":[0,-3,3.5],\"boxes\":[{\"coordinates\":[-2,0,-4.5,4,3,2],\"textureOffset\":[0,0]}]},{\"part\":\"body2\",\"id\":\"body2\",\"invertAxis\":\"xy\",\"translate\":[0,-4,0],\"boxes\":[{\"coordinates\":[-3,0,-2.5,6,4,5],\"textureOffset\":[0,5]}]},{\"part\":\"body3\",\"id\":\"body3\",\"invertAxis\":\"xy\",\"translate\":[0,-3,-3],\"boxes\":[{\"coordinates\":[-1.5,0,2.5,3,3,1],\"textureOffset\":[0,14]}]},{\"part\":\"body4\",\"id\":\"body4\",\"invertAxis\":\"xy\",\"translate\":[0,-2,-4],\"boxes\":[{\"coordinates\":[-0.5,0,3.5,1,2,1],\"textureOffset\":[0,18]}]}]}"
 		},
 		"evoker": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAANdJREFUeF7tk8EJhDAQRdOClxQgdiA2IHYgFuDFFtwOtAWxg2ADYgdiUTvBDUP8gYF4WBb3HT9PkvkZlaUnUkL1qQryGschq6pSFJJ8Mt8WVAB/zBAJkRMTYQgQdNe1RdPU87aty3HsDxXkou4jv5n86vYzEDilfMhKFGwqC3wEXJJTW5OtiPsyhEtJ0G1Rz+uy60/jZ+Eu/W1BHFMx94Vw1dImcYTPDFGMIB/h7msI1Al9TnwOfBkPBb8gPAKFy1+BAi99vCAfwesCgr8C8cJfkKtGcOV83ikyEYPWwiugAAAAAElFTkSuQmCC",
@@ -620,6 +620,18 @@
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAKpJREFUeF7VkbEJwzAQRa9LHQKug/EGwoVbow2EBnDjAdIoG0grBG9gtIDxBsJD5f9ASKNEZdCrJHjS3f0T4kAL5Bv3EHyn9VitUB7zDBR4gBWIKLISIc08T721Ztn3LR5HEsHNGhxxrkMoj0kYksjJ3drrS28JfUcYtO8Q8kUNeMKCCF2PrIgNBP8R7BBTXmCJHz+wRbYnJCc0U2+WLaY/CuUm39QjZNb9BL/dGA+0NR6rAAAAAElFTkSuQmCC",
 			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8]}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16]}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16]}]}]}"
 		},
+		"pig_saddle": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAKpJREFUeF7VkbEJwzAQRa9LHQKug/EGwoVbow2EBnDjAdIoG0grBG9gtIDxBsJD5f9ASKNEZdCrJHjS3f0T4kAL5Bv3EHyn9VitUB7zDBR4gBWIKLISIc08T721Ztn3LR5HEsHNGhxxrkMoj0kYksjJ3drrS28JfUcYtO8Q8kUNeMKCCF2PrIgNBP8R7BBTXmCJHz+wRbYnJCc0U2+WLaY/CuUm39QjZNb9BL/dGA+0NR6rAAAAAElFTkSuQmCC",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8],\"sizeAdd\":0.5}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0],\"sizeAdd\":0.5},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16],\"sizeAdd\":0.5}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]}]}"
+		},
+		"pig_saddle_unedited": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJhJREFUOE9jYACCciBQAgIGXKCio6NdxcXFaWgrwOtNQSAwBoKZQLAKCCDKweohGsTS0hJNQ0ODZ+/evXPNmTOnwBaCbYRaOSQUEPQmSADEZC8vUlKAK4erB2pgqGhXARombGwJ5EEthNsIshKmINRyzSnsCiBW4DQBZCfIOgZkPyErEEs0DZ69c82pgVRA0JGoYEgowIxuAH3rJM/lKa8xAAAAAElFTkSuQmCC",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8],\"sizeAdd\":0.5}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0],\"sizeAdd\":0.5},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16],\"sizeAdd\":0.5}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]}]}"
+		},
+		"pig_unedited": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJhJREFUOE9jYACCciBQAgIGXKCio6NdxcXFaWgrwOtNQSAwBoKZQLAKCCDKweohGsTS0hJNQ0ODZ+/evXPNmTOnwBaCbYRaOSQUEPQmSADEZC8vUlKAK4erB2pgqGhXARombGwJ5EEthNsIshKmINRyzSnsCiBW4DQBZCfIOgZkPyErEEs0DZ69c82pgVRA0JGoYEgowIxuAH3rJM/lKa8xAAAAAElFTkSuQmCC",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8]}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16]}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16]}]}]}"
+		},
 		"piglin": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAKlBMVEUAAAD/gIBD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkixHZqAAAAAnRSTlMABHH+CSEAAADoSURBVHhe7ZLLCYNAEECHXOI1LYjg1RDsQGxA7EAsQAK2EDvQFlTAu9iA2IFsL3Gy7ARlNyPkug+YgeHhfFwAJ4AX8kBAw7ODqmmaOkzTNAFA85dwjaJuHGDPToizTuwFJ2AEj2lxEOirFJHvmhrB3YiQdmNEDoJflkWc53nWL8s8CSFWFO43ihrh4nptO8ioF0qvnwcZ/xfYGbRrHqAfrK5FNUVVh8kny3snVOOEsy1wRJxOjirnVDVA/CLO+nlat4y74qarqp0UrMCe2r4Hg2DfgynT7zZlXuBb0JCmTGua8knBCuyp3xaIHEjcRu9sAAAAAElFTkSuQmCC",
 			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-24,0],\"boxes\":[{\"coordinates\":[-5,24,-4,10,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,24,-5,4,4,1],\"textureOffset\":[31,1]},{\"coordinates\":[-3,24,-5,1,2,1],\"textureOffset\":[2,4]},{\"coordinates\":[2,24,-5,1,2,1],\"textureOffset\":[2,0]}]},{\"part\":\"left_ear\",\"id\":\"left_ear\",\"invertAxis\":\"xy\",\"translate\":[4.5,-30,0],\"rotate\":[0,0,-35],\"boxes\":[{\"coordinates\":[-5.5,25,-2,1,5,4],\"textureOffset\":[51,6]}],\"animations\":[{\"this.rz\":0}]},{\"part\":\"right_ear\",\"id\":\"right_ear\",\"invertAxis\":\"xy\",\"translate\":[-4.5,-30,0],\"rotate\":[0,0,35],\"boxes\":[{\"coordinates\":[4.5,25,-2,1,5,4],\"textureOffset\":[39,6]}],\"animations\":[{\"this.rz\":0}]},{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-24,0],\"boxes\":[{\"coordinates\":[-4,12,-2,8,12,4],\"textureOffset\":[16,16]}]},{\"part\":\"jacket\",\"id\":\"jacket\",\"invertAxis\":\"xy\",\"translate\":[0,-24,0],\"boxes\":[{\"coordinates\":[-4,12,-2,8,12,4],\"textureOffset\":[16,32],\"sizeAdd\":0.25}]},{\"part\":\"left_arm\",\"id\":\"left_arm\",\"invertAxis\":\"xy\",\"translate\":[5,-22,0],\"boxes\":[{\"coordinates\":[-8,12,-2,4,12,4],\"textureOffset\":[32,48]}]},{\"part\":\"left_sleeve\",\"id\":\"left_sleeve\",\"invertAxis\":\"xy\",\"translate\":[5,-22,0],\"boxes\":[{\"coordinates\":[-8,12,-2,4,12,4],\"textureOffset\":[48,48],\"sizeAdd\":0.25}]},{\"part\":\"right_arm\",\"id\":\"right_arm\",\"invertAxis\":\"xy\",\"translate\":[-5,-22,0],\"boxes\":[{\"coordinates\":[4,12,-2,4,12,4],\"textureOffset\":[40,16]}]},{\"part\":\"right_sleeve\",\"id\":\"right_sleeve\",\"invertAxis\":\"xy\",\"translate\":[-5,-22,0],\"boxes\":[{\"coordinates\":[4,12,-2,4,12,4],\"textureOffset\":[40,32],\"sizeAdd\":0.25}]},{\"part\":\"left_leg\",\"id\":\"left_leg\",\"invertAxis\":\"xy\",\"translate\":[2,-12,0],\"boxes\":[{\"coordinates\":[-4,0,-2,4,12,4],\"textureOffset\":[16,48]}]},{\"part\":\"left_pants\",\"id\":\"left_pants\",\"invertAxis\":\"xy\",\"translate\":[2,-12,0],\"boxes\":[{\"coordinates\":[-4,0,-2,4,12,4],\"textureOffset\":[0,48],\"sizeAdd\":0.25}]},{\"part\":\"right_leg\",\"id\":\"right_leg\",\"invertAxis\":\"xy\",\"translate\":[-2,-12,0],\"boxes\":[{\"coordinates\":[0,0,-2,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"right_pants\",\"id\":\"right_pants\",\"invertAxis\":\"xy\",\"translate\":[-2,-12,0],\"boxes\":[{\"coordinates\":[0,0,-2,4,12,4],\"textureOffset\":[0,32],\"sizeAdd\":0.25}]}]}"
@@ -643,18 +655,6 @@
 		"piglin_unedited": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAKlBMVEUAAAD/gIBD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkixHZqAAAAAnRSTlMABHH+CSEAAADoSURBVHhe7ZLLCYNAEECHXOI1LYjg1RDsQGxA7EAsQAK2EDvQFlTAu9iA2IFsL3Gy7ARlNyPkug+YgeHhfFwAJ4AX8kBAw7ODqmmaOkzTNAFA85dwjaJuHGDPToizTuwFJ2AEj2lxEOirFJHvmhrB3YiQdmNEDoJflkWc53nWL8s8CSFWFO43ihrh4nptO8ioF0qvnwcZ/xfYGbRrHqAfrK5FNUVVh8kny3snVOOEsy1wRJxOjirnVDVA/CLO+nlat4y74qarqp0UrMCe2r4Hg2DfgynT7zZlXuBb0JCmTGua8knBCuyp3xaIHEjcRu9sAAAAAElFTkSuQmCC",
 			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-24,0],\"boxes\":[{\"coordinates\":[-5,24,-4,10,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,24,-5,4,4,1],\"textureOffset\":[31,1]},{\"coordinates\":[-3,24,-5,1,2,1],\"textureOffset\":[2,4]},{\"coordinates\":[2,24,-5,1,2,1],\"textureOffset\":[2,0]}]},{\"part\":\"left_ear\",\"id\":\"left_ear\",\"invertAxis\":\"xy\",\"translate\":[4.5,-30,0],\"boxes\":[{\"coordinates\":[-5.5,25,-2,1,5,4],\"textureOffset\":[51,6]}]},{\"part\":\"right_ear\",\"id\":\"right_ear\",\"invertAxis\":\"xy\",\"translate\":[-4.5,-30,0],\"boxes\":[{\"coordinates\":[4.5,25,-2,1,5,4],\"textureOffset\":[39,6]}]},{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-24,0],\"boxes\":[{\"coordinates\":[-4,12,-2,8,12,4],\"textureOffset\":[16,16]}]},{\"part\":\"jacket\",\"id\":\"jacket\",\"invertAxis\":\"xy\",\"translate\":[0,-24,0],\"boxes\":[{\"coordinates\":[-4,12,-2,8,12,4],\"textureOffset\":[16,32],\"sizeAdd\":0.25}]},{\"part\":\"left_arm\",\"id\":\"left_arm\",\"invertAxis\":\"xy\",\"translate\":[5,-22,0],\"boxes\":[{\"coordinates\":[-8,12,-2,4,12,4],\"textureOffset\":[32,48]}]},{\"part\":\"left_sleeve\",\"id\":\"left_sleeve\",\"invertAxis\":\"xy\",\"translate\":[5,-22,0],\"boxes\":[{\"coordinates\":[-8,12,-2,4,12,4],\"textureOffset\":[48,48],\"sizeAdd\":0.25}]},{\"part\":\"right_arm\",\"id\":\"right_arm\",\"invertAxis\":\"xy\",\"translate\":[-5,-22,0],\"boxes\":[{\"coordinates\":[4,12,-2,4,12,4],\"textureOffset\":[40,16]}]},{\"part\":\"right_sleeve\",\"id\":\"right_sleeve\",\"invertAxis\":\"xy\",\"translate\":[-5,-22,0],\"boxes\":[{\"coordinates\":[4,12,-2,4,12,4],\"textureOffset\":[40,32],\"sizeAdd\":0.25}]},{\"part\":\"left_leg\",\"id\":\"left_leg\",\"invertAxis\":\"xy\",\"translate\":[2,-12,0],\"boxes\":[{\"coordinates\":[-4,0,-2,4,12,4],\"textureOffset\":[16,48]}]},{\"part\":\"left_pants\",\"id\":\"left_pants\",\"invertAxis\":\"xy\",\"translate\":[2,-12,0],\"boxes\":[{\"coordinates\":[-4,0,-2,4,12,4],\"textureOffset\":[0,48],\"sizeAdd\":0.25}]},{\"part\":\"right_leg\",\"id\":\"right_leg\",\"invertAxis\":\"xy\",\"translate\":[-2,-12,0],\"boxes\":[{\"coordinates\":[0,0,-2,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"right_pants\",\"id\":\"right_pants\",\"invertAxis\":\"xy\",\"translate\":[-2,-12,0],\"boxes\":[{\"coordinates\":[0,0,-2,4,12,4],\"textureOffset\":[0,32],\"sizeAdd\":0.25}]}]}"
-		},
-		"pig_saddle": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAKpJREFUeF7VkbEJwzAQRa9LHQKug/EGwoVbow2EBnDjAdIoG0grBG9gtIDxBsJD5f9ASKNEZdCrJHjS3f0T4kAL5Bv3EHyn9VitUB7zDBR4gBWIKLISIc08T721Ztn3LR5HEsHNGhxxrkMoj0kYksjJ3drrS28JfUcYtO8Q8kUNeMKCCF2PrIgNBP8R7BBTXmCJHz+wRbYnJCc0U2+WLaY/CuUm39QjZNb9BL/dGA+0NR6rAAAAAElFTkSuQmCC",
-			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8],\"sizeAdd\":0.5}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0],\"sizeAdd\":0.5},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16],\"sizeAdd\":0.5}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]}]}"
-		},
-		"pig_saddle_unedited": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJhJREFUOE9jYACCciBQAgIGXKCio6NdxcXFaWgrwOtNQSAwBoKZQLAKCCDKweohGsTS0hJNQ0ODZ+/evXPNmTOnwBaCbYRaOSQUEPQmSADEZC8vUlKAK4erB2pgqGhXARombGwJ5EEthNsIshKmINRyzSnsCiBW4DQBZCfIOgZkPyErEEs0DZ69c82pgVRA0JGoYEgowIxuAH3rJM/lKa8xAAAAAElFTkSuQmCC",
-			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8],\"sizeAdd\":0.5}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0],\"sizeAdd\":0.5},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16],\"sizeAdd\":0.5}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]}]}"
-		},
-		"pig_unedited": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJhJREFUOE9jYACCciBQAgIGXKCio6NdxcXFaWgrwOtNQSAwBoKZQLAKCCDKweohGsTS0hJNQ0ODZ+/evXPNmTOnwBaCbYRaOSQUEPQmSADEZC8vUlKAK4erB2pgqGhXARombGwJ5EEthNsIshKmINRyzSnsCiBW4DQBZCfIOgZkPyErEEs0DZ69c82pgVRA0JGoYEgowIxuAH3rJM/lKa8xAAAAAElFTkSuQmCC",
-			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8]}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16]}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16]}]}]}"
 		},
 		"pillager": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAKlBMVEUAAAD///9D6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkgU/CCAAAAAnRSTlMAAHaTzTgAAADaSURBVHhe7dTdDURAFAXgKWGnBS8KEB2IBkQHogAvWqADWhAdiAZEB6KXvbPJDcdeJmt/Xux5/iYzc+6gTAqKR1GFp/QmD1DWdeXHcSQCvQJO0HQ/BPIhKSLga4rAoQSUhtJRnoCb51mYpkk7jkM/z9NFgb0oLeQcwJkJAKZOABaaRQegrPxIAjdlBbjFckgEpiZT0dJXR1kBNwuTdugnlxvnwt8HlIuAw6o5MCQtBMZsA/obAA8pA7yeAISC7IAf8i7gT8EKzm/BA9wF/AReAX+ADwar/sy/+g5CzD/XkP/A4QAAAABJRU5ErkJggg==",
@@ -1066,6 +1066,18 @@
 					"file_name": "armor_layer_1",
 					"display_name": "Armor Layer 1",
 					"texture_name": "armor_layer_1"
+				},
+				{
+					"name": "armor_layer_1",
+					"file_name": "armor_layer_1",
+					"display_name": "Armor Layer 1",
+					"texture_name": "armor_layer_1"
+				},
+				{
+					"name": "armor_layer_2",
+					"file_name": "armor_layer_2",
+					"display_name": "Armor Layer 2",
+					"texture_name": "armor_layer_2"
 				},
 				{
 					"name": "armor_layer_2",
@@ -1530,16 +1542,22 @@
 					"texture_name": "enchanting_book_unedited"
 				},
 				{
-					"name": "enderman",
-					"file_name": "enderman",
-					"display_name": "Enderman",
-					"texture_name": "enderman"
+					"name": "end_crystal",
+					"file_name": "end_crystal",
+					"display_name": "End Crystal",
+					"texture_name": "end_crystal"
 				},
 				{
-					"name": "endermite",
-					"file_name": "endermite",
-					"display_name": "Endermite",
-					"texture_name": "endermite"
+					"name": "end_crystal_no_base_14",
+					"file_name": "end_crystal_no_base_14",
+					"display_name": "End Crystal No Base 14",
+					"texture_name": "end_crystal_no_base_14"
+				},
+				{
+					"name": "end_crystal_unedited",
+					"file_name": "end_crystal_unedited",
+					"display_name": "End Crystal Unedited",
+					"texture_name": "end_crystal_unedited"
 				},
 				{
 					"name": "ender_chest",
@@ -1578,22 +1596,16 @@
 					"texture_name": "ender_chest_unedited"
 				},
 				{
-					"name": "end_crystal",
-					"file_name": "end_crystal",
-					"display_name": "End Crystal",
-					"texture_name": "end_crystal"
+					"name": "enderman",
+					"file_name": "enderman",
+					"display_name": "Enderman",
+					"texture_name": "enderman"
 				},
 				{
-					"name": "end_crystal_no_base_14",
-					"file_name": "end_crystal_no_base_14",
-					"display_name": "End Crystal No Base 14",
-					"texture_name": "end_crystal_no_base_14"
-				},
-				{
-					"name": "end_crystal_unedited",
-					"file_name": "end_crystal_unedited",
-					"display_name": "End Crystal Unedited",
-					"texture_name": "end_crystal_unedited"
+					"name": "endermite",
+					"file_name": "endermite",
+					"display_name": "Endermite",
+					"texture_name": "endermite"
 				},
 				{
 					"name": "evoker",
@@ -1986,6 +1998,24 @@
 					"texture_name": "pig"
 				},
 				{
+					"name": "pig_saddle",
+					"file_name": "pig_saddle",
+					"display_name": "Pig Saddle",
+					"texture_name": "pig_saddle"
+				},
+				{
+					"name": "pig_saddle_unedited",
+					"file_name": "pig_saddle_unedited",
+					"display_name": "Pig Saddle Unedited",
+					"texture_name": "pig_saddle_unedited"
+				},
+				{
+					"name": "pig_unedited",
+					"file_name": "pig_unedited",
+					"display_name": "Pig Unedited",
+					"texture_name": "pig_unedited"
+				},
+				{
 					"name": "piglin",
 					"file_name": "piglin",
 					"display_name": "Piglin",
@@ -2020,24 +2050,6 @@
 					"file_name": "piglin_unedited",
 					"display_name": "Piglin Unedited",
 					"texture_name": "piglin_unedited"
-				},
-				{
-					"name": "pig_saddle",
-					"file_name": "pig_saddle",
-					"display_name": "Pig Saddle",
-					"texture_name": "pig_saddle"
-				},
-				{
-					"name": "pig_saddle_unedited",
-					"file_name": "pig_saddle_unedited",
-					"display_name": "Pig Saddle Unedited",
-					"texture_name": "pig_saddle_unedited"
-				},
-				{
-					"name": "pig_unedited",
-					"file_name": "pig_unedited",
-					"display_name": "Pig Unedited",
-					"texture_name": "pig_unedited"
 				},
 				{
 					"name": "pillager",
