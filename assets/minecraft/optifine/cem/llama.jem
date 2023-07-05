@@ -1,4 +1,5 @@
 {
+	"credit": "By Ewan Howell",
 	"texture": "llama.png",
 	"textureSize": [128, 64],
 	"models": [
@@ -69,21 +70,14 @@
 			"part": "chest_left",
 			"id": "chest_left",
 			"invertAxis": "xy",
-			"translate": [8.5, -21, -3],
-			"submodels": [
-				{
-					"id": "chest_left_rotation",
-					"invertAxis": "xy",
-					"translate": [-7, 17, 4.5],
-					"rotate": [0, -90, 0],
-					"boxes": [
-						{"coordinates": [-6.5, -4, -1.5, 8, 8, 3], "textureOffset": [45, 41]}
-					]
-				}
+			"translate": [5.5, -21, -3],
+			"rotate": [0, -90, 0],
+			"boxes": [
+				{"coordinates": [-10.5, 13, 3, 8, 8, 3], "textureOffset": [45, 41]}
 			],
 			"animations": [
 				{
-					"chest_left_rotation.ry": 0
+					"this.ry": 0
 				}
 			]
 		},
@@ -91,21 +85,14 @@
 			"part": "chest_right",
 			"id": "chest_right",
 			"invertAxis": "xy",
-			"translate": [-10.5, -21, 2],
-			"submodels": [
-				{
-					"id": "chest_right_rotation",
-					"invertAxis": "xy",
-					"translate": [7, 17, -0.5],
-					"rotate": [0, -90, 0],
-					"boxes": [
-						{"coordinates": [-1.5, -4, -1.5, 8, 8, 3], "textureOffset": [45, 28]}
-					]
-				}
+			"translate": [-8.5, -21, -3],
+			"rotate": [0, -90, 0],
+			"boxes": [
+				{"coordinates": [3.5, 13, 3, 8, 8, 3], "textureOffset": [45, 28]}
 			],
 			"animations": [
 				{
-					"chest_right_rotation.ry": 0
+					"this.ry": 0
 				}
 			]
 		}
