@@ -1,4 +1,5 @@
 {
+	"credit": "By Ewan Howell",
 	"texture": "boat_single_bone.png",
 	"textureSize": [128, 64],
 	"models": [
@@ -76,12 +77,12 @@
 			],
 			"animations": [
 				{
-					"left_paddle.rx": "paddle_left.rx",
-					"left_paddle.ry": "paddle_left.ry",
-					"left_paddle.rz": "paddle_left.rz",
-					"right_paddle.rx": "paddle_right.rx",
-					"right_paddle.ry": "paddle_right.ry",
-					"right_paddle.rz": "paddle_right.rz"
+					"left_paddle.rx": "torad(161.5)+paddle_left.rx",
+					"left_paddle.ry": "torad(90)-paddle_left.ry",
+					"left_paddle.rz": "torad(153.75)+paddle_left.rz",
+					"right_paddle.rx": "torad(161.5)+paddle_right.rx",
+					"right_paddle.ry": "torad(90)-paddle_right.ry",
+					"right_paddle.rz": "torad(-176.25)+paddle_right.rz"
 				}
 			]
 		},
