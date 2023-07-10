@@ -458,7 +458,15 @@
 		},
 		"head_piglin": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJJJREFUSEtjYGBXYCgHASUQYMAChGcxVHR0dLSruLi4ODEwgFTiU8BobDxr1QJ0Q5AVmAbPOoOqAOgG/AoIWoHmSJipcBIEMLyJrEAQCIxBYCYQrAIBNAViaWmJpqGhocGzd+/euebMmTOnCCtgFBSeOXMBhMSuIE149s4FEJJWClDcgNWbo2AUjIJRMApGAYkAAOxbiMcdd5yLAAAAAElFTkSuQmCC",
-			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"boxes\":[{\"coordinates\":[-5,0,-4,10,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,0,-5,4,4,1],\"textureOffset\":[31,1]},{\"coordinates\":[-3,0,-5,1,2,1],\"textureOffset\":[2,4]},{\"coordinates\":[2,0,-5,1,2,1],\"textureOffset\":[2,0]}],\"submodels\":[{\"id\":\"left_ear\",\"invertAxis\":\"xy\",\"translate\":[-4.5,6,0],\"rotate\":[0,0,-35],\"boxes\":[{\"coordinates\":[-1,-5,-2,1,5,4],\"textureOffset\":[51,6]}]},{\"id\":\"right_ear\",\"invertAxis\":\"xy\",\"translate\":[4.5,6,0],\"rotate\":[0,0,35],\"boxes\":[{\"coordinates\":[0,-5,-2,1,5,4],\"textureOffset\":[39,6]}]}]}]}"
+			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"boxes\":[{\"coordinates\":[-5,0,-4,10,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,0,-5,4,4,1],\"textureOffset\":[31,1]},{\"coordinates\":[-3,0,-5,1,2,1],\"textureOffset\":[2,4]},{\"coordinates\":[2,0,-5,1,2,1],\"textureOffset\":[2,0]}]},{\"part\":\"left_ear\",\"id\":\"left_ear\",\"invertAxis\":\"xy\",\"translate\":[4.5,-6,0],\"rotate\":[0,0,-35],\"boxes\":[{\"coordinates\":[-5.5,1,-2,1,5,4],\"textureOffset\":[51,6]}],\"animations\":[{\"this.rz\":0}]},{\"part\":\"right_ear\",\"id\":\"right_ear\",\"invertAxis\":\"xy\",\"translate\":[-4.5,-6,0],\"rotate\":[0,0,35],\"boxes\":[{\"coordinates\":[4.5,1,-2,1,5,4],\"textureOffset\":[39,6]}],\"animations\":[{\"this.rz\":0}]}]}"
+		},
+		"head_piglin_single_bone": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJJJREFUSEtjYGBXYCgHASUQYMAChGcxVHR0dLSruLi4ODEwgFTiU8BobDxr1QJ0Q5AVmAbPOoOqAOgG/AoIWoHmSJipcBIEMLyJrEAQCIxBYCYQrAIBNAViaWmJpqGhocGzd+/euebMmTOnCCtgFBSeOXMBhMSuIE149s4FEJJWClDcgNWbo2AUjIJRMApGAYkAAOxbiMcdd5yLAAAAAElFTkSuQmCC",
+			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"boxes\":[{\"coordinates\":[-5,0,-4,10,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,0,-5,4,4,1],\"textureOffset\":[31,1]},{\"coordinates\":[-3,0,-5,1,2,1],\"textureOffset\":[2,4]},{\"coordinates\":[2,0,-5,1,2,1],\"textureOffset\":[2,0]}],\"submodels\":[{\"id\":\"ear_left\",\"invertAxis\":\"xy\",\"translate\":[-4.5,6,0],\"rotate\":[0,0,-35],\"boxes\":[{\"coordinates\":[-1,-5,-2,1,5,4],\"textureOffset\":[51,6]}]},{\"id\":\"ear_right\",\"invertAxis\":\"xy\",\"translate\":[4.5,6,0],\"rotate\":[0,0,35],\"boxes\":[{\"coordinates\":[0,-5,-2,1,5,4],\"textureOffset\":[39,6]}]}],\"animations\":[{\"ear_left.rz\":\"left_ear.rz\",\"ear_right.rz\":\"right_ear.rz\"}]},{\"part\":\"left_ear\"},{\"part\":\"right_ear\"}]}"
+		},
+		"head_piglin_unedited": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJJJREFUSEtjYGBXYCgHASUQYMAChGcxVHR0dLSruLi4ODEwgFTiU8BobDxr1QJ0Q5AVmAbPOoOqAOgG/AoIWoHmSJipcBIEMLyJrEAQCIxBYCYQrAIBNAViaWmJpqGhocGzd+/euebMmTOnCCtgFBSeOXMBhMSuIE149s4FEJJWClDcgNWbo2AUjIJRMApGAYkAAOxbiMcdd5yLAAAAAElFTkSuQmCC",
+			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"boxes\":[{\"coordinates\":[-5,0,-4,10,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,0,-5,4,4,1],\"textureOffset\":[31,1]},{\"coordinates\":[-3,0,-5,1,2,1],\"textureOffset\":[2,4]},{\"coordinates\":[2,0,-5,1,2,1],\"textureOffset\":[2,0]}]},{\"part\":\"left_ear\",\"id\":\"left_ear\",\"invertAxis\":\"xy\",\"translate\":[4.5,-6,0],\"boxes\":[{\"coordinates\":[-5.5,1,-2,1,5,4],\"textureOffset\":[51,6]}]},{\"part\":\"right_ear\",\"id\":\"right_ear\",\"invertAxis\":\"xy\",\"translate\":[-4.5,-6,0],\"boxes\":[{\"coordinates\":[4.5,1,-2,1,5,4],\"textureOffset\":[39,6]}]}]}"
 		},
 		"head_player": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAFZJREFUSEtjYACCciBQAgIGKEDnM1R0dLSruLg44eIPDQV4vSkIBMZAMBMIVgEBOp9BLC0t0TQ0NHj27t0715w5cwqdPzQUEPTmKBgFo2AUjIJRQAQAAEa+qXmOfUH6AAAAAElFTkSuQmCC",
@@ -1772,6 +1780,18 @@
 					"file_name": "head_piglin",
 					"display_name": "Head Piglin",
 					"texture_name": "head_piglin"
+				},
+				{
+					"name": "head_piglin_single_bone",
+					"file_name": "head_piglin_single_bone",
+					"display_name": "Head Piglin Single Bone",
+					"texture_name": "head_piglin_single_bone"
+				},
+				{
+					"name": "head_piglin_unedited",
+					"file_name": "head_piglin_unedited",
+					"display_name": "Head Piglin Unedited",
+					"texture_name": "head_piglin_unedited"
 				},
 				{
 					"name": "head_player",

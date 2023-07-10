@@ -1,4 +1,5 @@
 {
+	"credit": "By Ewan Howell",
 	"texture": "warden.png",
 	"textureSize": [128, 128],
 	"models": [
