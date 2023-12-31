@@ -1,4 +1,5 @@
 {
+	"credit": "By Ewan Howell",
 	"texture": "furnace_minecart.png",
 	"textureSize": [64, 32],
 	"models": [
