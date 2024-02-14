@@ -1,47 +1,36 @@
 {
 	"credit": "By Ewan Howell",
 	"texture": "wind_charge.png",
-	"textureSize": [64, 64],
+	"textureSize": [64, 32],
 	"models": [
 		{
 			"part": "charge",
 			"id": "charge",
 			"invertAxis": "xy",
-			"translate": [0, -4, 0],
+			"translate": [0, -2, 0],
 			"rotate": [0, 0, -180],
 			"boxes": [
-				{"coordinates": [-2, 2, -2, 4, 4, 4], "textureOffset": [0, 0]}
-			]
-		},
-		{
-			"part": "wind_outer",
-			"id": "wind_outer",
-			"invertAxis": "xy",
-			"translate": [0, -4, 0],
-			"rotate": [0, 0, -180],
-			"boxes": [
-				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 8]},
-				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [20, 48]}
-			]
-		},
-		{
-			"part": "wind_middle",
-			"id": "wind_middle",
-			"invertAxis": "xy",
-			"translate": [0, -4, 0],
-			"rotate": [0, 0, -90],
-			"boxes": [
-				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [16, 40], "sizeAdd": -0.25}
+				{"coordinates": [-2, 0, -2, 4, 4, 4], "textureOffset": [0, 0]}
 			]
 		},
 		{
 			"part": "wind_inner",
 			"id": "wind_inner",
 			"invertAxis": "xy",
-			"translate": [0, -4, 0],
-			"rotate": [90, 0, -90],
+			"translate": [0, -2, 0],
+			"rotate": [0, 0, -180],
 			"boxes": [
-				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [32, 24], "sizeAdd": -0.5}
+				{"coordinates": [-3, 0, -3, 6, 4, 6], "textureOffset": [0, 9]}
+			]
+		},
+		{
+			"part": "wind_outer",
+			"id": "wind_outer",
+			"invertAxis": "xy",
+			"translate": [0, -2, 0],
+			"rotate": [0, 0, -180],
+			"boxes": [
+				{"coordinates": [-4, 1, -4, 8, 2, 8], "textureOffset": [15, 20]}
 			]
 		}
 	]
