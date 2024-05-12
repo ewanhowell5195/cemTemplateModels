@@ -1,1 +1,1 @@
-magick mogrify -path "E:\Programming\GitHub\wynem\src\assets\images\minecraft\renders2" -background transparent -resize 120x66 -quality 100 -format webp "./*.png"
+magick mogrify -path "E:\Programming\GitHub\wynem\src\assets\images\minecraft\renders" -background transparent -resize 120x66 -quality 100 -format webp "./*.png"
