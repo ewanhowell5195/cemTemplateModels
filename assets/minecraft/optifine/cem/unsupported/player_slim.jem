@@ -1,6 +1,7 @@
 {
-	"texture": "player_slim.png",
+	"credit": "By Ewan Howell",
 	"textureSize": [64, 64],
+	"texture": "player_slim.png",
 	"models": [
 		{
 			"part": "head",
@@ -42,7 +43,7 @@
 			"part": "left_arm",
 			"id": "left_arm",
 			"invertAxis": "xy",
-			"translate": [-5, -22, 0],
+			"translate": [5, -22, 0],
 			"boxes": [
 				{"coordinates": [-7, 12, -2, 3, 12, 4], "textureOffset": [32, 48]}
 			]
@@ -51,7 +52,7 @@
 			"part": "left_sleve",
 			"id": "left_sleve",
 			"invertAxis": "xy",
-			"translate": [-5, -22, 0],
+			"translate": [5, -22, 0],
 			"boxes": [
 				{"coordinates": [-7, 12, -2, 3, 12, 4], "textureOffset": [48, 48], "sizeAdd": 0.25}
 			]
@@ -60,7 +61,7 @@
 			"part": "right_arm",
 			"id": "right_arm",
 			"invertAxis": "xy",
-			"translate": [5, -22, 0],
+			"translate": [-5, -22, 0],
 			"boxes": [
 				{"coordinates": [4, 12, -2, 3, 12, 4], "textureOffset": [40, 16]}
 			]
@@ -69,7 +70,7 @@
 			"part": "right_sleve",
 			"id": "right_sleve",
 			"invertAxis": "xy",
-			"translate": [5, -22, 0],
+			"translate": [-5, -22, 0],
 			"boxes": [
 				{"coordinates": [4, 12, -2, 3, 12, 4], "textureOffset": [40, 32], "sizeAdd": 0.25}
 			]
@@ -78,7 +79,7 @@
 			"part": "left_leg",
 			"id": "left_leg",
 			"invertAxis": "xy",
-			"translate": [-2, -12, 0],
+			"translate": [2, -12, 0],
 			"boxes": [
 				{"coordinates": [-4, 0, -2, 4, 12, 4], "textureOffset": [16, 48]}
 			]
@@ -87,7 +88,7 @@
 			"part": "left_pants",
 			"id": "left_pants",
 			"invertAxis": "xy",
-			"translate": [-2, -12, 0],
+			"translate": [2, -12, 0],
 			"boxes": [
 				{"coordinates": [-4, 0, -2, 4, 12, 4], "textureOffset": [0, 48], "sizeAdd": 0.25}
 			]
@@ -96,7 +97,7 @@
 			"part": "right_leg",
 			"id": "right_leg",
 			"invertAxis": "xy",
-			"translate": [2, -12, 0],
+			"translate": [-2, -12, 0],
 			"boxes": [
 				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [0, 16]}
 			]
@@ -105,7 +106,7 @@
 			"part": "right_pants",
 			"id": "right_pants",
 			"invertAxis": "xy",
-			"translate": [2, -12, 0],
+			"translate": [-2, -12, 0],
 			"boxes": [
 				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [0, 32], "sizeAdd": 0.25}
 			]
