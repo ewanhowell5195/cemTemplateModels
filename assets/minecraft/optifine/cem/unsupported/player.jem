@@ -67,8 +67,8 @@
 			]
 		},
 		{
-			"part": "right_sleve",
-			"id": "right_sleve",
+			"part": "right_sleeve",
+			"id": "right_sleeve",
 			"invertAxis": "xy",
 			"translate": [-5, -22, 0],
 			"boxes": [
