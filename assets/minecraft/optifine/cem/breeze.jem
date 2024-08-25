@@ -1,0 +1,74 @@
+{
+	"credit": "By Ewan Howell",
+	"textureSize": [32, 32],
+	"texture": "breeze.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0],
+			"boxes": [
+				{"coordinates": [-4, 20, -4, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-5, 22, -4.25, 10, 3, 4], "textureOffset": [4, 24]}
+			]
+		},
+		{
+			"part": "rods",
+			"id": "rods",
+			"invertAxis": "xy",
+			"translate": [0, -16, 0],
+			"submodels": [
+				{
+					"id": "rod_1",
+					"invertAxis": "xy",
+					"translate": [0, 5, -3],
+					"rotate": [-22.5, 0, 0],
+					"boxes": [
+						{"coordinates": [-1, 4.9343, 2.3576, 2, 8, 2], "textureOffset": [0, 17]}
+					]
+				},
+				{
+					"id": "rotation_2",
+					"invertAxis": "xy",
+					"translate": [0, 8, 0],
+					"rotate": [180, -60, -180],
+					"submodels": [
+						{
+							"id": "rod_2",
+							"invertAxis": "xy",
+							"translate": [0, -3, -3],
+							"rotate": [-22.5, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, 4.9343, 2.3576, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						}
+					]
+				},
+				{
+					"id": "rotation_3",
+					"invertAxis": "xy",
+					"translate": [0, 8, 0],
+					"rotate": [180, 60, 180],
+					"submodels": [
+						{
+							"id": "rod_3",
+							"invertAxis": "xy",
+							"translate": [0, -3, -3],
+							"rotate": [-22.5, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, 4.9343, 2.3576, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}
