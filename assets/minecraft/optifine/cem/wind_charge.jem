@@ -1,35 +1,30 @@
 {
 	"credit": "By Ewan Howell",
-	"texture": "wind_charge.png",
 	"textureSize": [64, 32],
+	"texture": "wind_charge.png",
 	"models": [
 		{
 			"part": "charge",
 			"id": "charge",
 			"invertAxis": "xy",
 			"translate": [0, -2, 0],
-			"rotate": [0, 0, -180],
+			"rotate": [-180, 0, 0],
 			"boxes": [
 				{"coordinates": [-2, 0, -2, 4, 4, 4], "textureOffset": [0, 0]}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
 			]
 		},
 		{
-			"part": "wind_inner",
-			"id": "wind_inner",
+			"part": "wind",
+			"id": "wind",
 			"invertAxis": "xy",
 			"translate": [0, -2, 0],
-			"rotate": [0, 0, -180],
 			"boxes": [
-				{"coordinates": [-3, 0, -3, 6, 4, 6], "textureOffset": [0, 9]}
-			]
-		},
-		{
-			"part": "wind_outer",
-			"id": "wind_outer",
-			"invertAxis": "xy",
-			"translate": [0, -2, 0],
-			"rotate": [0, 0, -180],
-			"boxes": [
+				{"coordinates": [-3, 0, -3, 6, 4, 6], "textureOffset": [0, 9]},
 				{"coordinates": [-4, 1, -4, 8, 2, 8], "textureOffset": [15, 20]}
 			]
 		}
