@@ -1,6 +1,7 @@
 {
-	"texture": "wolf_collar_unedited.png",
+	"credit": "By Ewan Howell",
 	"textureSize": [64, 32],
+	"texture": "wolf_collar_unedited.png",
 	"models": [
 		{
 			"part": "head",
@@ -15,21 +16,21 @@
 			]
 		},
 		{
-			"part": "body",
-			"id": "body",
-			"invertAxis": "xy",
-			"translate": [0, -10, -2],
-			"boxes": [
-				{"coordinates": [-3, 3, -1, 6, 9, 6], "textureOffset": [18, 14]}
-			]
-		},
-		{
 			"part": "mane",
 			"id": "mane",
 			"invertAxis": "xy",
-			"translate": [-1, -10, -2],
+			"translate": [-1, -12, -1],
 			"boxes": [
-				{"coordinates": [-4, 7, -1, 8, 6, 7], "textureOffset": [21, 0]}
+				{"coordinates": [-4, 9, -2, 8, 6, 7], "textureOffset": [21, 0]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -7, -1],
+			"boxes": [
+				{"coordinates": [-3, 0, -2, 6, 9, 6], "textureOffset": [18, 14]}
 			]
 		},
 		{

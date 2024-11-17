@@ -48,12 +48,6 @@
 			"boxes": [
 				{"coordinates": [-2.5, 26, -0.5, 1, 4, 1], "textureOffset": [4, 3]}
 			]
-		},
-		{
-			"part": "root",
-			"id": "root",
-			"invertAxis": "xy",
-			"translate": [0, 0, 0]
 		}
 	]
 }

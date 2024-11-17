@@ -1,6 +1,7 @@
 {
-	"texture": "wolf_collar.png",
+	"credit": "By Ewan Howell",
 	"textureSize": [64, 32],
+	"texture": "wolf_collar.png",
 	"models": [
 		{
 			"part": "head",
@@ -15,46 +16,32 @@
 			]
 		},
 		{
-			"part": "body",
-			"id": "body",
+			"part": "mane",
+			"id": "mane",
 			"invertAxis": "xy",
-			"translate": [0, -10, -2],
-			"submodels": [
-				{
-					"id": "body_rotation",
-					"invertAxis": "xy",
-					"translate": [0, 10, 2],
-					"rotate": [-90, 0, 0],
-					"boxes": [
-						{"coordinates": [-3, -7, -3, 6, 9, 6], "textureOffset": [18, 14]}
-					]
-				}
+			"translate": [-1, -10, 3],
+			"rotate": [-90, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 7, -6, 8, 6, 7], "textureOffset": [21, 0]}
 			],
 			"animations": [
 				{
-					"body_rotation.rx": 0
+					"this.rx": 0
 				}
 			]
 		},
 		{
-			"part": "mane",
-			"id": "mane",
+			"part": "body",
+			"id": "body",
 			"invertAxis": "xy",
-			"translate": [-1, -10, -2],
-			"submodels": [
-				{
-					"id": "mane_rotation",
-					"invertAxis": "xy",
-					"translate": [0, 7.5, -0.5],
-					"rotate": [-90, 0, 0],
-					"boxes": [
-						{"coordinates": [-4, -0.5, -0.5, 8, 6, 7], "textureOffset": [21, 0]}
-					]
-				}
+			"translate": [0, -10, -2],
+			"rotate": [-90, 0, 0],
+			"boxes": [
+				{"coordinates": [-3, 3, -1, 6, 9, 6], "textureOffset": [18, 14]}
 			],
 			"animations": [
 				{
-					"mane_rotation.rx": 0
+					"this.rx": 0
 				}
 			]
 		},

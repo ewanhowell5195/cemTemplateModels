@@ -1,6 +1,7 @@
 {
-	"texture": "puffer_fish_small.png",
+	"credit": "By Ewan Howell",
 	"textureSize": [32, 32],
+	"texture": "puffer_fish_small.png",
 	"models": [
 		{
 			"part": "body",

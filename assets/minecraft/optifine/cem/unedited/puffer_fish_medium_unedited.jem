@@ -1,0 +1,106 @@
+{
+	"credit": "By Ewan Howell",
+	"textureSize": [32, 32],
+	"texture": "puffer_fish_medium_unedited.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -1, 0],
+			"boxes": [
+				{"coordinates": [-2.5, 1, -2.5, 5, 5, 5], "textureOffset": [12, 22]}
+			]
+		},
+		{
+			"part": "fin_left",
+			"id": "fin_left",
+			"invertAxis": "xy",
+			"translate": [2.5, -5, 1.5],
+			"boxes": [
+				{"coordinates": [-4.5, 5, -1.5, 2, 0, 2], "textureOffset": [24, 3]}
+			]
+		},
+		{
+			"part": "fin_right",
+			"id": "fin_right",
+			"invertAxis": "xy",
+			"translate": [-2.5, -5, 1.5],
+			"boxes": [
+				{"coordinates": [2.5, 5, -1.5, 2, 0, 2], "textureOffset": [24, 0]}
+			]
+		},
+		{
+			"part": "spikes_front_top",
+			"id": "spikes_front_top",
+			"invertAxis": "xy",
+			"translate": [0, -6, 2.5],
+			"boxes": [
+				{"coordinates": [-2.5, 6, -2.5, 5, 1, 0], "textureOffset": [19, 17]}
+			]
+		},
+		{
+			"part": "spikes_back_top",
+			"id": "spikes_back_top",
+			"invertAxis": "xy",
+			"translate": [0, -6, -2.5],
+			"boxes": [
+				{"coordinates": [-2.5, 6, 2.5, 5, 1, 0], "textureOffset": [11, 17]}
+			]
+		},
+		{
+			"part": "spikes_front_left",
+			"id": "spikes_front_left",
+			"invertAxis": "xy",
+			"translate": [2.5, -1, 2.5],
+			"boxes": [
+				{"coordinates": [-3.5, 1, -2.5, 1, 5, 0], "textureOffset": [1, 17]}
+			]
+		},
+		{
+			"part": "spikes_front_right",
+			"id": "spikes_front_right",
+			"invertAxis": "xy",
+			"translate": [-2.5, -1, 2.5],
+			"boxes": [
+				{"coordinates": [2.5, 1, -2.5, 1, 5, 0], "textureOffset": [5, 17]}
+			]
+		},
+		{
+			"part": "spikes_back_left",
+			"id": "spikes_back_left",
+			"invertAxis": "xy",
+			"translate": [2.5, -1, -2.5],
+			"boxes": [
+				{"coordinates": [-3.5, 1, 2.5, 1, 5, 0], "textureOffset": [1, 17]}
+			]
+		},
+		{
+			"part": "spikes_back_right",
+			"id": "spikes_back_right",
+			"invertAxis": "xy",
+			"translate": [-2.5, -1, -2.5],
+			"boxes": [
+				{"coordinates": [2.5, 1, 2.5, 1, 5, 0], "textureOffset": [9, 17]}
+			]
+		},
+		{
+			"part": "spikes_front_bottom",
+			"id": "spikes_front_bottom",
+			"invertAxis": "xy",
+			"translate": [0, -1, 2.5],
+			"boxes": [
+				{"coordinates": [-2.5, 0, -2.5, 5, 1, 1], "textureOffset": [17, 19]}
+			]
+		},
+		{
+			"part": "spikes_back_bottom",
+			"id": "spikes_back_bottom",
+			"invertAxis": "xy",
+			"translate": [-2.5, -1, -2.5],
+			"boxes": [
+				{"coordinates": [-2.5, 0, 2.5, 5, 1, 0], "textureOffset": [18, 20]}
+			]
+		}
+	]
+}

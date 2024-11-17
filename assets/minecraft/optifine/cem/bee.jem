@@ -1,19 +1,41 @@
 {
-	"texture": "bee.png",
+	"credit": "By Ewan Howell",
 	"textureSize": [64, 64],
+	"texture": "bee.png",
 	"models": [
 		{
-			"part": "body",
-			"id": "body",
+			"part": "torso",
+			"id": "torso",
 			"invertAxis": "xy",
-			"translate": [0, -5, 0]
+			"translate": [0, -5, 0],
+			"boxes": [
+				{"coordinates": [-3.5, 2, -5, 7, 7, 10], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "left_antenna",
+			"id": "left_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5],
+			"boxes": [
+				{"coordinates": [-2.5, 7, -8, 1, 2, 3], "textureOffset": [2, 0]}
+			]
+		},
+		{
+			"part": "right_antenna",
+			"id": "right_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5],
+			"boxes": [
+				{"coordinates": [1.5, 7, -8, 1, 2, 3], "textureOffset": [2, 3]}
+			]
 		},
 		{
 			"part": "left_wing",
 			"id": "left_wing",
 			"invertAxis": "xy",
-			"translate": [1.5, -9, 3],
 			"mirrorTexture": "u",
+			"translate": [1.5, -9, 3],
 			"boxes": [
 				{"coordinates": [-10.5, 9, -3, 9, 0, 6], "textureOffset": [0, 18]}
 			]
@@ -55,39 +77,12 @@
 			]
 		},
 		{
-			"part": "left_antenna",
-			"id": "left_antenna",
-			"invertAxis": "xy",
-			"translate": [0, -7, 5],
-			"boxes": [
-				{"coordinates": [-2.5, 7, -8, 1, 2, 3], "textureOffset": [2, 0]}
-			]
-		},
-		{
 			"part": "stinger",
 			"id": "stinger",
 			"invertAxis": "xy",
 			"translate": [0, -5, 0],
 			"boxes": [
 				{"coordinates": [0, 5, 5, 0, 1, 2], "textureOffset": [24, 7]}
-			]
-		},
-		{
-			"part": "right_antenna",
-			"id": "right_antenna",
-			"invertAxis": "xy",
-			"translate": [0, -7, 5],
-			"boxes": [
-				{"coordinates": [1.5, 7, -8, 1, 2, 3], "textureOffset": [2, 3]}
-			]
-		},
-		{
-			"part": "torso",
-			"id": "torso",
-			"invertAxis": "xy",
-			"translate": [0, -5, 0],
-			"boxes": [
-				{"coordinates": [-3.5, 2, -5, 7, 7, 10], "textureOffset": [0, 0]}
 			]
 		}
 	]

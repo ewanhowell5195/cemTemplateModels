@@ -47,8 +47,8 @@ for [filepath, entityName] in models:
 	}
 	output["categories"][0]["entities"].append({
 		"name": entityName,
-		"file_name": entityName,
 		"display_name": entityName.replace("_", " ").title(),
+		"file_name": entityName,
 		"texture_name": entityName
 	})
 

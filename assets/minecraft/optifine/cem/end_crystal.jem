@@ -1,6 +1,7 @@
 {
-	"texture": "end_crystal.png",
+	"credit": "By Ewan Howell",
 	"textureSize": [64, 32],
+	"texture": "end_crystal.png",
 	"models": [
 		{
 			"part": "base",
@@ -27,8 +28,17 @@
 			]
 		},
 		{
-			"part": "glass",
-			"id": "glass",
+			"part": "inner_glass",
+			"id": "inner_glass",
+			"invertAxis": "xy",
+			"translate": [0, -10, 0],
+			"boxes": [
+				{"coordinates": [-4, 6, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "outer_glass",
+			"id": "outer_glass",
 			"invertAxis": "xy",
 			"translate": [0, -10, 0],
 			"boxes": [
