@@ -1,6 +1,7 @@
 {
-	"texture": "turtle_unedited.png",
+	"credit": "By Ewan Howell",
 	"textureSize": [128, 64],
+	"texture": "turtle_unedited.png",
 	"models": [
 		{
 			"part": "head",
@@ -15,19 +16,19 @@
 			"part": "body",
 			"id": "body",
 			"invertAxis": "xy",
-			"translate": [0, -13, 10],
+			"translate": [0, -15, -14],
 			"boxes": [
-				{"coordinates": [-9.5, -10, -20, 19, 20, 6], "textureOffset": [7, 37]},
-				{"coordinates": [-5.5, -8, -23, 11, 18, 3], "textureOffset": [31, 1]}
+				{"coordinates": [-9.5, -8, 4, 19, 20, 6], "textureOffset": [7, 37]},
+				{"coordinates": [-5.5, -6, 1, 11, 18, 3], "textureOffset": [31, 1]}
 			]
 		},
 		{
 			"part": "body2",
 			"id": "body2",
 			"invertAxis": "xy",
-			"translate": [0, -13, 10],
+			"translate": [0, -15, -14],
 			"boxes": [
-				{"coordinates": [-4.5, -8, -24, 9, 18, 1], "textureOffset": [70, 33]}
+				{"coordinates": [-4.5, -6, 0, 9, 18, 1], "textureOffset": [70, 33]}
 			]
 		},
 		{

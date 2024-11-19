@@ -1,6 +1,7 @@
 {
-	"texture": "polar_bear_unedited.png",
+	"credit": "By Ewan Howell",
 	"textureSize": [128, 64],
+	"texture": "polar_bear_unedited.png",
 	"models": [
 		{
 			"part": "head",
@@ -18,10 +19,10 @@
 			"part": "body",
 			"id": "body",
 			"invertAxis": "xy",
-			"translate": [-2, -15, -12],
+			"translate": [-2, -12, -2],
 			"boxes": [
-				{"coordinates": [-6, 28, 5, 12, 12, 10], "textureOffset": [39, 0]},
-				{"coordinates": [-7, 14, 5, 14, 14, 11], "textureOffset": [0, 19]}
+				{"coordinates": [-6, 25, -5, 12, 12, 10], "textureOffset": [39, 0]},
+				{"coordinates": [-7, 11, -5, 14, 14, 11], "textureOffset": [0, 19]}
 			]
 		},
 		{
