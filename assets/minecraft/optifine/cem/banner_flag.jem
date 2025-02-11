@@ -1,0 +1,16 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "texture": "banner_flag.png",
+  "models": [
+    {
+      "part": "slate",
+      "id": "slate",
+      "invertAxis": "xy",
+      "translate": [0, -44, 0],
+      "boxes": [
+        {"coordinates": [-10, 4, -2, 20, 40, 1], "textureOffset": [0, 0]}
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "credit": "By Ewan Howell",
   "textureSize": [64, 64],
-  "texture": "banner.png",
+  "texture": "banner_base.png",
   "models": [
     {
       "part": "top",
@@ -10,15 +10,6 @@
       "translate": [0, 0, 0],
       "boxes": [
         {"coordinates": [-10, 42, -1, 20, 2, 2], "textureOffset": [0, 42]}
-      ]
-    },
-    {
-      "part": "slate",
-      "id": "slate",
-      "invertAxis": "xy",
-      "translate": [0, -44, 0],
-      "boxes": [
-        {"coordinates": [-10, 4, -2, 20, 40, 1], "textureOffset": [0, 0]}
       ]
     },
     {
