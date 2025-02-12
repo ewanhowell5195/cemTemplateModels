@@ -1,7 +1,7 @@
 {
   "credit": "By Ewan Howell",
-  "textureSize": [64, 64],
-  "texture": "magma_cube.png",
+  "textureSize": [64, 32],
+  "texture": "magma_cube_21.3.png",
   "models": [
     {
       "part": "segment1",
@@ -18,7 +18,7 @@
       "invertAxis": "xy",
       "translate": [0, -24, 0],
       "boxes": [
-        {"coordinates": [-4, 6, -4, 8, 1, 8], "textureOffset": [0, 9]}
+        {"coordinates": [-4, 6, -4, 8, 1, 8], "textureOffset": [0, 1]}
       ]
     },
     {
@@ -27,7 +27,7 @@
       "invertAxis": "xy",
       "translate": [0, -24, 0],
       "boxes": [
-        {"coordinates": [-4, 5, -4, 8, 1, 8], "textureOffset": [0, 18]}
+        {"coordinates": [-4, 5, -4, 8, 1, 8], "textureOffset": [24, 10]}
       ]
     },
     {
@@ -36,7 +36,7 @@
       "invertAxis": "xy",
       "translate": [0, -24, 0],
       "boxes": [
-        {"coordinates": [-4, 4, -4, 8, 1, 8], "textureOffset": [0, 27]}
+        {"coordinates": [-4, 4, -4, 8, 1, 8], "textureOffset": [24, 19]}
       ]
     },
     {
@@ -45,7 +45,7 @@
       "invertAxis": "xy",
       "translate": [0, -24, 0],
       "boxes": [
-        {"coordinates": [-4, 3, -4, 8, 1, 8], "textureOffset": [32, 0]}
+        {"coordinates": [-4, 3, -4, 8, 1, 8], "textureOffset": [0, 4]}
       ]
     },
     {
@@ -54,7 +54,7 @@
       "invertAxis": "xy",
       "translate": [0, -24, 0],
       "boxes": [
-        {"coordinates": [-4, 2, -4, 8, 1, 8], "textureOffset": [32, 9]}
+        {"coordinates": [-4, 2, -4, 8, 1, 8], "textureOffset": [0, 5]}
       ]
     },
     {
@@ -63,7 +63,7 @@
       "invertAxis": "xy",
       "translate": [0, -24, 0],
       "boxes": [
-        {"coordinates": [-4, 1, -4, 8, 1, 8], "textureOffset": [32, 18]}
+        {"coordinates": [-4, 1, -4, 8, 1, 8], "textureOffset": [0, 6]}
       ]
     },
     {
@@ -72,7 +72,7 @@
       "invertAxis": "xy",
       "translate": [0, -24, 0],
       "boxes": [
-        {"coordinates": [-4, 0, -4, 8, 1, 8], "textureOffset": [32, 27]}
+        {"coordinates": [-4, 0, -4, 8, 1, 8], "textureOffset": [0, 7]}
       ]
     },
     {
@@ -81,7 +81,7 @@
       "invertAxis": "xy",
       "translate": [0, -24, 0],
       "boxes": [
-        {"coordinates": [-2, 2, -2, 4, 4, 4], "textureOffset": [24, 40]}
+        {"coordinates": [-2, 2, -2, 4, 4, 4], "textureOffset": [0, 16]}
       ]
     }
   ]
