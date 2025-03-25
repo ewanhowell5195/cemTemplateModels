@@ -1,7 +1,7 @@
 {
   "credit": "By Ewan Howell",
   "textureSize": [64, 64],
-  "texture": "pig_baby.png",
+  "texture": "warm_pig.png",
   "models": [
     {
       "part": "body",
