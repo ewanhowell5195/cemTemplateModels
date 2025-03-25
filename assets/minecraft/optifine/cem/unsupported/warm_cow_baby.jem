@@ -10,8 +10,8 @@
       "translate": [0, -20, 8],
       "boxes": [
         {"coordinates": [-4, 16, -14, 8, 8, 6], "textureOffset": [0, 0]},
-        {"coordinates": [4, 21, -14, 4, 2, 2], "textureOffset": [27, 0]},
-        {"coordinates": [6, 23, -14, 2, 2, 2], "textureOffset": [39, 0]},
+        {"coordinates": [4, 21, -13, 4, 2, 2], "textureOffset": [27, 0]},
+        {"coordinates": [6, 23, -13, 2, 2, 2], "textureOffset": [39, 0]},
         {"coordinates": [-3, 16, -15, 6, 3, 1], "textureOffset": [1, 33]}
       ],
       "submodels": [
@@ -21,8 +21,8 @@
           "mirrorTexture": "u",
           "translate": [0, 0, 0],
           "boxes": [
-            {"coordinates": [-8, 21, -14, 4, 2, 2], "textureOffset": [27, 0]},
-            {"coordinates": [-8, 23, -14, 2, 2, 2], "textureOffset": [39, 0]}
+            {"coordinates": [-8, 21, -13, 4, 2, 2], "textureOffset": [27, 0]},
+            {"coordinates": [-8, 23, -13, 2, 2, 2], "textureOffset": [39, 0]}
           ]
         }
       ]
