@@ -1,0 +1,71 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "texture": "copper_golem.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -11, 0],
+      "boxes": [
+        {"coordinates": [-4, 11, -5, 8, 5, 10], "textureOffset": [0, 0]},
+        {"coordinates": [-1, 10, -6, 2, 3, 2], "textureOffset": [56, 0]},
+        {"coordinates": [-1, 16, -1, 2, 4, 2], "textureOffset": [37, 8], "sizeAdd": -0.01},
+        {"coordinates": [-2, 20, -2, 4, 4, 4], "textureOffset": [37, 0], "sizeAdd": -0.01}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -5, 0],
+      "boxes": [
+        {"coordinates": [-4, 5, -3, 8, 6, 6], "textureOffset": [0, 15]}
+      ]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [4, -11, 0],
+      "boxes": [
+        {"coordinates": [-7, 2, -2, 3, 10, 4], "textureOffset": [50, 16]}
+      ]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-4, -11, 0],
+      "boxes": [
+        {"coordinates": [4, 2, -2, 3, 10, 4], "textureOffset": [36, 16]}
+      ],
+      "submodels": [
+        {
+          "id": "rightItem",
+          "invertAxis": "xy",
+          "translate": [5, 3.6, -1]
+        }
+      ]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [2, -5, 0],
+      "boxes": [
+        {"coordinates": [-3.9, 0, -2, 4, 5, 4], "textureOffset": [16, 27]}
+      ]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-2, -5, 0],
+      "boxes": [
+        {"coordinates": [-0.1, 0, -1.99, 4, 5, 4], "textureOffset": [0, 27]}
+      ]
+    }
+  ]
+}
