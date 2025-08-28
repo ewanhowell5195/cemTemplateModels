@@ -52,5 +52,5 @@ for [filepath, entityName] in models:
 		"texture_name": entityName
 	})
 
-with open("models.json", "w") as outFile:
+with open("models.json", "w", newline="\n") as outFile:
 	outFile.write(dumps(output, indent = "\t"))

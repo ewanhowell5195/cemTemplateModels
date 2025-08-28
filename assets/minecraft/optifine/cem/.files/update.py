@@ -14,5 +14,5 @@ for entity in outData["models"]:
   else:
     print(entity)
 
-with open("E:/Programming/GitHub/wynem/src/assets/json/cem_template_models.json", "w") as outFile:
+with open("E:/Programming/GitHub/wynem/src/assets/json/cem_template_models.json", "w", newline="\n") as outFile:
   outFile.write(dumps(outData, indent = 2))
