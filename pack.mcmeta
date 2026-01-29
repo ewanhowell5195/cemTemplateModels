@@ -1,6 +1,7 @@
 {
   "pack": {
     "description": "CEM Template Loader - By Ewan Howell",
-    "pack_format": 64
+    "min_format": 75,
+    "max_format": 75
   }
 }
