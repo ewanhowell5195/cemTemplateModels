@@ -534,6 +534,9 @@
           ]
         },
         {
+          "id": "copper_golem"
+        },
+        {
           "id": "cow",
           "texture": "temperate_cow",
           "variants": [
@@ -970,6 +973,9 @@
               "popup": "only_applies_regular"
             }
           ]
+        },
+        {
+          "id": "parched"
         },
         {
           "id": "parrot",
@@ -2237,7 +2243,19 @@
           "id": "cape"
         },
         {
-          "id": "copper_golem"
+          "id": "copper_golem_statue",
+          "model": "copper_golem",
+          "variants": [
+            {
+              "id": "copper_golem_statue_sitting"
+            },
+            {
+              "id": "copper_golem_statue_running"
+            },
+            {
+              "id": "copper_golem_statue_star"
+            }
+          ]
         },
         {
           "id": "elder_guardian_ghost",
@@ -2441,7 +2459,7 @@
       "model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"eye\",\"id\":\"eye\",\"invertAxis\":\"xy\",\"translate\":[0,-8,0],\"boxes\":[{\"coordinates\":[-4,4,0,8,8,0],\"uvNorth\":[0,0,32,16],\"uvEast\":[0,0,0,8],\"uvSouth\":[0,0,32,16],\"uvWest\":[8,0,8,8],\"uvUp\":[8,0,0,0],\"uvDown\":[16,0,8,0]}]},{\"part\":\"cage\",\"id\":\"cage\",\"invertAxis\":\"xy\",\"translate\":[0,-8,0],\"boxes\":[{\"coordinates\":[-4,4,-4,8,8,8],\"uvNorth\":[32,32,16,16],\"uvEast\":[16,32,0,16],\"uvSouth\":[64,32,48,16],\"uvWest\":[48,32,32,16],\"uvUp\":[32,16,16,0],\"uvDown\":[48,16,32,0]}]},{\"part\":\"base\",\"id\":\"base\",\"invertAxis\":\"xy\",\"translate\":[0,-8,0],\"boxes\":[{\"coordinates\":[-3,5,-3,6,6,6],\"uvNorth\":[24,24,12,12],\"uvEast\":[12,24,0,12],\"uvSouth\":[48,24,36,12],\"uvWest\":[36,24,24,12],\"uvUp\":[24,12,12,0],\"uvDown\":[36,12,24,0]}]},{\"part\":\"wind\",\"id\":\"wind\",\"invertAxis\":\"xy\",\"translate\":[0,-8,0],\"boxes\":[{\"coordinates\":[-8,0,-8,16,16,16],\"uvNorth\":[16,16,32,32],\"uvEast\":[0,16,16,32],\"uvSouth\":[48,16,64,32],\"uvWest\":[32,16,48,32],\"uvUp\":[32,16,16,0],\"uvDown\":[48,0,32,16]}]}]}"
     },
     "copper_golem": {
-      "model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-11,0],\"boxes\":[{\"coordinates\":[-4,11,-5,8,5,10],\"textureOffset\":[0,0]},{\"coordinates\":[-1,10,-6,2,3,2],\"textureOffset\":[56,0]},{\"coordinates\":[-1,16,-1,2,4,2],\"textureOffset\":[37,8],\"sizeAdd\":-0.01},{\"coordinates\":[-2,20,-2,4,4,4],\"textureOffset\":[37,0],\"sizeAdd\":-0.01}]},{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-5,0],\"boxes\":[{\"coordinates\":[-4,5,-3,8,6,6],\"textureOffset\":[0,15]}]},{\"part\":\"left_arm\",\"id\":\"left_arm\",\"invertAxis\":\"xy\",\"translate\":[4,-11,0],\"boxes\":[{\"coordinates\":[-7,2,-2,3,10,4],\"textureOffset\":[50,16]}]},{\"part\":\"right_arm\",\"id\":\"right_arm\",\"invertAxis\":\"xy\",\"translate\":[-4,-11,0],\"boxes\":[{\"coordinates\":[4,2,-2,3,10,4],\"textureOffset\":[36,16]}],\"submodels\":[{\"id\":\"rightItem\",\"invertAxis\":\"xy\",\"translate\":[5,3.6,-1]}]},{\"part\":\"left_leg\",\"id\":\"left_leg\",\"invertAxis\":\"xy\",\"translate\":[2,-5,0],\"boxes\":[{\"coordinates\":[-3.9,0,-2,4,5,4],\"textureOffset\":[16,27]}]},{\"part\":\"right_leg\",\"id\":\"right_leg\",\"invertAxis\":\"xy\",\"translate\":[-2,-5,0],\"boxes\":[{\"coordinates\":[-0.1,0,-1.99,4,5,4],\"textureOffset\":[0,27]}]}]}"
+      "model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-11,0],\"boxes\":[{\"coordinates\":[-4,11,-5,8,5,10],\"textureOffset\":[0,0]},{\"coordinates\":[-1,10,-6,2,3,2],\"textureOffset\":[56,0]},{\"coordinates\":[-1,16,-1,2,4,2],\"textureOffset\":[37,8],\"sizeAdd\":-0.01},{\"coordinates\":[-2,20,-2,4,4,4],\"textureOffset\":[37,0],\"sizeAdd\":-0.01}]},{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-5,0],\"boxes\":[{\"coordinates\":[-4,5,-3,8,6,6],\"textureOffset\":[0,15]}]},{\"part\":\"left_arm\",\"id\":\"left_arm\",\"invertAxis\":\"xy\",\"translate\":[4,-11,0],\"boxes\":[{\"coordinates\":[-7,2,-2,3,10,4],\"textureOffset\":[50,16]}]},{\"part\":\"right_arm\",\"id\":\"right_arm\",\"invertAxis\":\"xy\",\"translate\":[-4,-11,0],\"boxes\":[{\"coordinates\":[4,2,-2,3,10,4],\"textureOffset\":[36,16]}],\"submodels\":[{\"id\":\"rightItem\",\"invertAxis\":\"xy\",\"translate\":[5,3.6,-1]}]},{\"part\":\"left_leg\",\"id\":\"left_leg\",\"invertAxis\":\"xy\",\"translate\":[0,-5,0],\"boxes\":[{\"coordinates\":[-3.9,0,-2,4,5,4],\"textureOffset\":[16,27]}]},{\"part\":\"right_leg\",\"id\":\"right_leg\",\"invertAxis\":\"xy\",\"translate\":[0,-5,0],\"boxes\":[{\"coordinates\":[-0.1,0,-1.99,4,5,4],\"textureOffset\":[0,27]}]}]}"
     },
     "cow": {
       "texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAANdJREFUeF7t0zEKgzAUgOGUDp3TgnMRF+fg0lFyg+ABXLxCcgO9QnRxDl5AvIF4qL6kDg8hSnFpId8YfjTvoQRIEIPbk2BX9jI9sVTT1Ann+aMl2D1OpdwNeKrq7wJomWOcNUCXhCArgBgWMK8BpZQBrbUBOFgvGVUlnIpuGuF4xgGx/iLYjokXRTaoFTvakg4KoqqqyoSDvJumaVQNcKu2e94NVJ3kh8GZV9gp7YjeICoz0Y3DfCYIAV6194M59vkx/cGFMdYa0/uDrBDtsvTHT/glQRC8AQujeInN8E4QAAAAAElFTkSuQmCC",
@@ -2684,6 +2702,10 @@
     "panda": {
       "texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAANlJREFUeF7t08EJgzAYhuGUAp6j4FlCNwhdQNxAMkAvWSHdQDeQ6MVzcIGSDSRDNX+a0FMaaCmlrc9NePkMEVGEEIIQguLOfXdo6g8E0UNmwiFOhRDGmFIqpVRK3YLegk1gg5Kfjqyd9GUx628E6XvAVkEdaY3KQQHMcV4wCza1Hg1Y3SjMPR3s4K1whDka2Ge5GPO2IH0GdJe4qGBPAxXMGdxEFQLmtYvxZrtr9x4FrB3NmgxeeQVyvj1IfYsQYCcngXQGEaCSg7zx6kmDofe6Pwy2YAuSP84VP03pZ4Jsh6cAAAAASUVORK5CYII=",
       "model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12.5,17],\"boxes\":[{\"coordinates\":[-6.5,7.5,-21,13,10,9],\"textureOffset\":[0,6]},{\"coordinates\":[-3.5,7.5,-23,7,5,2],\"textureOffset\":[45,16]},{\"coordinates\":[3.5,16.5,-18,5,4,1],\"textureOffset\":[52,25]},{\"coordinates\":[-8.5,16.5,-18,5,4,1],\"textureOffset\":[52,25]}]},{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-14,0],\"submodels\":[{\"id\":\"rotation\",\"invertAxis\":\"xy\",\"translate\":[0,14,0],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-9.5,-13,-6.5,19,26,13],\"textureOffset\":[0,25]}]}],\"animations\":[{\"rotation.rx\":0}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[5.5,-9,9],\"boxes\":[{\"coordinates\":[-8.5,0,-12,6,9,6],\"textureOffset\":[40,0]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-5.5,-9,9],\"boxes\":[{\"coordinates\":[2.5,0,-12,6,9,6],\"textureOffset\":[40,0]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[5.5,-9,-9],\"boxes\":[{\"coordinates\":[-8.5,0,6,6,9,6],\"textureOffset\":[40,0]}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-5.5,-9,-9],\"boxes\":[{\"coordinates\":[2.5,0,6,6,9,6],\"textureOffset\":[40,0]}]}]}"
+    },
+    "parched": {
+      "texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAVFBMVEUAAAD///9TYXRbvPT0hoa01OFD6I32sXz43XKEm6tP0sCbt4qnob2pzLOgrblueIx71P97/6O3rcPs+P1f3saRprdr3sv5v4/8wov/p6T/+JmtssyYrD8YAAAAAnRSTlMAAHaTzTgAAAEASURBVHhe7ZXJEsIgEETZsrrv2///pzYhFUurHRGjF97NdOrJZAZQPUXABOhzRrHxFGbhMeT5bwXpJZQ3bMDdqANvCjgjCHitMiV4qJXUSwQrT2mXHutOHlefPeMLsiC9jQDDIw/V83vIh0Aaay7A4rFgQfDw3vB7CHgJMQJ+BrwvuG/p0M7XgizIgh5JoCSkUY69WEa62ro/SBEgN39bQfd1u+/6mQD9tQ6dHUFA2igL5IuFCKKvtnRBFqS3UR5lpQEZKmErIWgahJqMtbCZEezmCIkgYgVakxL4F0DQtpPpdFZVCNmhSvcigu1+clnPDkeE5Fj/jiALsiB5lBXhCslvaofuhmedAAAAAElFTkSuQmCC",
+      "model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-24,0],\"boxes\":[{\"coordinates\":[-4,24,-4,8,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-4,24,-4,8,8,8],\"textureOffset\":[0,32],\"sizeAdd\":0.2}]},{\"part\":\"headwear\"},{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-24,0],\"boxes\":[{\"coordinates\":[-4,12,-2,8,12,4],\"textureOffset\":[16,16]},{\"coordinates\":[-4,13,-2,8,1,4],\"textureOffset\":[28,0]},{\"coordinates\":[-4,12,-2,8,12,4],\"textureOffset\":[16,48],\"sizeAdd\":0.025}]},{\"part\":\"left_leg\",\"id\":\"left_leg\",\"invertAxis\":\"xy\",\"translate\":[2,-12,0],\"boxes\":[{\"coordinates\":[-3,0,-1,2,12,2],\"textureOffset\":[0,16]},{\"coordinates\":[-3.5,0,-1.5,3,12,3],\"textureOffset\":[4,49]}]},{\"part\":\"left_arm\",\"id\":\"left_arm\",\"invertAxis\":\"xy\",\"translate\":[5.5,-22,0],\"boxes\":[{\"coordinates\":[-6.5,12,-1,2,12,2],\"textureOffset\":[56,16]},{\"coordinates\":[-7.05,12.025,-1.5,3,12,3],\"textureOffset\":[40,48]}]},{\"part\":\"right_arm\",\"id\":\"right_arm\",\"invertAxis\":\"xy\",\"translate\":[-5.5,-22,0],\"boxes\":[{\"coordinates\":[4.5,12,-1,2,12,2],\"textureOffset\":[40,16]},{\"coordinates\":[4.05,12.025,-1.5,3,12,3],\"textureOffset\":[42,33]}]},{\"part\":\"right_leg\",\"id\":\"right_leg\",\"invertAxis\":\"xy\",\"translate\":[-2,-12,0],\"boxes\":[{\"coordinates\":[1,0,-1,2,12,2],\"textureOffset\":[0,16]},{\"coordinates\":[0.5,0,-1.5,3,12,3],\"textureOffset\":[0,49]}]}]}"
     },
     "parrot": {
       "texture_data": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAIZJREFUKJFjYICAciUGVAASYC9XUoBLgghh41mrUAWCZ50CMgWNZ64SBBIzVyEJQMyBakEIIIMiBnYFOAdom6LlAuFZQFGoQLsKmgDUPTABQWHjmSDTOWcuFDQACYgJB88G2c+5c2EiqQIwM2CGEgJILof6dBYhASQgKIgmIJZIsgCGGTQAAESqM3ax5M4pAAAAAElFTkSuQmCC",

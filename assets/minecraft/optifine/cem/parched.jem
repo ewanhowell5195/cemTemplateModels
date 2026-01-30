@@ -1,0 +1,74 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "texture": "parched.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "boxes": [
+        {"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]},
+        {"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 32], "sizeAdd": 0.2}
+      ]
+    },
+    {
+      "part": "headwear",
+      "id": "headwear",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -24, 0],
+      "boxes": [
+        {"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]},
+        {"coordinates": [-4, 13, -2, 8, 1, 4], "textureOffset": [28, 0]},
+        {"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 48], "sizeAdd": 0.025}
+      ]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [2, -12, 0],
+      "boxes": [
+        {"coordinates": [-3, 0, -1, 2, 12, 2], "textureOffset": [0, 16]},
+        {"coordinates": [-3.5, 0, -1.5, 3, 12, 3], "textureOffset": [4, 49]}
+      ]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [5.5, -22, 0],
+      "boxes": [
+        {"coordinates": [-6.5, 12, -1, 2, 12, 2], "textureOffset": [56, 16]},
+        {"coordinates": [-7.05, 12.025, -1.5, 3, 12, 3], "textureOffset": [40, 48]}
+      ]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-5.5, -22, 0],
+      "boxes": [
+        {"coordinates": [4.5, 12, -1, 2, 12, 2], "textureOffset": [40, 16]},
+        {"coordinates": [4.05, 12.025, -1.5, 3, 12, 3], "textureOffset": [42, 33]}
+      ]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-2, -12, 0],
+      "boxes": [
+        {"coordinates": [1, 0, -1, 2, 12, 2], "textureOffset": [0, 16]},
+        {"coordinates": [0.5, 0, -1.5, 3, 12, 3], "textureOffset": [0, 49]}
+      ]
+    }
+  ]
+}
