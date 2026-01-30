@@ -660,17 +660,9 @@
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAGdJREFUeF5jYChXYgCBcihQggIGKIArqOgAg3YVFzBwYoACBkHjmatGFUDBEFCAP7oFocAYCmZCwSooYBBLA4NE01AwCJ69Gwx2rjkDBqeGkIJRBQSjG2eCGeBUPapgtHwYeAWj5QMAIfTjwevDnIsAAAAASUVORK5CYII=",
 			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-15,0],\"boxes\":[{\"coordinates\":[-8,7,-8,16,16,16],\"textureOffset\":[0,0]}]},{\"part\":\"inner_body\",\"id\":\"inner_body\",\"invertAxis\":\"xy\",\"translate\":[0,-7,0],\"boxes\":[{\"coordinates\":[-8,7,-8,16,16,16],\"textureOffset\":[0,32],\"sizeAdd\":-0.5}]},{\"part\":\"tentacle1\",\"id\":\"tentacle1\",\"invertAxis\":\"xy\",\"translate\":[-3.75,-8,5],\"boxes\":[{\"coordinates\":[2.75,3,-6,2,5,2],\"textureOffset\":[0,0]}]},{\"part\":\"tentacle2\",\"id\":\"tentacle2\",\"invertAxis\":\"xy\",\"translate\":[1.25,-8,5],\"boxes\":[{\"coordinates\":[-2.25,1,-6,2,7,2],\"textureOffset\":[0,0]}]},{\"part\":\"tentacle3\",\"id\":\"tentacle3\",\"invertAxis\":\"xy\",\"translate\":[6.25,-8,5],\"boxes\":[{\"coordinates\":[-7.25,4,-6,2,4,2],\"textureOffset\":[0,0]}]},{\"part\":\"tentacle4\",\"id\":\"tentacle4\",\"invertAxis\":\"xy\",\"translate\":[-6.25,-8,0],\"boxes\":[{\"coordinates\":[5.25,3,-1,2,5,2],\"textureOffset\":[0,0]}]},{\"part\":\"tentacle5\",\"id\":\"tentacle5\",\"invertAxis\":\"xy\",\"translate\":[-1.25,-8,0],\"boxes\":[{\"coordinates\":[0.25,3,-1,2,5,2],\"textureOffset\":[0,0]}]},{\"part\":\"tentacle6\",\"id\":\"tentacle6\",\"invertAxis\":\"xy\",\"translate\":[3.75,-8,0],\"boxes\":[{\"coordinates\":[-4.75,1,-1,2,7,2],\"textureOffset\":[0,0]}]},{\"part\":\"tentacle7\",\"id\":\"tentacle7\",\"invertAxis\":\"xy\",\"translate\":[-3.75,-8,-5],\"boxes\":[{\"coordinates\":[2.75,0,4,2,8,2],\"textureOffset\":[0,0]}]},{\"part\":\"tentacle8\",\"id\":\"tentacle8\",\"invertAxis\":\"xy\",\"translate\":[1.25,-8,-5],\"boxes\":[{\"coordinates\":[-2.25,0,4,2,8,2],\"textureOffset\":[0,0]}]},{\"part\":\"tentacle9\",\"id\":\"tentacle9\",\"invertAxis\":\"xy\",\"translate\":[6.25,-8,-5],\"boxes\":[{\"coordinates\":[-7.25,3,4,2,5,2],\"textureOffset\":[0,0]}]}]}"
 		},
-		"happy_ghast_baby_harness": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAH5JREFUeF5jgIFyKFCCAgZ0UNEBBu0qLmDgNAQVjCogHN2CUGAMBTOhYBUUMIilgUGiaSgYBM/eDQY715wBg1NDSMGoAsLRzcDAXg4BRUoQoMCABtg7IKDIBQKorYCwGwQFhY0hwBLZ6QggliYcCgGWCM9TroCwG4YzGAWjAADaVrhUBnCiegAAAABJRU5ErkJggg==",
-			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"goggles\",\"id\":\"goggles\",\"invertAxis\":\"xy\",\"translate\":[0,-10,5.5],\"boxes\":[{\"coordinates\":[-8,7.5,-8,16,5,5],\"textureOffset\":[0,32],\"sizeAdd\":0.15}]},{\"part\":\"harness\",\"id\":\"harness\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"boxes\":[{\"coordinates\":[-8,0,-8,16,16,16],\"textureOffset\":[0,0]}]}]}"
-		},
-		"happy_ghast_baby_ropes": {
-			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAGdJREFUeF5jYChXYgCBcihQggIGKIArqOgAg3YVFzBwYoACBkHjmatGFUDBEFCAP7oFocAYCmZCwSooYBBLA4NE01AwCJ69Gwx2rjkDBqeGkIJRBQSjG2eCGeBUPapgtHwYeAWj5QMAIfTjwevDnIsAAAAASUVORK5CYII=",
-			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-15,0],\"boxes\":[{\"coordinates\":[-8,7,-8,16,16,16],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"inner_body\",\"id\":\"inner_body\",\"invertAxis\":\"xy\",\"translate\":[0,-7,0],\"boxes\":[{\"coordinates\":[-8,7,-8,16,16,16],\"textureOffset\":[0,32],\"sizeAdd\":-0.5}]},{\"part\":\"tentacle1\",\"id\":\"tentacle1\",\"invertAxis\":\"xy\",\"translate\":[-3.75,-8,5],\"boxes\":[{\"coordinates\":[2.75,3,-6,2,5,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"tentacle2\",\"id\":\"tentacle2\",\"invertAxis\":\"xy\",\"translate\":[1.25,-8,5],\"boxes\":[{\"coordinates\":[-2.25,1,-6,2,7,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"tentacle3\",\"id\":\"tentacle3\",\"invertAxis\":\"xy\",\"translate\":[6.25,-8,5],\"boxes\":[{\"coordinates\":[-7.25,4,-6,2,4,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"tentacle4\",\"id\":\"tentacle4\",\"invertAxis\":\"xy\",\"translate\":[-6.25,-8,0],\"boxes\":[{\"coordinates\":[5.25,3,-1,2,5,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"tentacle5\",\"id\":\"tentacle5\",\"invertAxis\":\"xy\",\"translate\":[-1.25,-8,0],\"boxes\":[{\"coordinates\":[0.25,3,-1,2,5,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"tentacle6\",\"id\":\"tentacle6\",\"invertAxis\":\"xy\",\"translate\":[3.75,-8,0],\"boxes\":[{\"coordinates\":[-4.75,1,-1,2,7,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"tentacle7\",\"id\":\"tentacle7\",\"invertAxis\":\"xy\",\"translate\":[-3.75,-8,-5],\"boxes\":[{\"coordinates\":[2.75,0,4,2,8,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"tentacle8\",\"id\":\"tentacle8\",\"invertAxis\":\"xy\",\"translate\":[1.25,-8,-5],\"boxes\":[{\"coordinates\":[-2.25,0,4,2,8,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]},{\"part\":\"tentacle9\",\"id\":\"tentacle9\",\"invertAxis\":\"xy\",\"translate\":[6.25,-8,-5],\"boxes\":[{\"coordinates\":[-7.25,3,4,2,5,2],\"textureOffset\":[0,0],\"sizeAdd\":0.2}]}]}"
-		},
 		"happy_ghast_harness": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAH5JREFUeF5jgIFyKFCCAgZ0UNEBBu0qLmDgNAQVjCogHN2CUGAMBTOhYBUUMIilgUGiaSgYBM/eDQY715wBg1NDSMGoAsLRzcDAXg4BRUoQoMCABtg7IKDIBQKorYCwGwQFhY0hwBLZ6QggliYcCgGWCM9TroCwG4YzGAWjAADaVrhUBnCiegAAAABJRU5ErkJggg==",
-			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"goggles\",\"id\":\"goggles\",\"invertAxis\":\"xy\",\"translate\":[0,-10,5.5],\"boxes\":[{\"coordinates\":[-8,7.5,-8,16,5,5],\"textureOffset\":[0,32],\"sizeAdd\":0.15}]},{\"part\":\"harness\",\"id\":\"harness\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"boxes\":[{\"coordinates\":[-8,0,-8,16,16,16],\"textureOffset\":[0,0]}]}]}"
+			"model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"boxes\":[{\"coordinates\":[-8,0,-8,16,16,16],\"textureOffset\":[0,0]}]},{\"part\":\"goggles\",\"id\":\"goggles\",\"invertAxis\":\"xy\",\"translate\":[0,-10,5.5],\"boxes\":[{\"coordinates\":[-8,7.5,-8,16,5,5],\"textureOffset\":[0,32],\"sizeAdd\":0.15}]}]}"
 		},
 		"happy_ghast_ropes": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAF5JREFUeF5jYChXYgCBcihQggIGKIArqOgAg3YVFzBwgssLGs9cNaoACoaAAvzRLQgFxlAwEwpWQQGDWBoYJJqGgkHw7N1gsHPNGTA4NYQUjCogHN04wCgYBaNgFAAAj0B4lirX1pEAAAAASUVORK5CYII=",
@@ -2640,18 +2632,6 @@
 					"display_name": "Happy Ghast Baby",
 					"file_name": "happy_ghast_baby",
 					"texture_name": "happy_ghast_baby"
-				},
-				{
-					"name": "happy_ghast_baby_harness",
-					"display_name": "Happy Ghast Baby Harness",
-					"file_name": "happy_ghast_baby_harness",
-					"texture_name": "happy_ghast_baby_harness"
-				},
-				{
-					"name": "happy_ghast_baby_ropes",
-					"display_name": "Happy Ghast Baby Ropes",
-					"file_name": "happy_ghast_baby_ropes",
-					"texture_name": "happy_ghast_baby_ropes"
 				},
 				{
 					"name": "happy_ghast_harness",
