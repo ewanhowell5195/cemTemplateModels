@@ -1,0 +1,55 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [128, 128],
+  "texture": "zombie_nautilus.png",
+  "models": [
+    {
+      "part": "shell",
+      "id": "shell",
+      "invertAxis": "xy",
+      "translate": [0, -8, 1],
+      "boxes": [
+        {"coordinates": [-7, 0, 5, 14, 8, 0], "textureOffset": [48, 26]},
+        {"coordinates": [-7, 8, -8, 14, 10, 16], "textureOffset": [0, 0]},
+        {"coordinates": [-7, 0, -8, 14, 8, 20], "textureOffset": [0, 26]}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -3.5, -6.3],
+      "boxes": [
+        {"coordinates": [-5, 0.01, 13.3, 10, 8, 0], "textureOffset": [0, 76]},
+        {"coordinates": [-5, 0.01, 3.3, 10, 8, 14], "textureOffset": [0, 54]}
+      ]
+    },
+    {
+      "part": "upper_mouth",
+      "id": "upper_mouth",
+      "invertAxis": "xy",
+      "translate": [0, -6.01, -13.3],
+      "boxes": [
+        {"coordinates": [-5, 4.01, 13.3, 10, 4, 4], "textureOffset": [54, 54], "sizeAdd": -0.002}
+      ]
+    },
+    {
+      "part": "inner_mouth",
+      "id": "inner_mouth",
+      "invertAxis": "xy",
+      "translate": [0, -4.01, -13.8],
+      "boxes": [
+        {"coordinates": [-3, 2.01, 13.3, 6, 4, 4], "textureOffset": [54, 70]}
+      ]
+    },
+    {
+      "part": "lower_mouth",
+      "id": "lower_mouth",
+      "invertAxis": "xy",
+      "translate": [0, -2.01, -13.3],
+      "boxes": [
+        {"coordinates": [-5, -0.01, 13.3, 10, 4, 4], "textureOffset": [54, 62], "sizeAdd": -0.002}
+      ]
+    }
+  ]
+}

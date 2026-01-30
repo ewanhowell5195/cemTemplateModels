@@ -1,0 +1,55 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "texture": "nautilus_baby.png",
+  "models": [
+    {
+      "part": "shell",
+      "id": "shell",
+      "invertAxis": "xy",
+      "translate": [2.5, -4, 2.5],
+      "boxes": [
+        {"coordinates": [-3.5, 4, -3.5, 7, 4, 7], "textureOffset": [0, 0]},
+        {"coordinates": [-3.5, 0, -3.5, 7, 4, 9], "textureOffset": [0, 11]},
+        {"coordinates": [-3.5, 0, 2.5, 7, 4, 0], "textureOffset": [23, 11]}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -1, -2.5],
+      "boxes": [
+        {"coordinates": [-2.5, 0.01, 1.5, 5, 4, 7], "textureOffset": [0, 24]},
+        {"coordinates": [-2.5, 0.01, 6.6, 5, 4, 0], "textureOffset": [0, 35]}
+      ]
+    },
+    {
+      "part": "lower_mouth",
+      "id": "lower_mouth",
+      "invertAxis": "xy",
+      "translate": [0, -1.01, -6.4],
+      "boxes": [
+        {"coordinates": [-2.5, 0.01, 6.4, 5, 2, 2], "textureOffset": [24, 28], "sizeAdd": -0.001}
+      ]
+    },
+    {
+      "part": "inner_mouth",
+      "id": "inner_mouth",
+      "invertAxis": "xy",
+      "translate": [0, -2.01, -7.4],
+      "boxes": [
+        {"coordinates": [-1.5, 1.01, 6.4, 3, 2, 2], "textureOffset": [24, 32]}
+      ]
+    },
+    {
+      "part": "upper_mouth",
+      "id": "upper_mouth",
+      "invertAxis": "xy",
+      "translate": [0, -3.01, -6.4],
+      "boxes": [
+        {"coordinates": [-2.5, 2.01, 6.4, 5, 2, 2], "textureOffset": [24, 24], "sizeAdd": -0.001}
+      ]
+    }
+  ]
+}
