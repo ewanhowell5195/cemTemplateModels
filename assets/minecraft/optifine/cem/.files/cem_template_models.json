@@ -505,6 +505,19 @@
                 "only_applies_same_as",
                 "Warm Chicken"
               ]
+            },
+            {
+              "id": "cold_chicken",
+              "model": "cold_chicken"
+            },
+            {
+              "id": "cold_chicken_baby",
+              "name": "Cold Baby Chicken",
+              "model": "cold_chicken",
+              "popup": [
+                "only_applies_same_as",
+                "Cold Chicken"
+              ]
             }
           ]
         },
@@ -529,6 +542,32 @@
               "name": "Baby Cow",
               "texture": "temperate_cow_baby",
               "popup": "only_applies_regular"
+            },
+            {
+              "id": "warm_cow",
+              "model": "warm_cow"
+            },
+            {
+              "id": "warm_cow_baby",
+              "name": "Warm Baby Cow",
+              "model": "warm_cow",
+              "popup": [
+                "only_applies_same_as",
+                "Warm Cow"
+              ]
+            },
+            {
+              "id": "cold_cow",
+              "model": "cold_cow"
+            },
+            {
+              "id": "cold_cow_baby",
+              "name": "Cold Baby Cow",
+              "model": "cold_cow",
+              "popup": [
+                "only_applies_same_as",
+                "Cold Cow"
+              ]
             }
           ]
         },
@@ -953,8 +992,7 @@
               ]
             },
             {
-              "id": "warm_pig",
-              "model": "pig"
+              "id": "warm_pig"
             },
             {
               "id": "warm_pig_baby",
@@ -962,6 +1000,19 @@
               "popup": [
                 "only_applies_same_as",
                 "Warm Pig"
+              ]
+            },
+            {
+              "id": "cold_pig",
+              "model": "cold_pig"
+            },
+            {
+              "id": "cold_pig_baby",
+              "name": "Cold Baby Pig",
+              "model": "cold_pig",
+              "popup": [
+                "only_applies_same_as",
+                "Cold Pig"
               ]
             }
           ]
@@ -1484,7 +1535,8 @@
           "id": "wind_charge",
           "variants": [
             {
-              "id": "breeze_wind_charge"
+              "id": "breeze_wind_charge",
+              "popup": "only_applies_regular"
             }
           ]
         },
@@ -2167,47 +2219,6 @@
           "id": "cape"
         },
         {
-          "id": "cold_chicken",
-          "variants": [
-            {
-              "id": "cold_chicken_baby",
-              "name": "Cold Baby Chicken",
-              "popup": "only_applies_regular"
-            }
-          ]
-        },
-        {
-          "id": "cold_cow",
-          "variants": [
-            {
-              "id": "cold_cow_baby",
-              "name": "Cold Baby Cow",
-              "popup": "only_applies_regular"
-            }
-          ]
-        },
-        {
-          "id": "cold_pig",
-          "variants": [
-            {
-              "id": "cold_pig_saddle"
-            },
-            {
-              "id": "cold_pig_baby",
-              "name": "Cold Baby Pig",
-              "popup": "only_applies_regular"
-            },
-            {
-              "id": "cold_pig_baby_saddle",
-              "name": "Cold Baby Pig Saddle",
-              "popup": [
-                "only_applies_same_as",
-                "Cold Pig Saddle"
-              ]
-            }
-          ]
-        },
-        {
           "id": "copper_golem"
         },
         {
@@ -2260,16 +2271,6 @@
         },
         {
           "id": "trident_riptide"
-        },
-        {
-          "id": "warm_cow",
-          "variants": [
-            {
-              "id": "warm_cow_baby",
-              "name": "Warm Baby Cow",
-              "popup": "only_applies_regular"
-            }
-          ]
         }
       ]
     }
