@@ -11,37 +11,25 @@
       "boxes": [
         {"coordinates": [-4, 16, -14, 8, 8, 6], "textureOffset": [0, 0]},
         {"coordinates": [-3, 16, -15, 6, 3, 1], "textureOffset": [9, 33]}
-      ]
-    },
-    {
-      "part": "left_horn",
-      "id": "left_horn",
-      "invertAxis": "xy",
-      "translate": [5.5, -22.5, 13],
-      "rotate": [-90, 0, 0],
-      "scale": 1,
-      "boxes": [
-        {"coordinates": [-6, 19.5, -13.5, 2, 6, 2], "textureOffset": [0, 32]}
       ],
-      "animations": [
+      "submodels": [
         {
-          "this.rx": 0
-        }
-      ]
-    },
-    {
-      "part": "right_horn",
-      "id": "right_horn",
-      "invertAxis": "xy",
-      "translate": [-4.5, -22.5, 11.5],
-      "rotate": [-90, 0, 0],
-      "scale": 1,
-      "boxes": [
-        {"coordinates": [4, 21, -12, 2, 6, 2], "textureOffset": [0, 40]}
-      ],
-      "animations": [
+          "id": "left_horn",
+          "invertAxis": "xy",
+          "translate": [-5.5, 22.5, -13],
+          "rotate": [-90, 0, 0],
+          "boxes": [
+            {"coordinates": [-0.5, -3, -0.5, 2, 6, 2], "textureOffset": [0, 32]}
+          ]
+        },
         {
-          "this.rx": 0
+          "id": "right_horn",
+          "invertAxis": "xy",
+          "translate": [4.5, 22.5, -11.5],
+          "rotate": [-90, 0, 0],
+          "boxes": [
+            {"coordinates": [-0.5, -1.5, -0.5, 2, 6, 2], "textureOffset": [0, 40]}
+          ]
         }
       ]
     },

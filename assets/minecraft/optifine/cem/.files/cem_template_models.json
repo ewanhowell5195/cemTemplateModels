@@ -1,5 +1,5 @@
 {
-  "version": "3.8.0",
+  "version": "3.9.0",
   "categories": [
     {
       "name": "Supported",
@@ -75,7 +75,13 @@
         },
         {
           "id": "boat",
-          "popup": ["applies_all", "regular Boat", "Boat", "Oak Boat", "wood"],
+          "popup": [
+            "applies_all",
+            "regular Boat",
+            "Boat",
+            "Oak Boat",
+            "wood"
+          ],
           "variants": [
             {
               "id": "oak_boat"
@@ -108,68 +114,107 @@
               "id": "boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_all", "boat", "regular Boat [Patch]", "Boat [Patch]", "Oak Boat [Patch]"]
+              "popup": [
+                "prevents_water_all",
+                "boat",
+                "regular Boat [Patch]",
+                "Boat [Patch]",
+                "Oak Boat [Patch]"
+              ]
             },
             {
               "id": "oak_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             },
             {
               "id": "spruce_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             },
             {
               "id": "birch_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             },
             {
               "id": "jungle_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             },
             {
               "id": "acacia_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             },
             {
               "id": "dark_oak_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             },
             {
               "id": "mangrove_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             },
             {
               "id": "cherry_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             },
             {
               "id": "pale_oak_boat_patch",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "boat"]
+              "popup": [
+                "prevents_water_single",
+                "boat"
+              ]
             }
           ]
         },
         {
           "id": "chest_boat",
           "name": "Boat with Chest",
-          "popup": ["applies_all", "Boat with Chest", "Boat with Chest", "Oak Boat with Chest", "wood"],
+          "popup": [
+            "applies_all",
+            "Boat with Chest",
+            "Boat with Chest",
+            "Oak Boat with Chest",
+            "wood"
+          ],
           "variants": [
             {
               "id": "oak_chest_boat",
@@ -212,70 +257,103 @@
               "name": "Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_all", "chest boat", "Boat with Chest [Patch]", "Boat with Chest [Patch]", "Oak Boat with Chest [Patch]"]
+              "popup": [
+                "prevents_water_all",
+                "chest boat",
+                "Boat with Chest [Patch]",
+                "Boat with Chest [Patch]",
+                "Oak Boat with Chest [Patch]"
+              ]
             },
             {
               "id": "oak_chest_boat_patch",
               "name": "Oak Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             },
             {
               "id": "spruce_chest_boat_patch",
               "name": "Spruce Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             },
             {
               "id": "birch_chest_boat_patch",
               "name": "Birch Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             },
             {
               "id": "jungle_chest_boat_patch",
               "name": "Jungle Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             },
             {
               "id": "acacia_chest_boat_patch",
               "name": "Acacia Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             },
             {
               "id": "dark_oak_chest_boat_patch",
               "name": "Dark Oak Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             },
             {
               "id": "mangrove_chest_boat_patch",
               "name": "Mangrove Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             },
             {
               "id": "cherry_chest_boat_patch",
               "name": "Cherry Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             },
             {
               "id": "pale_oak_chest_boat_patch",
               "name": "Pale Oak Boat with Chest [Patch]",
               "model": "boat_patch",
               "textureless": true,
-              "popup": ["prevents_water_single", "chest boat"]
+              "popup": [
+                "prevents_water_single",
+                "chest boat"
+              ]
             }
           ]
         },
@@ -334,7 +412,10 @@
               "id": "camel_baby_saddle",
               "name": "Baby Camel Saddle",
               "model": "camel_saddle",
-              "popup": ["only_applies_same_as", "Camel Saddle"]
+              "popup": [
+                "only_applies_same_as",
+                "Camel Saddle"
+              ]
             }
           ]
         },
@@ -354,7 +435,10 @@
               "id": "camel_husk_baby_saddle",
               "name": "Baby Camel Husk Saddle",
               "model": "camel_saddle",
-              "popup": ["only_applies_same_as", "Camel Husk Saddle"]
+              "popup": [
+                "only_applies_same_as",
+                "Camel Husk Saddle"
+              ]
             }
           ]
         },
@@ -372,7 +456,10 @@
             {
               "id": "cat_baby_collar",
               "name": "Baby Cat Collar",
-              "popup": ["only_applies_same_as", "Cat Collar"]
+              "popup": [
+                "only_applies_same_as",
+                "Cat Collar"
+              ]
             }
           ]
         },
@@ -407,6 +494,17 @@
               "name": "Baby Chicken",
               "texture": "temperate_chicken_baby",
               "popup": "only_applies_regular"
+            },
+            {
+              "id": "warm_chicken"
+            },
+            {
+              "id": "warm_chicken_baby",
+              "name": "Warm Baby Chicken",
+              "popup": [
+                "only_applies_same_as",
+                "Warm Chicken"
+              ]
             }
           ]
         },
@@ -503,7 +601,10 @@
             {
               "id": "drowned_baby_outer",
               "name": "Baby Drowned [Outer]",
-              "popup": ["only_applies_same_as", "Drowned [Outer]"]
+              "popup": [
+                "only_applies_same_as",
+                "Drowned [Outer]"
+              ]
             }
           ]
         },
@@ -586,7 +687,13 @@
         },
         {
           "id": "hanging_sign",
-          "popup": ["applies_all", "Hanging Sign", "Hanging Sign", "Oak Hanging Sign", "wood"],
+          "popup": [
+            "applies_all",
+            "Hanging Sign",
+            "Hanging Sign",
+            "Oak Hanging Sign",
+            "wood"
+          ],
           "variants": [
             {
               "id": "oak_hanging_sign"
@@ -699,7 +806,10 @@
             {
               "id": "llama_baby_decor",
               "name": "Baby Llama Decor",
-              "popup": ["only_applies_same_as", "Llama Decor"]
+              "popup": [
+                "only_applies_same_as",
+                "Llama Decor"
+              ]
             }
           ]
         },
@@ -711,7 +821,13 @@
         },
         {
           "id": "minecart",
-          "popup": ["applies_all", "Minecart", "Minecart", "Minecart with Chest", "Minecart"],
+          "popup": [
+            "applies_all",
+            "Minecart",
+            "Minecart",
+            "Minecart with Chest",
+            "Minecart"
+          ],
           "variants": [
             {
               "id": "hopper_minecart",
@@ -831,7 +947,22 @@
               "name": "Baby Pig Saddle",
               "model": "pig_saddle",
               "texture": "temperate_pig_baby_saddle",
-              "popup": ["only_applies_same_as", "Pig Saddle"]
+              "popup": [
+                "only_applies_same_as",
+                "Pig Saddle"
+              ]
+            },
+            {
+              "id": "warm_pig",
+              "model": "pig"
+            },
+            {
+              "id": "warm_pig_baby",
+              "name": "Warm Baby Pig",
+              "popup": [
+                "only_applies_same_as",
+                "Warm Pig"
+              ]
             }
           ]
         },
@@ -948,7 +1079,10 @@
               "id": "sheep_baby_wool",
               "name": "Baby Sheep Wool",
               "model": "sheep_wool",
-              "popup": ["only_applies_same_as", "Sheep Wool"]
+              "popup": [
+                "only_applies_same_as",
+                "Sheep Wool"
+              ]
             }
           ]
         },
@@ -966,60 +1100,108 @@
         },
         {
           "id": "sign",
-          "popup": ["applies_all", "Sign and Wall Sign", "Sign and Wall Sign", "Oak Sign", "wood"],
+          "popup": [
+            "applies_all",
+            "Sign and Wall Sign",
+            "Sign and Wall Sign",
+            "Oak Sign",
+            "wood"
+          ],
           "variants": [
             {
               "id": "oak_sign",
-              "popup": ["applies_sign_and_wall_sign", "Oak"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Oak"
+              ]
             },
             {
               "id": "spruce_sign",
-              "popup": ["applies_sign_and_wall_sign", "Spruce"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Spruce"
+              ]
             },
             {
               "id": "birch_sign",
-              "popup": ["applies_sign_and_wall_sign", "Birch"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Birch"
+              ]
             },
             {
               "id": "jungle_sign",
-              "popup": ["applies_sign_and_wall_sign", "Jungle"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Jungle"
+              ]
             },
             {
               "id": "acacia_sign",
-              "popup": ["applies_sign_and_wall_sign", "Acacia"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Acacia"
+              ]
             },
             {
               "id": "dark_oak_sign",
-              "popup": ["applies_sign_and_wall_sign", "Dark Oak"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Dark Oak"
+              ]
             },
             {
               "id": "mangrove_sign",
-              "popup": ["applies_sign_and_wall_sign", "Mangrove"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Mangrove"
+              ]
             },
             {
               "id": "cherry_sign",
-              "popup": ["applies_sign_and_wall_sign", "Cherry"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Cherry"
+              ]
             },
             {
               "id": "pale_oak_sign",
-              "popup": ["applies_sign_and_wall_sign", "Pale Oak"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Pale Oak"
+              ]
             },
             {
               "id": "bamboo_sign",
-              "popup": ["applies_sign_and_wall_sign", "Bamboo"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Bamboo"
+              ]
             },
             {
               "id": "crimson_sign",
-              "popup": ["applies_sign_and_wall_sign", "Crimson"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Crimson"
+              ]
             },
             {
               "id": "warped_sign",
-              "popup": ["applies_sign_and_wall_sign", "Warped"]
+              "popup": [
+                "applies_sign_and_wall_sign",
+                "Warped"
+              ]
             },
             {
               "id": "wall_sign",
               "model": "wall_sign",
-              "popup": ["applies_all", "Wall Sign", "Wall Sign", "Oak Wall Sign", "wood"]
+              "popup": [
+                "applies_all",
+                "Wall Sign",
+                "Wall Sign",
+                "Oak Wall Sign",
+                "wood"
+              ]
             },
             {
               "id": "oak_wall_sign",
@@ -1172,7 +1354,10 @@
             {
               "id": "strider_baby_saddle",
               "name": "Baby Strider Saddle",
-              "popup": ["only_applies_same_as", "Strider Saddle"]
+              "popup": [
+                "only_applies_same_as",
+                "Strider Saddle"
+              ]
             }
           ]
         },
@@ -1196,7 +1381,10 @@
               "id": "trader_llama_baby_decor",
               "name": "Baby Trader Llama Decor",
               "model": "llama_decor",
-              "popup": ["only_applies_same_as", "Trader Llama Decor"]
+              "popup": [
+                "only_applies_same_as",
+                "Trader Llama Decor"
+              ]
             }
           ]
         },
@@ -1343,13 +1531,19 @@
             {
               "id": "wolf_baby_collar",
               "name": "Baby Wolf Collar",
-              "popup": ["only_applies_same_as", "Wolf Collar"]
+              "popup": [
+                "only_applies_same_as",
+                "Wolf Collar"
+              ]
             },
             {
               "id": "wolf_baby_armor",
               "name": "Baby Wolf Armor",
               "model": "wolf_armor",
-              "popup": ["only_applies_same_as", "Wolf Armor"]
+              "popup": [
+                "only_applies_same_as",
+                "Wolf Armor"
+              ]
             }
           ]
         },
@@ -1589,7 +1783,10 @@
               "name": "Baby Horse Armor",
               "file": "horse_baby_armor",
               "model": "horse_baby_armor_21.4",
-              "popup": ["only_applies_same_as", "Horse Armor"]
+              "popup": [
+                "only_applies_same_as",
+                "Horse Armor"
+              ]
             }
           ]
         },
@@ -1639,7 +1836,10 @@
               "name": "Baby Pig Saddle",
               "file": "pig_baby_saddle",
               "model": "pig_saddle_21.4",
-              "popup": ["only_applies_same_as", "Pig Saddle"]
+              "popup": [
+                "only_applies_same_as",
+                "Pig Saddle"
+              ]
             }
           ]
         },
@@ -1990,8 +2190,7 @@
           "id": "cold_pig",
           "variants": [
             {
-              "id": "cold_pig_saddle",
-              "model": "cold_pig_saddle"
+              "id": "cold_pig_saddle"
             },
             {
               "id": "cold_pig_baby",
@@ -2001,8 +2200,10 @@
             {
               "id": "cold_pig_baby_saddle",
               "name": "Cold Baby Pig Saddle",
-              "model": "cold_pig_saddle",
-              "popup": ["only_applies_same_as", "Cold Pig Saddle"]
+              "popup": [
+                "only_applies_same_as",
+                "Cold Pig Saddle"
+              ]
             }
           ]
         },
@@ -2061,44 +2262,12 @@
           "id": "trident_riptide"
         },
         {
-          "id": "warm_chicken",
-          "model": "chicken",
-          "variants": [
-            {
-              "id": "warm_chicken_baby",
-              "name": "Warm Baby Chicken",
-              "popup": "only_applies_regular"
-            }
-          ]
-        },
-        {
           "id": "warm_cow",
           "variants": [
             {
               "id": "warm_cow_baby",
               "name": "Warm Baby Cow",
               "popup": "only_applies_regular"
-            }
-          ]
-        },
-        {
-          "id": "warm_pig",
-          "model": "pig",
-          "variants": [
-            {
-              "id": "warm_pig_saddle",
-              "model": "pig_saddle"
-            },
-            {
-              "id": "warm_pig_baby",
-              "name": "Warm Baby Pig",
-              "popup": "only_applies_regular"
-            },
-            {
-              "id": "warm_pig_baby_saddle",
-              "name": "Warm Baby Pig Saddle",
-              "model": "pig_saddle",
-              "popup": ["only_applies_same_as", "Warm Pig Saddle"]
             }
           ]
         }
@@ -2266,15 +2435,11 @@
     },
     "cold_cow": {
       "texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAPZJREFUeF7tk7ENgzAQRR1lAqdgAIuGGtGkRGyAGICGFewNYAVDQ41YALEBYqjcGRfGEUYJUZRIvNJ6Bt/XPwJwgAFkzTW8dy1BRFWVfpLElnBjAedOIQlE+bIQKjrFIliPjDIg7Wdg0gKlFC9JKfGWKehHekUOp2kzDnA8mQJB/kKwxzSDIhYUYQqJcIUheEVR5H4CxM04joOoABU15uwUROnHu8KRX+CUOOKm4OVR2gz9dEQ4BTPq7cKEq27ZndPCspwoPLdWMsovcKnuunZbiLK0nuf2/S8QzccFY0yHsB8UZZI7lxMF13L+hIB8TTgFZ2F+gAeSR3FuR0YGuwAAAABJRU5ErkJggg==",
-      "model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-20,8],\"boxes\":[{\"coordinates\":[-4,16,-14,8,8,6],\"textureOffset\":[0,0]},{\"coordinates\":[-3,16,-15,6,3,1],\"textureOffset\":[9,33]}]},{\"part\":\"left_horn\",\"id\":\"left_horn\",\"invertAxis\":\"xy\",\"translate\":[5.5,-22.5,13],\"rotate\":[-90,0,0],\"scale\":1,\"boxes\":[{\"coordinates\":[-6,19.5,-13.5,2,6,2],\"textureOffset\":[0,32]}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"right_horn\",\"id\":\"right_horn\",\"invertAxis\":\"xy\",\"translate\":[-4.5,-22.5,11.5],\"rotate\":[-90,0,0],\"scale\":1,\"boxes\":[{\"coordinates\":[4,21,-12,2,6,2],\"textureOffset\":[0,40]}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-19,-2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-6,11,-5,12,18,10],\"textureOffset\":[18,4]},{\"coordinates\":[-6,11,-5,12,18,10],\"textureOffset\":[20,32],\"sizeAdd\":0.5},{\"coordinates\":[-2,11,-6,4,6,1],\"textureOffset\":[52,0]}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-4,-12,-7],\"boxes\":[{\"coordinates\":[2,0,5,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[4,-12,-7],\"boxes\":[{\"coordinates\":[-6,0,5,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-4,-12,6],\"boxes\":[{\"coordinates\":[2,0,-7,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[4,-12,6],\"boxes\":[{\"coordinates\":[-6,0,-7,4,12,4],\"textureOffset\":[0,16]}]}]}"
+      "model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-20,8],\"boxes\":[{\"coordinates\":[-4,16,-14,8,8,6],\"textureOffset\":[0,0]},{\"coordinates\":[-3,16,-15,6,3,1],\"textureOffset\":[9,33]}],\"submodels\":[{\"id\":\"left_horn\",\"invertAxis\":\"xy\",\"translate\":[-5.5,22.5,-13],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-0.5,-3,-0.5,2,6,2],\"textureOffset\":[0,32]}]},{\"id\":\"right_horn\",\"invertAxis\":\"xy\",\"translate\":[4.5,22.5,-11.5],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-0.5,-1.5,-0.5,2,6,2],\"textureOffset\":[0,40]}]}]},{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-19,-2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-6,11,-5,12,18,10],\"textureOffset\":[18,4]},{\"coordinates\":[-6,11,-5,12,18,10],\"textureOffset\":[20,32],\"sizeAdd\":0.5},{\"coordinates\":[-2,11,-6,4,6,1],\"textureOffset\":[52,0]}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-4,-12,-7],\"boxes\":[{\"coordinates\":[2,0,5,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[4,-12,-7],\"boxes\":[{\"coordinates\":[-6,0,5,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-4,-12,6],\"boxes\":[{\"coordinates\":[2,0,-7,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[4,-12,6],\"boxes\":[{\"coordinates\":[-6,0,-7,4,12,4],\"textureOffset\":[0,16]}]}]}"
     },
     "cold_pig": {
       "texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAMFJREFUeF7tk7ENgzAQRa9LHUWijiw2sChoI2+APAANA6RxNoAVIjZALIDYADFU/k/jwk5cRo54lZGefXffRogDCsgnHsPQl8bcshXSY56BBk8wARFNJiKk6Lq2srYZ13WZ930TwZdtsMQ6DyE9JmFIIid3V9e3rgh9Rxh0XyLki66xhQVLg9RZETcw9F6w9bzFBZb4cgJbZHtCYkLRVs24zNsPhXSTnlyE2HUHBA8mwD+5XIVwzGRQyagP4f/+i4MX6p259SVxxlsAAAAASUVORK5CYII=",
       "model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8]},{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,32],\"sizeAdd\":0.5}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16]}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16]}]}]}"
-    },
-    "cold_pig_saddle": {
-      "texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAMFJREFUeF7tk7ENgzAQRa9LHUWijiw2sChoI2+APAANA6RxNoAVIjZALIDYADFU/k/jwk5cRo54lZGefXffRogDCsgnHsPQl8bcshXSY56BBk8wARFNJiKk6Lq2srYZ13WZ930TwZdtsMQ6DyE9JmFIIid3V9e3rgh9Rxh0XyLki66xhQVLg9RZETcw9F6w9bzFBZb4cgJbZHtCYkLRVs24zNsPhXSTnlyE2HUHBA8mwD+5XIVwzGRQyagP4f/+i4MX6p259SVxxlsAAAAASUVORK5CYII=",
-      "model": "{\"textureSize\":[64,64],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-13,-2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,8],\"sizeAdd\":0.5},{\"coordinates\":[-5,7,-5,10,16,8],\"textureOffset\":[28,32],\"sizeAdd\":1}],\"animations\":[{\"this.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-12,6],\"boxes\":[{\"coordinates\":[-4,8,-14,8,8,8],\"textureOffset\":[0,0],\"sizeAdd\":0.5},{\"coordinates\":[-2,9,-15,4,3,1],\"textureOffset\":[16,16],\"sizeAdd\":0.5}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-6,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-6,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-6,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]}]}"
     },
     "conduit": {
       "texture_data": [
