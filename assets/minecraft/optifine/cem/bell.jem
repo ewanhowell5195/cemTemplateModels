@@ -1,37 +1,37 @@
 {
-	"credit": "By Ewan Howell",
-	"textureSize": [32, 32],
-	"texture": "bell.png",
-	"models": [
-		{
-			"part": "body",
-			"id": "body",
-			"invertAxis": "xy",
-			"translate": [0, -12, 0],
-			"rotate": [-180, 0, 0],
-			"boxes": [
-				{"coordinates": [-3, 11, -3, 6, 7, 6], "textureOffset": [0, 0]}
-			],
-			"animations": [
-				{
-					"this.rx": 0
-				}
-			]
-		},
-		{
-			"part": "base",
-			"id": "base",
-			"invertAxis": "xy",
-			"translate": [-8, 0, -8],
-			"rotate": [-180, 0, 0],
-			"boxes": [
-				{"coordinates": [-4, -6, 12, 8, 2, 8], "textureOffset": [0, 13]}
-			],
-			"animations": [
-				{
-					"this.rx": 0
-				}
-			]
-		}
-	]
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "texture": "bell.png",
+  "models": [
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -12, 0],
+      "rotate": [-180, 0, 0],
+      "boxes": [
+        {"coordinates": [-3, 11, -3, 6, 7, 6], "textureOffset": [0, 0]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0
+        }
+      ]
+    },
+    {
+      "part": "base",
+      "id": "base",
+      "invertAxis": "xy",
+      "translate": [-8, 0, -8],
+      "rotate": [-180, 0, 0],
+      "boxes": [
+        {"coordinates": [-4, -6, 12, 8, 2, 8], "textureOffset": [0, 13]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0
+        }
+      ]
+    }
+  ]
 }

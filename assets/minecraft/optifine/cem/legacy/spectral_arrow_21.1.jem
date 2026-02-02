@@ -1,25 +1,25 @@
 {
-	"credit": "By Ewan Howell",
-	"texture": "spectral_arrow_21.1.png",
-	"textureSize": [32, 32],
-	"models": [
-		{
-			"part": "body",
-			"id": "body",
-			"invertAxis": "xy",
-			"translate": [0, -2.5, 0],
-			"rotate": [0, -90, 135],
-			"boxes": [
-				{"coordinates": [-8, 0, 0, 16, 5, 0], "textureOffset": [0, 0]},
-				{"coordinates": [7, 0, -2.5, 0, 5, 5], "textureOffset": [0, 0]},
-				{"coordinates": [-8, 2.5, -2.5, 16, 0, 5], "textureOffset": [-5, 0]}
-			],
-			"animations": [
-				{
-					"this.ry": 0,
-					"this.rz": 0
-				}
-			]
-		}
-	]
+  "credit": "By Ewan Howell",
+  "texture": "spectral_arrow_21.1.png",
+  "textureSize": [32, 32],
+  "models": [
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -2.5, 0],
+      "rotate": [0, -90, 135],
+      "boxes": [
+        {"coordinates": [-8, 0, 0, 16, 5, 0], "textureOffset": [0, 0]},
+        {"coordinates": [7, 0, -2.5, 0, 5, 5], "textureOffset": [0, 0]},
+        {"coordinates": [-8, 2.5, -2.5, 16, 0, 5], "textureOffset": [-5, 0]}
+      ],
+      "animations": [
+        {
+          "this.ry": 0,
+          "this.rz": 0
+        }
+      ]
+    }
+  ]
 }

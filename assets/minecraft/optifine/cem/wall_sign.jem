@@ -1,16 +1,16 @@
 {
-	"credit": "By Ewan Howell",
-	"textureSize": [64, 32],
-	"texture": "wall_sign.png",
-	"models": [
-		{
-			"part": "board",
-			"id": "board",
-			"invertAxis": "xy",
-			"translate": [0, -12, 0],
-			"boxes": [
-				{"coordinates": [-12, 14, -1, 24, 12, 2], "textureOffset": [0, 0]}
-			]
-		}
-	]
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 32],
+  "texture": "wall_sign.png",
+  "models": [
+    {
+      "part": "board",
+      "id": "board",
+      "invertAxis": "xy",
+      "translate": [0, -12, 0],
+      "boxes": [
+        {"coordinates": [-12, 14, -1, 24, 12, 2], "textureOffset": [0, 0]}
+      ]
+    }
+  ]
 }

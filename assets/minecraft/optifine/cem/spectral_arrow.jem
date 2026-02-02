@@ -1,71 +1,71 @@
 {
-	"credit": "By Ewan Howell",
-	"textureSize": [32, 32],
-	"texture": "spectral_arrow.png",
-	"models": [
-		{
-			"part": "back",
-			"id": "back",
-			"invertAxis": "xy",
-			"translate": [0, -3.5, -7],
-			"rotate": [135, -90, 0],
-			"boxes": [
-				{
-					"coordinates": [0, 1.5, 5, 0, 4, 4],
-					"uvEast": [0, 5, 5, 10],
-					"uvWest": [5, 5, 10, 10]
-				}
-			],
-			"animations": [
-				{
-					"this.rx": 0,
-					"this.ry": 0,
-					"this.sy": 1.25,
-					"this.sz": 1.25,
-					"this.ty": 4.375,
-					"this.tz": -8.75
-				}
-			]
-		},
-		{
-			"part": "cross_1",
-			"id": "cross_1",
-			"invertAxis": "xy",
-			"translate": [0, -3.5, 4],
-			"rotate": [135, -90, 0],
-			"boxes": [
-				{
-					"coordinates": [-4, 1.5, -4, 16, 4, 0],
-					"uvNorth": [0, 0, 16, 5],
-					"uvSouth": [16, 0, 32, 5]
-				}
-			],
-			"animations": [
-				{
-					"this.rx": 0,
-					"this.ry": 0
-				}
-			]
-		},
-		{
-			"part": "cross_2",
-			"id": "cross_2",
-			"invertAxis": "xy",
-			"translate": [0, -3.5, 4],
-			"rotate": [45, -90, 0],
-			"boxes": [
-				{
-					"coordinates": [-4, 1.5, -4, 16, 4, 0],
-					"uvNorth": [0, 0, 16, 5],
-					"uvSouth": [16, 0, 32, 5]
-				}
-			],
-			"animations": [
-				{
-					"this.rx": 0,
-					"this.ry": 0
-				}
-			]
-		}
-	]
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "texture": "spectral_arrow.png",
+  "models": [
+    {
+      "part": "back",
+      "id": "back",
+      "invertAxis": "xy",
+      "translate": [0, -3.5, -7],
+      "rotate": [135, -90, 0],
+      "boxes": [
+        {
+          "coordinates": [0, 1.5, 5, 0, 4, 4],
+          "uvEast": [0, 5, 5, 10],
+          "uvWest": [5, 5, 10, 10]
+        }
+      ],
+      "animations": [
+        {
+          "this.rx": 0,
+          "this.ry": 0,
+          "this.sy": 1.25,
+          "this.sz": 1.25,
+          "this.ty": 4.375,
+          "this.tz": -8.75
+        }
+      ]
+    },
+    {
+      "part": "cross_1",
+      "id": "cross_1",
+      "invertAxis": "xy",
+      "translate": [0, -3.5, 4],
+      "rotate": [135, -90, 0],
+      "boxes": [
+        {
+          "coordinates": [-4, 1.5, -4, 16, 4, 0],
+          "uvNorth": [0, 0, 16, 5],
+          "uvSouth": [16, 0, 32, 5]
+        }
+      ],
+      "animations": [
+        {
+          "this.rx": 0,
+          "this.ry": 0
+        }
+      ]
+    },
+    {
+      "part": "cross_2",
+      "id": "cross_2",
+      "invertAxis": "xy",
+      "translate": [0, -3.5, 4],
+      "rotate": [45, -90, 0],
+      "boxes": [
+        {
+          "coordinates": [-4, 1.5, -4, 16, 4, 0],
+          "uvNorth": [0, 0, 16, 5],
+          "uvSouth": [16, 0, 32, 5]
+        }
+      ],
+      "animations": [
+        {
+          "this.rx": 0,
+          "this.ry": 0
+        }
+      ]
+    }
+  ]
 }

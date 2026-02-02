@@ -1,29 +1,29 @@
 {
-	"credit": "By Ewan Howell",
-	"textureSize": [32, 32],
-	"texture": "trident_14.png",
-	"models": [
-		{
-			"part": "body",
-			"id": "body",
-			"invertAxis": "xy",
-			"translate": [0, -27, 0],
-			"boxes": [
-				{"coordinates": [-1.5, 25, -0.5, 3, 2, 1], "textureOffset": [4, 0]},
-				{"coordinates": [-0.5, 0, -0.5, 1, 31, 1], "textureOffset": [0, 0]},
-				{"coordinates": [1.5, 26, -0.5, 1, 4, 1], "textureOffset": [4, 3]}
-			],
-			"submodels": [
-				{
-					"id": "mirror",
-					"invertAxis": "xy",
-					"mirrorTexture": "u",
-					"translate": [0, 0, 0],
-					"boxes": [
-						{"coordinates": [-2.5, 26, -0.5, 1, 4, 1], "textureOffset": [4, 3]}
-					]
-				}
-			]
-		}
-	]
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "texture": "trident_14.png",
+  "models": [
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -27, 0],
+      "boxes": [
+        {"coordinates": [-1.5, 25, -0.5, 3, 2, 1], "textureOffset": [4, 0]},
+        {"coordinates": [-0.5, 0, -0.5, 1, 31, 1], "textureOffset": [0, 0]},
+        {"coordinates": [1.5, 26, -0.5, 1, 4, 1], "textureOffset": [4, 3]}
+      ],
+      "submodels": [
+        {
+          "id": "mirror",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [0, 0, 0],
+          "boxes": [
+            {"coordinates": [-2.5, 26, -0.5, 1, 4, 1], "textureOffset": [4, 3]}
+          ]
+        }
+      ]
+    }
+  ]
 }
