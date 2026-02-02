@@ -192,6 +192,10 @@
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAHdJREFUKJFjYACCciBQAgIGGKjo6GhXcXFxoq0AirWCQGAMBDOBYBUQMIilpSWahoYGz969e+eaM2dO0UYAw1pMUK5EQEDQeOYqmgiUw0JICSoADEJwGIIDEUMAFqZwLaBQNYb4bhXUc2Ig7wP9D/I90PtYVKACACoEgilZQhLhAAAAAElFTkSuQmCC",
 			"model": "{\"textureSize\":[32,32],\"models\":[{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-20,0],\"boxes\":[{\"coordinates\":[-4,20,-4,8,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-5,22,-4.2,10,3,4],\"textureOffset\":[4,24]}]},{\"part\":\"rods\",\"id\":\"rods\",\"invertAxis\":\"xy\",\"translate\":[0,-16,0],\"submodels\":[{\"id\":\"rod_1\",\"invertAxis\":\"xy\",\"translate\":[0,5,-3],\"rotate\":[-22.5,0,0],\"boxes\":[{\"coordinates\":[-1,4.9343,2.3576,2,8,2],\"textureOffset\":[0,17]}]},{\"id\":\"rotation_2\",\"invertAxis\":\"xy\",\"translate\":[0,8,0],\"rotate\":[180,-60,-180],\"submodels\":[{\"id\":\"rod_2\",\"invertAxis\":\"xy\",\"translate\":[0,-3,-3],\"rotate\":[-22.5,0,0],\"boxes\":[{\"coordinates\":[-1,4.9343,2.3576,2,8,2],\"textureOffset\":[0,17]}]}]},{\"id\":\"rotation_3\",\"invertAxis\":\"xy\",\"translate\":[0,8,0],\"rotate\":[180,60,180],\"submodels\":[{\"id\":\"rod_3\",\"invertAxis\":\"xy\",\"translate\":[0,-3,-3],\"rotate\":[-22.5,0,0],\"boxes\":[{\"coordinates\":[-1,4.9343,2.3576,2,8,2],\"textureOffset\":[0,17]}]}]}]},{\"part\":\"body\"}]}"
 		},
+		"breeze_eyes": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABGklEQVR4nOyXPQrCQBCFVwhY2CloICIKildI7yE8gr3nMI1WVsFCrOw8RLBOIyj+YCAR2xRWigtTuO7OLIoaZL9mSR4Jj/DCvLEYwSLcXzHd90aYzOb+IIfpFtPAbVal94P1kZ9OxZbqURIzCi0Dn8QYMAa0DEDaVeikXWmgE3vofz4LS5jMJq0iqk83ffT9/Au4lbJUDJITP+t2Qarv4pSfhUZNqqfbAz/zTluqX6KVCaExkBEDkHYVkHYVkHYV97SrQGf1NzAZMAaMgewboPYCgNoPAHFPeGsvAKj9AJA1p//ohMAr3fBpFogd0Q57TIfxcvhwbXXPWs9JvwB0RKoTAmI3pLogoOyE4nimxjEgjmVsDAM/H8c3AAAA///fiW1RAAAABklEQVQDAKavYdTxHnvBAAAAAElFTkSuQmCC",
+			"model": "{\"textureSize\":[32,32],\"models\":[{\"part\":\"eyes\",\"id\":\"eyes\",\"invertAxis\":\"xy\",\"translate\":[0,-20,0],\"boxes\":[{\"coordinates\":[-4,20,-4,8,8,8],\"textureOffset\":[0,0]},{\"coordinates\":[-5,22,-4.2,10,3,4],\"textureOffset\":[4,24]}]}]}"
+		},
 		"breeze_wind": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAFVBMVEUAAAD///9bvPR71P+01OHQ5u/s+P2jmgzDAAAAAnRSTlMAAHaTzTgAAABkSURBVGje7dVJDQAgDARAHjWABbTgXwIWsMCfb0kgZCpgEo7dRi+5iZYFCiBmFqguEfAEMK4DsvBFpY3rR7AbbSatrJV1IgBguWplX/nTvSCN0igLsiALwnQU8AoAAAAAAAC2WeovGBIakR2hAAAAAElFTkSuQmCC",
 			"model": "{\"textureSize\":[128,128],\"models\":[{\"part\":\"wind_top\",\"id\":\"wind_top\",\"invertAxis\":\"xy\",\"translate\":[0,-13,0],\"boxes\":[{\"coordinates\":[-2.5,13,-2.5,5,8,5],\"textureOffset\":[105,57]},{\"coordinates\":[-9,13,-9,18,8,18],\"textureOffset\":[0,0]},{\"coordinates\":[-6,13,-6,12,8,12],\"textureOffset\":[6,6]}]},{\"part\":\"wind_middle\",\"id\":\"wind_middle\",\"invertAxis\":\"xy\",\"translate\":[0,-7,0],\"boxes\":[{\"coordinates\":[-6,7,-6,12,6,12],\"textureOffset\":[74,28]},{\"coordinates\":[-4,7,-4,8,6,8],\"textureOffset\":[78,32]},{\"coordinates\":[-2.5,7,-2.5,5,6,5],\"textureOffset\":[49,71]}]},{\"part\":\"wind_bottom\",\"id\":\"wind_bottom\",\"invertAxis\":\"xy\",\"translate\":[0,0,0],\"boxes\":[{\"coordinates\":[-2.5,0,-2.5,5,7,5],\"textureOffset\":[1,83]}]}]}"
@@ -1160,9 +1164,17 @@
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJxJREFUeF5jAILy8nIlJSUG3KCio13FxWngFBB2pKCgoLGx8cyZM1etWoVVgVhaomlo8OzdO9ecOUWcAmMgWAUEOBWYhoYGrzkDVE1IAS5HIhTgAIQUIByJM1SUgABoYzkQYA8VFRcXJ6CbKzo62qEKQAGNV0FFu4oTQQWUWAEKJ1Ao4VQglmgaPHvnmlMDpoCwIxGADgpwRTflAACz8buJ2l187QAAAABJRU5ErkJggg==",
 			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-19,-2],\"submodels\":[{\"id\":\"rotation\",\"invertAxis\":\"xy\",\"translate\":[0,19,2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-4,-6,-7,8,16,6],\"textureOffset\":[28,8],\"sizeAdd\":1.75}]}],\"animations\":[{\"rotation.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-18,8],\"boxes\":[{\"coordinates\":[-3,16,-12,6,6,6],\"textureOffset\":[0,0],\"sizeAdd\":0.6}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-12,-7],\"boxes\":[{\"coordinates\":[1,6,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-12,-7],\"boxes\":[{\"coordinates\":[-5,6,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-12,5],\"boxes\":[{\"coordinates\":[1,6,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-12,5],\"boxes\":[{\"coordinates\":[-5,6,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]}]}"
 		},
+		"sheep_baby_wool_undercoat": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJtJREFUOI1jYACC8vJyJSUlBtygoqNdxcVpqCvA601BIDA2Np4JBKtWrQIKADnGqyBMMBBLS0s0DQ2evXv3zjVnTgEFTENDg9ecATPppYCgIzH8BPSwElA10OvlWBSIpSWquLg4zd69s6Kjox0eTIhAwqqgol3FiTIFBKwAeRLkQ5wKxBJNg2fvXHNqVAGyAizRjaoAC0ANakwAAJmN3Hlu/GynAAAAAElFTkSuQmCC",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-19,-2],\"submodels\":[{\"id\":\"rotation\",\"invertAxis\":\"xy\",\"translate\":[0,19,2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-4,-6,-7,8,16,6],\"textureOffset\":[28,8]}]}],\"animations\":[{\"rotation.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-18,8],\"boxes\":[{\"coordinates\":[-3,16,-14,6,6,8],\"textureOffset\":[0,0]}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-12,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-12,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-12,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-12,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,12,4],\"textureOffset\":[0,16]}]}]}"
+		},
 		"sheep_wool": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJxJREFUeF5jAILy8nIlJSUG3KCio13FxWngFBB2pKCgoLGx8cyZM1etWoVVgVhaomlo8OzdO9ecOUWcAmMgWAUEOBWYhoYGrzkDVE1IAS5HIhTgAIQUIByJM1SUgABoYzkQYA8VFRcXJ6CbKzo62qEKQAGNV0FFu4oTQQWUWAEKJ1Ao4VQglmgaPHvnmlMDpoCwIxGADgpwRTflAACz8buJ2l187QAAAABJRU5ErkJggg==",
 			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-19,-2],\"submodels\":[{\"id\":\"rotation\",\"invertAxis\":\"xy\",\"translate\":[0,19,2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-4,-6,-7,8,16,6],\"textureOffset\":[28,8],\"sizeAdd\":1.75}]}],\"animations\":[{\"rotation.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-18,8],\"boxes\":[{\"coordinates\":[-3,16,-12,6,6,6],\"textureOffset\":[0,0],\"sizeAdd\":0.6}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-12,-7],\"boxes\":[{\"coordinates\":[1,6,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-12,-7],\"boxes\":[{\"coordinates\":[-5,6,5,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-12,5],\"boxes\":[{\"coordinates\":[1,6,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-12,5],\"boxes\":[{\"coordinates\":[-5,6,-7,4,6,4],\"textureOffset\":[0,16],\"sizeAdd\":0.5}]}]}"
+		},
+		"sheep_wool_undercoat": {
+			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgBAMAAABQs2O3AAAAJ1BMVEUAAABD6I1TYXRbvPRueIx71P97/6O01OHs+P30hob43XL/p6T/+JkI1XCUAAAAAXRSTlMAQObYZgAAAJtJREFUOI1jYACC8vJyJSUlBtygoqNdxcVpqCvA601BIDA2Np4JBKtWrQIKADnGqyBMMBBLS0s0DQ2evXv3zjVnTgEFTENDg9ecATPppYCgIzH8BPSwElA10OvlWBSIpSWquLg4zd69s6Kjox0eTIhAwqqgol3FiTIFBKwAeRLkQ5wKxBJNg2fvXHNqVAGyAizRjaoAC0ANakwAAJmN3Hlu/GynAAAAAElFTkSuQmCC",
+			"model": "{\"textureSize\":[64,32],\"models\":[{\"part\":\"body\",\"id\":\"body\",\"invertAxis\":\"xy\",\"translate\":[0,-19,-2],\"submodels\":[{\"id\":\"rotation\",\"invertAxis\":\"xy\",\"translate\":[0,19,2],\"rotate\":[-90,0,0],\"boxes\":[{\"coordinates\":[-4,-6,-7,8,16,6],\"textureOffset\":[28,8]}]}],\"animations\":[{\"rotation.rx\":0}]},{\"part\":\"head\",\"id\":\"head\",\"invertAxis\":\"xy\",\"translate\":[0,-18,8],\"boxes\":[{\"coordinates\":[-3,16,-14,6,6,8],\"textureOffset\":[0,0]}]},{\"part\":\"leg1\",\"id\":\"leg1\",\"invertAxis\":\"xy\",\"translate\":[-3,-12,-7],\"boxes\":[{\"coordinates\":[1,0,5,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg2\",\"id\":\"leg2\",\"invertAxis\":\"xy\",\"translate\":[3,-12,-7],\"boxes\":[{\"coordinates\":[-5,0,5,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg3\",\"id\":\"leg3\",\"invertAxis\":\"xy\",\"translate\":[-3,-12,5],\"boxes\":[{\"coordinates\":[1,0,-7,4,12,4],\"textureOffset\":[0,16]}]},{\"part\":\"leg4\",\"id\":\"leg4\",\"invertAxis\":\"xy\",\"translate\":[3,-12,5],\"boxes\":[{\"coordinates\":[-5,0,-7,4,12,4],\"textureOffset\":[0,16]}]}]}"
 		},
 		"shield": {
 			"texture_data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEUAAABD6I1TYXRbvPR71P97/6O01OH0hob43XL/p6T/+Jkyl5+yAAAAAXRSTlMAQObYZgAAAFdJREFUSEtjYEsDgSQlEFBgYGBIU2JABcLGIGDeAQZYFbiAgHnXKiBYMRgUCAoKGpeXl3fgVCAaGmhcOXP6gCog6EgGLGBUAbEK0BLtKBgFo2AUjAIqAwCUoY3VTLvChgAAAABJRU5ErkJggg==",
@@ -1938,6 +1950,12 @@
 					"display_name": "Breeze",
 					"file_name": "breeze",
 					"texture_name": "breeze"
+				},
+				{
+					"name": "breeze_eyes",
+					"display_name": "Breeze Eyes",
+					"file_name": "breeze_eyes",
+					"texture_name": "breeze_eyes"
 				},
 				{
 					"name": "breeze_wind",
@@ -3404,10 +3422,22 @@
 					"texture_name": "sheep_baby_wool"
 				},
 				{
+					"name": "sheep_baby_wool_undercoat",
+					"display_name": "Sheep Baby Wool Undercoat",
+					"file_name": "sheep_baby_wool_undercoat",
+					"texture_name": "sheep_baby_wool_undercoat"
+				},
+				{
 					"name": "sheep_wool",
 					"display_name": "Sheep Wool",
 					"file_name": "sheep_wool",
 					"texture_name": "sheep_wool"
+				},
+				{
+					"name": "sheep_wool_undercoat",
+					"display_name": "Sheep Wool Undercoat",
+					"file_name": "sheep_wool_undercoat",
+					"texture_name": "sheep_wool_undercoat"
 				},
 				{
 					"name": "shield",
