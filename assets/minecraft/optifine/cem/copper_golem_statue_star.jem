@@ -1,0 +1,96 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "texture": "copper_golem_statue_star.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -11, 0],
+      "boxes": [
+        {"coordinates": [-4, 11, -5, 8, 5, 10], "textureOffset": [0, 0]},
+        {"coordinates": [-1, 10, -6, 2, 3, 2], "textureOffset": [56, 0]},
+        {"coordinates": [-1, 16, -1, 2, 4, 2], "textureOffset": [37, 8], "sizeAdd": -0.015},
+        {"coordinates": [-2, 20, -2, 4, 4, 4], "textureOffset": [37, 0], "sizeAdd": -0.015}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -5, 0],
+      "boxes": [
+        {"coordinates": [-4, 5, -3, 8, 6, 6], "textureOffset": [0, 15]}
+      ]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [4, -11, 0],
+      "submodels": [
+        {
+          "id": "left_arm_rotation",
+          "invertAxis": "xy",
+          "translate": [-3, 10, 0],
+          "rotate": [0, 0, -110],
+          "boxes": [
+            {"coordinates": [-1.5, -5, -2, 3, 10, 4], "textureOffset": [50, 16]}
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-4, -11, 0],
+      "submodels": [
+        {
+          "id": "right_arm_rotation",
+          "invertAxis": "xy",
+          "translate": [3, 10, 0],
+          "rotate": [0, 0, 110],
+          "boxes": [
+            {"coordinates": [-1.5, -5, -2, 3, 10, 4], "textureOffset": [36, 16]}
+          ]
+        }
+      ]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [1, -5, 0],
+      "submodels": [
+        {
+          "id": "left_leg_rotation",
+          "invertAxis": "xy",
+          "translate": [-2.65, 3, 0],
+          "rotate": [0, 0, -15],
+          "boxes": [
+            {"coordinates": [-2, -2.5, -2, 4, 5, 4], "textureOffset": [16, 27]}
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-3, -5, 0],
+      "submodels": [
+        {
+          "id": "right_leg_rotation",
+          "invertAxis": "xy",
+          "translate": [2.65, 3, 0.01],
+          "rotate": [0, 0, 15],
+          "boxes": [
+            {"coordinates": [-2, -2.5, -2, 4, 5, 4], "textureOffset": [0, 27]}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -17,7 +17,6 @@
       "id": "tentacle1",
       "invertAxis": "xy",
       "translate": [-3.75, -8, 5],
-      "attach": true,
       "boxes": [
         {"coordinates": [2.75, 3, -6, 2, 5, 2], "textureOffset": [0, 0], "sizeAdd": 0.2}
       ]
