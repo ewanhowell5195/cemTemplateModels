@@ -1,5 +1,5 @@
 {
-  "version": "3.11.0",
+  "version": "3.11.1",
   "categories": [
     {
       "name": "Supported",
@@ -363,6 +363,7 @@
             {
               "id": "bogged_outer",
               "name": "Bogged [Outer]",
+              "texture": "bogged_overlay",
               "model": "stray_outer"
             }
           ]
@@ -425,6 +426,7 @@
         },
         {
           "id": "camel_husk",
+          "model": "camel",
           "variants": [
             {
               "id": "camel_husk_saddle",
@@ -658,6 +660,7 @@
             {
               "id": "drowned_outer",
               "name": "Drowned [Outer]",
+              "texture": "drowned_outer_layer",
               "model": "drowned_outer"
             },
             {
@@ -668,6 +671,7 @@
             {
               "id": "drowned_baby_outer",
               "name": "Baby Drowned [Outer]",
+              "texture": "drowned_outer_layer",
               "popup": [
                 "only_applies_same_as",
                 "Drowned [Outer]"
@@ -902,7 +906,8 @@
           "id": "llama_spit"
         },
         {
-          "id": "magma_cube"
+          "id": "magma_cube",
+          "texture": "magmacube"
         },
         {
           "id": "minecart",
@@ -1457,6 +1462,7 @@
             {
               "id": "stray_outer",
               "name": "Stray [Outer]",
+              "texture": "stray_overlay",
               "model": "stray_outer"
             }
           ]
