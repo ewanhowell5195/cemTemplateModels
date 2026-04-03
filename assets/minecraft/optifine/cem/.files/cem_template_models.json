@@ -2,7 +2,11 @@
   "version": "3.12.0",
   "categories": [
     {
-      "name": "Supported",
+      "type": "heading",
+      "text": "Supported"
+    },
+    {
+      "name": "Regular",
       "description": "The standard CEM models supported by OptiFine.",
       "icon": "icon-format_optifine",
       "entities": [
@@ -1304,6 +1308,10 @@
       ]
     },
     {
+      "type": "heading",
+      "text": "Other"
+    },
+    {
       "name": "Custom",
       "description": "Modified entity models made to help with making entity models.",
       "icon": "build",
@@ -1348,21 +1356,7 @@
             "title": "Before you start...",
             "message": "<p>This model requires some extra textures in your resource pack to function correctly:</p><div style=\"background-color:rgba(0,0,0,0.25)\"><code>assets/minecraft/textures/entity/cow/red_mushroom.png</code></div><div style=\"background-color:rgba(0,0,0,0.25)\"><code>assets/minecraft/textures/entity/cow/brown_mushroom.png</code></div><p>These textures need to be created manually, and should be 1x1 transparent images.</p><p>They are custom ones added by optifine that overwrite the vanilla mooshroom mushrooms.</p><p>Please note, if you were going to use this model to edit the textures independently of the block, you can just use these two textures instead of this model.</p>",
             "width": 600
-          },
-          "variants": [
-            {
-              "id": "mooshroom_baby_mushrooms",
-              "name": "Baby Mooshroom [Mushrooms]",
-              "description": "A custom version of the Mooshroom with the mushrooms modelled on top",
-              "file": "mooshroom_baby",
-              "texture": "mooshroom",
-              "popup": {
-                "title": "Before you start...",
-                "message": "This model only applies to the Baby Baby Mooshroom. This model is optional, and by default will be the same as the regular model.<br><br><p>This model requires some extra textures in your resource pack to function correctly:</p><div style=\"background-color:rgba(0,0,0,0.25)\"><code>assets/minecraft/textures/entity/cow/red_mushroom.png</code></div><div style=\"background-color:rgba(0,0,0,0.25)\"><code>assets/minecraft/textures/entity/cow/brown_mushroom.png</code></div><p>These textures need to be created manually, and should be 1x1 transparent images.</p><p>They are custom ones added by optifine that overwrite the vanilla mooshroom mushrooms.</p><p>Please note, if you were going to use this model to edit the textures independently of the block, you can just use these two textures instead of this model.</p>",
-                "width": 600
-              }
-            }
-          ]
+          }
         },
         {
           "id": "trapped_chest_old_uv",
