@@ -27,8 +27,8 @@ function processEntity(entity, parentModelId) {
   } else {
     texturesToCheck.push(entity.id)
     if (entity.vanilla_textures) {
-      for (let i = 0; i < entity.vanilla_textures.length; i++) {
-        texturesToCheck.push(i === 0 ? entity.id : `${entity.id}${i}`)
+      for (let i = 1; i < entity.vanilla_textures.length; i++) {
+        texturesToCheck.push(`${entity.id}_${i}`)
       }
     }
   }
