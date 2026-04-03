@@ -1421,16 +1421,18 @@
           "name": "Baby Camel",
           "file": "camel_baby",
           "popup": "only_applies_regular",
-          "model": "camel"
-        },
-        {
-          "id": "camel_baby_saddle_21.11",
-          "name": "Baby Camel Saddle",
-          "file": "camel_baby_saddle",
-          "model": "camel_saddle",
-          "popup": [
-            "only_applies_same_as",
-            "Camel Saddle"
+          "model": "camel",
+          "variants": [
+            {
+              "id": "camel_baby_saddle_21.11",
+              "name": "Baby Camel Saddle",
+              "file": "camel_baby_saddle",
+              "model": "camel_saddle",
+              "popup": [
+                "only_applies_same_as",
+                "Camel Saddle"
+              ]
+            }
           ]
         },
         {
@@ -1438,16 +1440,18 @@
           "name": "Baby Camel Husk",
           "file": "camel_husk_baby",
           "popup": "only_applies_regular",
-          "model": "camel"
-        },
-        {
-          "id": "camel_husk_baby_saddle_21.11",
-          "name": "Baby Camel Husk Saddle",
-          "file": "camel_husk_baby_saddle",
-          "model": "camel_saddle",
-          "popup": [
-            "only_applies_same_as",
-            "Camel Husk Saddle"
+          "model": "camel",
+          "variants": [
+            {
+              "id": "camel_husk_baby_saddle_21.11",
+              "name": "Baby Camel Husk Saddle",
+              "file": "camel_husk_baby_saddle",
+              "model": "camel_saddle",
+              "popup": [
+                "only_applies_same_as",
+                "Camel Husk Saddle"
+              ]
+            }
           ]
         },
         {
@@ -1455,17 +1459,19 @@
           "name": "Baby Cat",
           "file": "cat_baby",
           "popup": "only_applies_regular",
-          "model": "cat"
-        },
-        {
-          "id": "cat_baby_collar_21.11",
-          "name": "Baby Cat Collar",
-          "file": "cat_baby_collar",
-          "popup": [
-            "only_applies_same_as",
-            "Cat Collar"
-          ],
-          "model": "cat"
+          "model": "cat",
+          "variants": [
+            {
+              "id": "cat_baby_collar_21.11",
+              "name": "Baby Cat Collar",
+              "file": "cat_baby_collar",
+              "popup": [
+                "only_applies_same_as",
+                "Cat Collar"
+              ],
+              "model": "cat"
+            }
+          ]
         },
         {
           "id": "chicken_baby_21.11",
@@ -1473,26 +1479,28 @@
           "file": "chicken_baby",
           "popup": "only_applies_regular",
           "texture": "temperate_chicken_baby_21.11",
-          "model": "chicken"
-        },
-        {
-          "id": "warm_chicken_baby_21.11",
-          "name": "Warm Baby Chicken",
-          "file": "warm_chicken_baby",
-          "popup": [
-            "only_applies_same_as",
-            "Warm Chicken"
-          ],
-          "model": "chicken"
-        },
-        {
-          "id": "cold_chicken_baby_21.11",
-          "name": "Cold Baby Chicken",
-          "file": "cold_chicken_baby",
-          "model": "cold_chicken",
-          "popup": [
-            "only_applies_same_as",
-            "Cold Chicken"
+          "model": "chicken",
+          "variants": [
+            {
+              "id": "warm_chicken_baby_21.11",
+              "name": "Warm Baby Chicken",
+              "file": "warm_chicken_baby",
+              "popup": [
+                "only_applies_same_as",
+                "Warm Chicken"
+              ],
+              "model": "chicken"
+            },
+            {
+              "id": "cold_chicken_baby_21.11",
+              "name": "Cold Baby Chicken",
+              "file": "cold_chicken_baby",
+              "model": "cold_chicken",
+              "popup": [
+                "only_applies_same_as",
+                "Cold Chicken"
+              ]
+            }
           ]
         },
         {
@@ -1501,26 +1509,28 @@
           "file": "cow_baby",
           "popup": "only_applies_regular",
           "texture": "temperate_cow_baby_21.11",
-          "model": "cow"
-        },
-        {
-          "id": "warm_cow_baby_21.11",
-          "name": "Warm Baby Cow",
-          "file": "warm_cow_baby",
-          "model": "warm_cow",
-          "popup": [
-            "only_applies_same_as",
-            "Warm Cow"
-          ]
-        },
-        {
-          "id": "cold_cow_baby_21.11",
-          "name": "Cold Baby Cow",
-          "file": "cold_cow_baby",
-          "model": "cold_cow",
-          "popup": [
-            "only_applies_same_as",
-            "Cold Cow"
+          "model": "cow",
+          "variants": [
+            {
+              "id": "warm_cow_baby_21.11",
+              "name": "Warm Baby Cow",
+              "file": "warm_cow_baby",
+              "model": "warm_cow",
+              "popup": [
+                "only_applies_same_as",
+                "Warm Cow"
+              ]
+            },
+            {
+              "id": "cold_cow_baby_21.11",
+              "name": "Cold Baby Cow",
+              "file": "cold_cow_baby",
+              "model": "cold_cow",
+              "popup": [
+                "only_applies_same_as",
+                "Cold Cow"
+              ]
+            }
           ]
         },
         {
@@ -1534,31 +1544,35 @@
           "id": "donkey_baby_21.11",
           "name": "Baby Donkey",
           "file": "donkey_baby",
-          "model": "donkey_baby"
-        },
-        {
-          "id": "donkey_baby_saddle_21.11",
-          "name": "Baby Donkey Saddle",
-          "file": "donkey_baby_saddle",
-          "model": "donkey_baby_saddle"
+          "model": "donkey_baby",
+          "variants": [
+            {
+              "id": "donkey_baby_saddle_21.11",
+              "name": "Baby Donkey Saddle",
+              "file": "donkey_baby_saddle",
+              "model": "donkey_baby_saddle"
+            }
+          ]
         },
         {
           "id": "drowned_baby_21.11",
           "name": "Baby Drowned",
           "file": "drowned_baby",
           "popup": "only_applies_regular",
-          "model": "drowned"
-        },
-        {
-          "id": "drowned_baby_outer_21.11",
-          "name": "Baby Drowned [Outer]",
-          "file": "drowned_baby_outer",
-          "popup": [
-            "only_applies_same_as",
-            "Drowned [Outer]"
-          ],
-          "texture": "drowned_outer_layer",
-          "model": "drowned"
+          "model": "drowned",
+          "variants": [
+            {
+              "id": "drowned_baby_outer_21.11",
+              "name": "Baby Drowned [Outer]",
+              "file": "drowned_baby_outer",
+              "popup": [
+                "only_applies_same_as",
+                "Drowned [Outer]"
+              ],
+              "texture": "drowned_outer_layer",
+              "model": "drowned"
+            }
+          ]
         },
         {
           "id": "fox_baby_21.11",
@@ -1598,19 +1612,21 @@
           "id": "horse_baby_21.11",
           "name": "Baby Horse",
           "file": "horse_baby",
-          "model": "horse_baby"
-        },
-        {
-          "id": "horse_baby_saddle_21.11",
-          "name": "Baby Horse Saddle",
-          "file": "horse_baby_saddle",
-          "model": "horse_baby_saddle"
-        },
-        {
-          "id": "horse_baby_armor_21.11",
-          "name": "Baby Horse Armor",
-          "file": "horse_baby_armor",
-          "model": "horse_baby_armor"
+          "model": "horse_baby",
+          "variants": [
+            {
+              "id": "horse_baby_saddle_21.11",
+              "name": "Baby Horse Saddle",
+              "file": "horse_baby_saddle",
+              "model": "horse_baby_saddle"
+            },
+            {
+              "id": "horse_baby_armor_21.11",
+              "name": "Baby Horse Armor",
+              "file": "horse_baby_armor",
+              "model": "horse_baby_armor"
+            }
+          ]
         },
         {
           "id": "husk_baby_21.11",
@@ -1624,17 +1640,19 @@
           "name": "Baby Llama",
           "file": "llama_baby",
           "popup": "only_applies_regular",
-          "model": "llama"
-        },
-        {
-          "id": "llama_baby_decor_21.11",
-          "name": "Baby Llama Decor",
-          "file": "llama_baby_decor",
-          "popup": [
-            "only_applies_same_as",
-            "Llama Decor"
-          ],
-          "model": "llama"
+          "model": "llama",
+          "variants": [
+            {
+              "id": "llama_baby_decor_21.11",
+              "name": "Baby Llama Decor",
+              "file": "llama_baby_decor",
+              "popup": [
+                "only_applies_same_as",
+                "Llama Decor"
+              ],
+              "model": "llama"
+            }
+          ]
         },
         {
           "id": "mooshroom_baby_21.11",
@@ -1647,13 +1665,15 @@
           "id": "mule_baby_21.11",
           "name": "Baby Mule",
           "file": "mule_baby",
-          "model": "donkey_baby"
-        },
-        {
-          "id": "mule_baby_saddle_21.11",
-          "name": "Baby Mule Saddle",
-          "file": "mule_baby_saddle",
-          "model": "donkey_baby_saddle"
+          "model": "donkey_baby",
+          "variants": [
+            {
+              "id": "mule_baby_saddle_21.11",
+              "name": "Baby Mule Saddle",
+              "file": "mule_baby_saddle",
+              "model": "donkey_baby_saddle"
+            }
+          ]
         },
         {
           "id": "nautilus_baby_21.11",
@@ -1681,37 +1701,39 @@
           "file": "pig_baby",
           "popup": "only_applies_regular",
           "texture": "temperate_pig_baby_21.11",
-          "model": "pig"
-        },
-        {
-          "id": "pig_baby_saddle_21.11",
-          "name": "Baby Pig Saddle",
-          "file": "pig_baby_saddle",
-          "model": "pig_saddle",
-          "popup": [
-            "only_applies_same_as",
-            "Pig Saddle"
-          ],
-          "texture": "temperate_pig_baby_saddle_21.11"
-        },
-        {
-          "id": "warm_pig_baby_21.11",
-          "name": "Warm Baby Pig",
-          "file": "warm_pig_baby",
-          "popup": [
-            "only_applies_same_as",
-            "Warm Pig"
-          ],
-          "model": "pig"
-        },
-        {
-          "id": "cold_pig_baby_21.11",
-          "name": "Cold Baby Pig",
-          "file": "cold_pig_baby",
-          "model": "cold_pig",
-          "popup": [
-            "only_applies_same_as",
-            "Cold Pig"
+          "model": "pig",
+          "variants": [
+            {
+              "id": "pig_baby_saddle_21.11",
+              "name": "Baby Pig Saddle",
+              "file": "pig_baby_saddle",
+              "model": "pig_saddle",
+              "popup": [
+                "only_applies_same_as",
+                "Pig Saddle"
+              ],
+              "texture": "temperate_pig_baby_saddle_21.11"
+            },
+            {
+              "id": "warm_pig_baby_21.11",
+              "name": "Warm Baby Pig",
+              "file": "warm_pig_baby",
+              "popup": [
+                "only_applies_same_as",
+                "Warm Pig"
+              ],
+              "model": "pig"
+            },
+            {
+              "id": "cold_pig_baby_21.11",
+              "name": "Cold Baby Pig",
+              "file": "cold_pig_baby",
+              "model": "cold_pig",
+              "popup": [
+                "only_applies_same_as",
+                "Cold Pig"
+              ]
+            }
           ]
         },
         {
@@ -1744,45 +1766,49 @@
             "sheep_baby",
             "sheep_baby_wool_undercoat"
           ],
-          "model": "sheep"
-        },
-        {
-          "id": "sheep_baby_wool_undercoat_21.11",
-          "name": "Baby Sheep Wool Undercoat",
-          "file": "sheep_baby_wool_undercoat",
-          "popup": [
-            "only_applies_same_as",
-            "Sheep Wool Undercoat"
-          ],
-          "model": "sheep"
-        },
-        {
-          "id": "sheep_baby_wool_21.11",
-          "name": "Baby Sheep Wool",
-          "file": "sheep_baby_wool",
-          "model": "sheep_wool",
-          "popup": [
-            "only_applies_same_as",
-            "Sheep Wool"
+          "model": "sheep",
+          "variants": [
+            {
+              "id": "sheep_baby_wool_undercoat_21.11",
+              "name": "Baby Sheep Wool Undercoat",
+              "file": "sheep_baby_wool_undercoat",
+              "popup": [
+                "only_applies_same_as",
+                "Sheep Wool Undercoat"
+              ],
+              "model": "sheep"
+            },
+            {
+              "id": "sheep_baby_wool_21.11",
+              "name": "Baby Sheep Wool",
+              "file": "sheep_baby_wool",
+              "model": "sheep_wool",
+              "popup": [
+                "only_applies_same_as",
+                "Sheep Wool"
+              ]
+            }
           ]
         },
         {
           "id": "skeleton_horse_baby_21.11",
           "name": "Baby Skeleton Horse",
           "file": "skeleton_horse_baby",
-          "model": "horse_baby"
-        },
-        {
-          "id": "skeleton_horse_baby_saddle_21.11",
-          "name": "Baby Skeleton Horse Saddle",
-          "file": "skeleton_horse_baby_saddle",
-          "model": "horse_baby_saddle"
-        },
-        {
-          "id": "skeleton_horse_baby_armor_21.11",
-          "name": "Baby Skeleton Horse Armor",
-          "file": "skeleton_horse_baby_armor",
-          "model": "horse_baby_armor"
+          "model": "horse_baby",
+          "variants": [
+            {
+              "id": "skeleton_horse_baby_saddle_21.11",
+              "name": "Baby Skeleton Horse Saddle",
+              "file": "skeleton_horse_baby_saddle",
+              "model": "horse_baby_saddle"
+            },
+            {
+              "id": "skeleton_horse_baby_armor_21.11",
+              "name": "Baby Skeleton Horse Armor",
+              "file": "skeleton_horse_baby_armor",
+              "model": "horse_baby_armor"
+            }
+          ]
         },
         {
           "id": "sniffer_baby_21.11",
@@ -1803,33 +1829,37 @@
           "name": "Baby Strider",
           "file": "strider_baby",
           "popup": "only_applies_regular",
-          "model": "strider"
-        },
-        {
-          "id": "strider_baby_saddle_21.11",
-          "name": "Baby Strider Saddle",
-          "file": "strider_baby_saddle",
-          "popup": [
-            "only_applies_same_as",
-            "Strider Saddle"
-          ],
-          "model": "strider"
+          "model": "strider",
+          "variants": [
+            {
+              "id": "strider_baby_saddle_21.11",
+              "name": "Baby Strider Saddle",
+              "file": "strider_baby_saddle",
+              "popup": [
+                "only_applies_same_as",
+                "Strider Saddle"
+              ],
+              "model": "strider"
+            }
+          ]
         },
         {
           "id": "trader_llama_baby_21.11",
           "name": "Baby Trader Llama",
           "file": "trader_llama_baby",
           "popup": "only_applies_regular",
-          "model": "llama"
-        },
-        {
-          "id": "trader_llama_baby_decor_21.11",
-          "name": "Baby Trader Llama Decor",
-          "file": "trader_llama_baby_decor",
-          "model": "llama_decor",
-          "popup": [
-            "only_applies_same_as",
-            "Trader Llama Decor"
+          "model": "llama",
+          "variants": [
+            {
+              "id": "trader_llama_baby_decor_21.11",
+              "name": "Baby Trader Llama Decor",
+              "file": "trader_llama_baby_decor",
+              "model": "llama_decor",
+              "popup": [
+                "only_applies_same_as",
+                "Trader Llama Decor"
+              ]
+            }
           ]
         },
         {
@@ -1855,26 +1885,28 @@
           "name": "Baby Wolf",
           "file": "wolf_baby",
           "popup": "only_applies_regular",
-          "model": "wolf"
-        },
-        {
-          "id": "wolf_baby_collar_21.11",
-          "name": "Baby Wolf Collar",
-          "file": "wolf_baby_collar",
-          "popup": [
-            "only_applies_same_as",
-            "Wolf Collar"
-          ],
-          "model": "wolf"
-        },
-        {
-          "id": "wolf_baby_armor_21.11",
-          "name": "Baby Wolf Armor",
-          "file": "wolf_baby_armor",
-          "model": "wolf_armor",
-          "popup": [
-            "only_applies_same_as",
-            "Wolf Armor"
+          "model": "wolf",
+          "variants": [
+            {
+              "id": "wolf_baby_collar_21.11",
+              "name": "Baby Wolf Collar",
+              "file": "wolf_baby_collar",
+              "popup": [
+                "only_applies_same_as",
+                "Wolf Collar"
+              ],
+              "model": "wolf"
+            },
+            {
+              "id": "wolf_baby_armor_21.11",
+              "name": "Baby Wolf Armor",
+              "file": "wolf_baby_armor",
+              "model": "wolf_armor",
+              "popup": [
+                "only_applies_same_as",
+                "Wolf Armor"
+              ]
+            }
           ]
         },
         {
@@ -1895,19 +1927,21 @@
           "id": "zombie_horse_baby_21.11",
           "name": "Baby Zombie Horse",
           "file": "zombie_horse_baby",
-          "model": "horse_baby"
-        },
-        {
-          "id": "zombie_horse_baby_saddle_21.11",
-          "name": "Baby Zombie Horse Saddle",
-          "file": "zombie_horse_baby_saddle",
-          "model": "horse_baby_armor"
-        },
-        {
-          "id": "zombie_horse_baby_saddle_21.11",
-          "name": "Baby Zombie Horse Armor",
-          "file": "zombie_horse_baby_saddle",
-          "model": "horse_baby_armor"
+          "model": "horse_baby",
+          "variants": [
+            {
+              "id": "zombie_horse_baby_saddle_21.11",
+              "name": "Baby Zombie Horse Saddle",
+              "file": "zombie_horse_baby_saddle",
+              "model": "horse_baby_saddle"
+            },
+            {
+              "id": "zombie_horse_baby_armor_21.11",
+              "name": "Baby Zombie Horse Armor",
+              "file": "zombie_horse_baby_armor",
+              "model": "horse_baby_armor"
+            }
+          ]
         },
         {
           "id": "zombie_villager_baby_21.11",
