@@ -1,7 +1,7 @@
 {
   "credit": "By Ewan Howell",
-  "texture": "spruce_hanging_sign.png",
   "textureSize": [64, 32],
+  "texture": "spruce_hanging_sign.png",
   "models": [
     {
       "part": "board",
@@ -18,7 +18,7 @@
       "invertAxis": "xy",
       "translate": [0, -10, 0],
       "boxes": [
-        {"coordinates": [-8, 16, -2, 16, 2, 4], "textureOffset": [0, 0]}
+        {"coordinates": [-8, 14, -2, 16, 2, 4], "textureOffset": [0, 0]}
       ]
     },
     {
