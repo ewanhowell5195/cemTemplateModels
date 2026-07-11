@@ -8,11 +8,14 @@ let updated = 0
 let missing = 0
 
 for (const entity of Object.keys(data.models)) {
-  if (generated.models[entity]) {
-    if (!Array.isArray(data.models[entity].texture_data)) {
-      data.models[entity].texture_data = generated.models[entity].texture_data
+  const gen = generated.models[entity]
+  if (gen) {
+    if (gen.texture_data) {
+      data.models[entity].texture_data = gen.texture_data
+    } else {
+      delete data.models[entity].texture_data
     }
-    data.models[entity].model = generated.models[entity].model
+    data.models[entity].model = gen.model
     updated++
   } else {
     console.log(`Missing from generated: ${entity}`)
