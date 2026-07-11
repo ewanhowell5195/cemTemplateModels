@@ -10,11 +10,7 @@ let missing = 0
 for (const entity of Object.keys(data.models)) {
   const gen = generated.models[entity]
   if (gen) {
-    if (gen.texture_data) {
-      data.models[entity].texture_data = gen.texture_data
-    } else {
-      delete data.models[entity].texture_data
-    }
+    delete data.models[entity].texture_data
     data.models[entity].model = gen.model
     updated++
   } else {
