@@ -1,0 +1,61 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [16, 16],
+  "texture": "turtle_baby.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -1.1, 1],
+      "boxes": [
+        {"coordinates": [-1.5, 0.1, -4, 3, 3, 3], "textureOffset": [0, 6]}
+      ]
+    },
+    {
+      "part": "left_hind_leg",
+      "id": "left_hind_leg",
+      "invertAxis": "xy",
+      "translate": [2, -0.1, -2.5],
+      "boxes": [
+        {"coordinates": [-4, 0.1, 2, 2, 0, 1], "textureOffset": [-1, 1]}
+      ]
+    },
+    {
+      "part": "right_hind_leg",
+      "id": "right_hind_leg",
+      "invertAxis": "xy",
+      "translate": [-2, -0.1, -2.5],
+      "boxes": [
+        {"coordinates": [2, 0.1, 2, 2, 0, 1], "textureOffset": [-1, 0]}
+      ]
+    },
+    {
+      "part": "left_front_leg",
+      "id": "left_front_leg",
+      "invertAxis": "xy",
+      "translate": [2, -0.1, 0.5],
+      "boxes": [
+        {"coordinates": [-4, 0.1, -1, 2, 0, 1], "textureOffset": [8, 7]}
+      ]
+    },
+    {
+      "part": "right_front_leg",
+      "id": "right_front_leg",
+      "invertAxis": "xy",
+      "translate": [-2, -0.1, 0.5],
+      "boxes": [
+        {"coordinates": [2, 0.1, -1, 2, 0, 1], "textureOffset": [8, 6]}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -1.1, -1],
+      "boxes": [
+        {"coordinates": [-2, 0.1, -1, 4, 2, 4], "textureOffset": [0, 0]}
+      ]
+    }
+  ]
+}

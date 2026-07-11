@@ -1,0 +1,88 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "texture": "wolf_baby.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -5.75, 4],
+      "boxes": [
+        {"coordinates": [-3.01, 4, -7, 6, 5, 5], "textureOffset": [0, 12], "sizeAdd": 0.025},
+        {"coordinates": [-1.5, 3.99, -9, 3, 2, 2], "textureOffset": [17, 12]},
+        {"coordinates": [-3, 9, -5, 2, 2, 1], "textureOffset": [20, 5]},
+        {"coordinates": [1, 9, -5, 2, 2, 1], "textureOffset": [0, 5]}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -5, 0],
+      "boxes": [
+        {"coordinates": [-3, 3, -4, 6, 4, 8], "textureOffset": [0, 0]}
+      ]
+    },
+    {
+      "part": "left_hind_leg",
+      "id": "left_hind_leg",
+      "invertAxis": "xy",
+      "translate": [1.5, -3, -3],
+      "boxes": [
+        {"coordinates": [-2.5, 0, 2, 2, 3, 2], "textureOffset": [8, 22]}
+      ]
+    },
+    {
+      "part": "right_hind_leg",
+      "id": "right_hind_leg",
+      "invertAxis": "xy",
+      "translate": [-1.5, -3, -3],
+      "boxes": [
+        {"coordinates": [0.5, 0, 2, 2, 3, 2], "textureOffset": [0, 22]}
+      ]
+    },
+    {
+      "part": "left_front_leg",
+      "id": "left_front_leg",
+      "invertAxis": "xy",
+      "translate": [1.5, -3, 3],
+      "boxes": [
+        {"coordinates": [-2.5, 0, -4, 2, 3, 2], "textureOffset": [20, 0]}
+      ]
+    },
+    {
+      "part": "right_front_leg",
+      "id": "right_front_leg",
+      "invertAxis": "xy",
+      "translate": [-1.5, -3, 3],
+      "boxes": [
+        {"coordinates": [0.5, 0, -4, 2, 3, 2], "textureOffset": [0, 0]}
+      ]
+    },
+    {
+      "part": "tail",
+      "id": "tail",
+      "invertAxis": "xy",
+      "translate": [0, -5, -3],
+      "rotate": [-90, 0, 0],
+      "attach": true,
+      "submodels": [
+        {
+          "id": "tail_rotation",
+          "invertAxis": "xy",
+          "translate": [0, 5.6, 3.2],
+          "rotate": [177.6169, 0, 0],
+          "boxes": [
+            {"coordinates": [-1, -0.3, -1, 2, 6, 2], "textureOffset": [22, 16]}
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "this.rx": 0
+        }
+      ]
+    }
+  ]
+}

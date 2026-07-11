@@ -1,0 +1,120 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "texture": "armadillo_baby.png",
+  "models": [
+    {
+      "part": "head_cube",
+      "id": "head_cube",
+      "invertAxis": "xy",
+      "translate": [0, -4, 2.7],
+      "rotate": [-42.5, 0, 0],
+      "boxes": [
+        {"coordinates": [-1, 4, -6.7, 2, 2, 4], "textureOffset": [20, 17]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0
+        }
+      ]
+    },
+    {
+      "part": "left_ear",
+      "id": "left_ear",
+      "invertAxis": "xy",
+      "translate": [1, -5.25, 4.25],
+      "rotate": [-24.9981, -6.4973, -3.0023],
+      "boxes": [
+        {"coordinates": [-2.8, 4.25, -4.25, 2, 3, 0], "textureOffset": [28, 8]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0,
+          "this.ry": 0,
+          "this.rz": 0
+        }
+      ]
+    },
+    {
+      "part": "right_ear",
+      "id": "right_ear",
+      "invertAxis": "xy",
+      "translate": [-1, -5.25, 4.25],
+      "rotate": [-24.99815, 6.49734, 3.0023],
+      "boxes": [
+        {"coordinates": [0.8, 4.25, -4.25, 2, 3, 0], "textureOffset": [28, 8]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0,
+          "this.ry": 0,
+          "this.rz": 0
+        }
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -4, -0.5],
+      "boxes": [
+        {"coordinates": [-2.5, 2, -3, 5, 4, 7], "textureOffset": [0, 0], "sizeAdd": 0.3},
+        {"coordinates": [-2.5, 2, -2.5, 5, 4, 6], "textureOffset": [0, 11]}
+      ]
+    },
+    {
+      "part": "cube",
+      "id": "cube",
+      "invertAxis": "xy",
+      "translate": [0, -3.3, -0.5],
+      "boxes": [
+        {"coordinates": [-3, 0.3, -2.5, 6, 6, 6], "textureOffset": [0, 25], "sizeAdd": 0.3}
+      ]
+    },
+    {
+      "part": "left_front_leg",
+      "id": "left_front_leg",
+      "invertAxis": "xy",
+      "translate": [-1.5, -2, 1.5],
+      "boxes": [
+        {"coordinates": [0.5, 0, -2.5, 2, 2, 2], "textureOffset": [24, 0]}
+      ]
+    },
+    {
+      "part": "right_front_leg",
+      "id": "right_front_leg",
+      "invertAxis": "xy",
+      "translate": [1.5, -2, 1.5],
+      "boxes": [
+        {"coordinates": [-2.5, 0, -2.5, 2, 2, 2], "textureOffset": [20, 23]}
+      ]
+    },
+    {
+      "part": "left_hind_leg",
+      "id": "left_hind_leg",
+      "invertAxis": "xy",
+      "translate": [1.5, -2, -2.5],
+      "boxes": [
+        {"coordinates": [-2.5, 0, 1.5, 2, 2, 2], "textureOffset": [20, 27]}
+      ]
+    },
+    {
+      "part": "right_hind_leg",
+      "id": "right_hind_leg",
+      "invertAxis": "xy",
+      "translate": [-1.5, -2, -2.5],
+      "boxes": [
+        {"coordinates": [0.5, 0, 1.5, 2, 2, 2], "textureOffset": [20, 27]}
+      ]
+    },
+    {
+      "part": "right_ear_cube",
+      "id": "right_ear_cube",
+      "invertAxis": "xy",
+      "translate": [0, -2.5, -4.9],
+      "boxes": [
+        {"coordinates": [-0.5, 2, 2.9, 1, 1, 4], "textureOffset": [22, 11]}
+      ]
+    }
+  ]
+}

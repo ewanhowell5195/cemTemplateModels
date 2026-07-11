@@ -1,0 +1,105 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "texture": "zoglin_baby.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -11, 7],
+      "rotate": [-50, 0, 0],
+      "boxes": [
+        {"coordinates": [-5, 9.2605, -17.547, 10, 4, 12], "textureOffset": [0, 0]},
+        {"coordinates": [5, 10.0981, -15.4879, 2, 5, 2], "textureOffset": [44, 29]},
+        {"coordinates": [-7, 10.0981, -15.4879, 2, 5, 2], "textureOffset": [52, 29]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0
+        }
+      ]
+    },
+    {
+      "part": "left_ear",
+      "id": "left_ear",
+      "invertAxis": "xy",
+      "mirrorTexture": "u",
+      "translate": [5, -10.49372, 8.73023],
+      "rotate": [-37.4537, 35.932, 37.4537],
+      "boxes": [
+        {"coordinates": [-10.1, 9.99372, -10.73023, 6, 1, 4], "textureOffset": [32, 0]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0,
+          "this.ry": 0,
+          "this.rz": 0
+        }
+      ]
+    },
+    {
+      "part": "right_ear",
+      "id": "right_ear",
+      "invertAxis": "xy",
+      "translate": [-5, -10.49372, 8.73023],
+      "rotate": [-37.4537, -35.932, -37.4537],
+      "boxes": [
+        {"coordinates": [4.1, 9.99372, -10.73023, 6, 1, 4], "textureOffset": [32, 5]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0,
+          "this.ry": 0,
+          "this.rz": 0
+        }
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, 0, 0],
+      "boxes": [
+        {"coordinates": [-4, 6, -7, 8, 8, 14], "textureOffset": [0, 16], "sizeAdd": 0.02},
+        {"coordinates": [0, 12, -8, 0, 6, 11], "textureOffset": [24, 39], "sizeAdd": 0.02}
+      ]
+    },
+    {
+      "part": "left_hind_leg",
+      "id": "left_hind_leg",
+      "invertAxis": "xy",
+      "translate": [2.5, -6, -4.5],
+      "boxes": [
+        {"coordinates": [-4, 0, 3, 3, 6, 3], "textureOffset": [12, 47]}
+      ]
+    },
+    {
+      "part": "right_hind_leg",
+      "id": "right_hind_leg",
+      "invertAxis": "xy",
+      "translate": [-2.5, -6, -4.5],
+      "boxes": [
+        {"coordinates": [1, 0, 3, 3, 6, 3], "textureOffset": [0, 47]}
+      ]
+    },
+    {
+      "part": "left_front_leg",
+      "id": "left_front_leg",
+      "invertAxis": "xy",
+      "translate": [2.5, -6, 4.5],
+      "boxes": [
+        {"coordinates": [-4, 0, -6, 3, 6, 3], "textureOffset": [12, 38]}
+      ]
+    },
+    {
+      "part": "right_front_leg",
+      "id": "right_front_leg",
+      "invertAxis": "xy",
+      "translate": [-2.5, -6, 4.5],
+      "boxes": [
+        {"coordinates": [1, 0, -6, 3, 6, 3], "textureOffset": [0, 38]}
+      ]
+    }
+  ]
+}

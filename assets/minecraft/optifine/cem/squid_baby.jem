@@ -1,0 +1,130 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "texture": "squid_baby.png",
+  "models": [
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -11, 0],
+      "boxes": [
+        {"coordinates": [-4, 6, -4, 8, 10, 8], "textureOffset": [0, 0]}
+      ]
+    },
+    {
+      "part": "tentacle0",
+      "id": "tentacle0",
+      "invertAxis": "xy",
+      "translate": [3, -5.5, 0],
+      "rotate": [0, -90, 0],
+      "boxes": [
+        {"coordinates": [-4, 0, -1, 2, 6, 2], "textureOffset": [0, 18]}
+      ],
+      "animations": [
+        {
+          "this.ry": 0
+        }
+      ]
+    },
+    {
+      "part": "tentacle1",
+      "id": "tentacle1",
+      "invertAxis": "xy",
+      "translate": [2.12132, -5.5, -2.12132],
+      "rotate": [0, -45, 0],
+      "boxes": [
+        {"coordinates": [-3.12132, 0, 1.12132, 2, 6, 2], "textureOffset": [0, 18]}
+      ],
+      "animations": [
+        {
+          "this.ry": 0
+        }
+      ]
+    },
+    {
+      "part": "tentacle2",
+      "id": "tentacle2",
+      "invertAxis": "xy",
+      "translate": [0, -5.5, -3],
+      "boxes": [
+        {"coordinates": [-1, 0, 2, 2, 6, 2], "textureOffset": [0, 18]}
+      ]
+    },
+    {
+      "part": "tentacle3",
+      "id": "tentacle3",
+      "invertAxis": "xy",
+      "translate": [-2.12132, -5.5, -2.12132],
+      "rotate": [0, 45, 0],
+      "boxes": [
+        {"coordinates": [1.12132, 0, 1.12132, 2, 6, 2], "textureOffset": [0, 18]}
+      ],
+      "animations": [
+        {
+          "this.ry": 0
+        }
+      ]
+    },
+    {
+      "part": "tentacle4",
+      "id": "tentacle4",
+      "invertAxis": "xy",
+      "translate": [-3, -5.5, 0],
+      "rotate": [0, 90, 0],
+      "boxes": [
+        {"coordinates": [2, 0, -1, 2, 6, 2], "textureOffset": [0, 18]}
+      ],
+      "animations": [
+        {
+          "this.ry": 0
+        }
+      ]
+    },
+    {
+      "part": "tentacle5",
+      "id": "tentacle5",
+      "invertAxis": "xy",
+      "translate": [-2.12132, -5.5, 2.12132],
+      "rotate": [0, 135, 0],
+      "boxes": [
+        {"coordinates": [1.12132, 0, -3.12132, 2, 6, 2], "textureOffset": [0, 18]}
+      ],
+      "animations": [
+        {
+          "this.ry": 0
+        }
+      ]
+    },
+    {
+      "part": "tentacle6",
+      "id": "tentacle6",
+      "invertAxis": "xy",
+      "translate": [0, -5.5, 3],
+      "rotate": [0, 180, 0],
+      "boxes": [
+        {"coordinates": [-1, 0, -4, 2, 6, 2], "textureOffset": [0, 18]}
+      ],
+      "animations": [
+        {
+          "this.ry": 0
+        }
+      ]
+    },
+    {
+      "part": "tentacle7",
+      "id": "tentacle7",
+      "invertAxis": "xy",
+      "translate": [2.12132, -5.5, 2.12132],
+      "rotate": [0, 225, 0],
+      "boxes": [
+        {"coordinates": [-3.12132, 0, -3.12132, 2, 6, 2], "textureOffset": [0, 18]}
+      ],
+      "animations": [
+        {
+          "this.ry": 0
+        }
+      ]
+    }
+  ]
+}

@@ -50,12 +50,12 @@
       ]
     },
     {
-      "part": "leg4",
-      "id": "leg4",
+      "part": "leg1",
+      "id": "leg1",
       "invertAxis": "xy",
-      "translate": [3.5, -5, 4],
+      "translate": [-3.5, -5, -3],
       "boxes": [
-        {"coordinates": [-5.5, 0, -4, 3, 5, 0], "textureOffset": [2, 13]}
+        {"coordinates": [2.5, 0, 3, 3, 5, 0], "textureOffset": [2, 13]}
       ]
     },
     {
@@ -77,12 +77,12 @@
       ]
     },
     {
-      "part": "leg1",
-      "id": "leg1",
+      "part": "leg4",
+      "id": "leg4",
       "invertAxis": "xy",
-      "translate": [-3.5, -5, -3],
+      "translate": [3.5, -5, 4],
       "boxes": [
-        {"coordinates": [2.5, 0, 3, 3, 5, 0], "textureOffset": [2, 13]}
+        {"coordinates": [-5.5, 0, -4, 3, 5, 0], "textureOffset": [2, 13]}
       ]
     },
     {

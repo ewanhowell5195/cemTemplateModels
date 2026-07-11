@@ -1,0 +1,118 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [128, 128],
+  "texture": "sniffer_baby.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -7.75, 9.5],
+      "boxes": [
+        {"coordinates": [-5, 3, -17, 10, 9, 9], "textureOffset": [68, 20]},
+        {"coordinates": [-5, 4, -17, 10, 0, 9], "textureOffset": [88, 20]}
+      ]
+    },
+    {
+      "part": "nose",
+      "id": "nose",
+      "invertAxis": "xy",
+      "translate": [0, -9, 19],
+      "boxes": [
+        {"coordinates": [-5, 9, -21, 10, 3, 4], "textureOffset": [68, 47]}
+      ]
+    },
+    {
+      "part": "lower_beak",
+      "id": "lower_beak",
+      "invertAxis": "xy",
+      "translate": [0, -6.5, 19],
+      "boxes": [
+        {"coordinates": [-5, 4, -21, 10, 5, 4], "textureOffset": [68, 38]}
+      ]
+    },
+    {
+      "part": "left_ear",
+      "id": "left_ear",
+      "invertAxis": "xy",
+      "translate": [5, -12, 11],
+      "boxes": [
+        {"coordinates": [-6, 1, -13, 1, 11, 3], "textureOffset": [104, 38]}
+      ]
+    },
+    {
+      "part": "right_ear",
+      "id": "right_ear",
+      "invertAxis": "xy",
+      "translate": [-5, -12, 11],
+      "boxes": [
+        {"coordinates": [5, 1, -13, 1, 11, 3], "textureOffset": [96, 38]}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [6, -3, 9.5],
+      "boxes": [
+        {"coordinates": [-7, 3, -10, 14, 14, 20], "textureOffset": [0, 35], "sizeAdd": 0.25},
+        {"coordinates": [-7, 2, -10, 14, 15, 20], "textureOffset": [0, 0]},
+        {"coordinates": [-7, 3, -10, 14, 0, 20], "textureOffset": [68, 0]}
+      ]
+    },
+    {
+      "part": "left_front_leg",
+      "id": "left_front_leg",
+      "invertAxis": "xy",
+      "translate": [4, -4, 7],
+      "boxes": [
+        {"coordinates": [-6, 0, -9, 4, 5, 4], "textureOffset": [16, 69]}
+      ]
+    },
+    {
+      "part": "right_front_leg",
+      "id": "right_front_leg",
+      "invertAxis": "xy",
+      "translate": [-4, -4, 7],
+      "boxes": [
+        {"coordinates": [2, 0, -9, 4, 5, 4], "textureOffset": [0, 69]}
+      ]
+    },
+    {
+      "part": "left_mid_leg",
+      "id": "left_mid_leg",
+      "invertAxis": "xy",
+      "translate": [4, -4, 0],
+      "boxes": [
+        {"coordinates": [-6, 0, -2, 4, 5, 4], "textureOffset": [16, 78]}
+      ]
+    },
+    {
+      "part": "right_mid_leg",
+      "id": "right_mid_leg",
+      "invertAxis": "xy",
+      "translate": [-4, -4, 0],
+      "boxes": [
+        {"coordinates": [2, 0, -2, 4, 5, 4], "textureOffset": [0, 78]}
+      ]
+    },
+    {
+      "part": "left_hind_leg",
+      "id": "left_hind_leg",
+      "invertAxis": "xy",
+      "translate": [4, -4, -7],
+      "boxes": [
+        {"coordinates": [-6, 0, 5, 4, 5, 4], "textureOffset": [16, 87]}
+      ]
+    },
+    {
+      "part": "right_hind_leg",
+      "id": "right_hind_leg",
+      "invertAxis": "xy",
+      "translate": [-4, -4, -7],
+      "boxes": [
+        {"coordinates": [2, 0, 5, 4, 5, 4], "textureOffset": [0, 87]}
+      ]
+    }
+  ]
+}

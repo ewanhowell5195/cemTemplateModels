@@ -1,7 +1,7 @@
 {
   "credit": "By Ewan Howell",
   "textureSize": [64, 64],
-  "texture": "nautilus_baby_21.11.png",
+  "texture": "nautilus_baby.png",
   "models": [
     {
       "part": "shell",

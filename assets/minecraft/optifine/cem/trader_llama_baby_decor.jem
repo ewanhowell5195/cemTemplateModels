@@ -1,0 +1,64 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "texture": "trader_llama_baby_decor.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -12, 4],
+      "boxes": [
+        {"coordinates": [-3, 10, -8, 6, 11, 4], "textureOffset": [0, 0], "sizeAdd": 0.2},
+        {"coordinates": [-1.5, 16, -11, 3, 3, 3], "textureOffset": [0, 15], "sizeAdd": 0.2},
+        {"coordinates": [-2.5, 21, -7, 2, 2, 2], "textureOffset": [20, 4], "sizeAdd": 0.2},
+        {"coordinates": [0.5, 21, -7, 2, 2, 2], "textureOffset": [20, 0], "sizeAdd": 0.2}
+      ]
+    },
+    {
+      "part": "left_hind_leg",
+      "id": "left_hind_leg",
+      "invertAxis": "xy",
+      "translate": [2.5, -7.5, -4.5],
+      "boxes": [
+        {"coordinates": [-3.9, 0, 3, 3, 8, 3], "textureOffset": [12, 45], "sizeAdd": 0.2}
+      ]
+    },
+    {
+      "part": "right_hind_leg",
+      "id": "right_hind_leg",
+      "invertAxis": "xy",
+      "translate": [-2.5, -7.5, -4.5],
+      "boxes": [
+        {"coordinates": [0.9, 0, 3, 3, 8, 3], "textureOffset": [0, 45], "sizeAdd": 0.2}
+      ]
+    },
+    {
+      "part": "left_front_leg",
+      "id": "left_front_leg",
+      "invertAxis": "xy",
+      "translate": [2.5, -7.5, 3.5],
+      "boxes": [
+        {"coordinates": [-3.9, 0, -5, 3, 8, 3], "textureOffset": [12, 34], "sizeAdd": 0.2}
+      ]
+    },
+    {
+      "part": "right_front_leg",
+      "id": "right_front_leg",
+      "invertAxis": "xy",
+      "translate": [-2.5, -7.5, 3.5],
+      "boxes": [
+        {"coordinates": [0.9, 0, -5, 3, 8, 3], "textureOffset": [0, 34], "sizeAdd": 0.2}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -10, -2.5],
+      "boxes": [
+        {"coordinates": [-4, 7, -6, 8, 6, 13], "textureOffset": [0, 15], "sizeAdd": 0.2}
+      ]
+    }
+  ]
+}

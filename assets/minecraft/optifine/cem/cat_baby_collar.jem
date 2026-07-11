@@ -1,0 +1,79 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "texture": "cat_baby_collar.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -4, 3.125],
+      "boxes": [
+        {"coordinates": [-2.5, 3, -6, 5, 4, 4], "textureOffset": [0, 0]},
+        {"coordinates": [1, 7, -4, 1, 1, 2], "textureOffset": [18, 0]},
+        {"coordinates": [-2, 7, -4, 1, 1, 2], "textureOffset": [24, 0]},
+        {"coordinates": [-1.5, 3, -7, 3, 2, 1], "textureOffset": [18, 3]}
+      ]
+    },
+    {
+      "part": "left_front_leg",
+      "id": "left_front_leg",
+      "invertAxis": "xy",
+      "translate": [1, -2, 1.5],
+      "boxes": [
+        {"coordinates": [-1.5, 0, -2.5, 1, 2, 2], "textureOffset": [18, 18]}
+      ]
+    },
+    {
+      "part": "right_front_leg",
+      "id": "right_front_leg",
+      "invertAxis": "xy",
+      "translate": [-1, -2, 1.5],
+      "boxes": [
+        {"coordinates": [0.5, 0, -2.5, 1, 2, 2], "textureOffset": [12, 18]}
+      ]
+    },
+    {
+      "part": "left_hind_leg",
+      "id": "left_hind_leg",
+      "invertAxis": "xy",
+      "translate": [1, -2, -2.5],
+      "boxes": [
+        {"coordinates": [-1.5, 0, 1.5, 1, 2, 2], "textureOffset": [18, 22]}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -3.5, -0.5],
+      "boxes": [
+        {"coordinates": [-2, 2, -3, 4, 3, 7], "textureOffset": [0, 8]}
+      ]
+    },
+    {
+      "part": "right_hind_leg",
+      "id": "right_hind_leg",
+      "invertAxis": "xy",
+      "translate": [-1, -2, -2.5],
+      "boxes": [
+        {"coordinates": [0.5, 0, 1.5, 1, 2, 2], "textureOffset": [12, 22]}
+      ]
+    },
+    {
+      "part": "tail1",
+      "id": "tail1",
+      "invertAxis": "xy",
+      "translate": [0, -4.893, -3.9151],
+      "rotate": [32.5, 0, 0],
+      "boxes": [
+        {"coordinates": [-0.5, 4, 4, 1, 1, 5], "textureOffset": [0, 18]}
+      ],
+      "animations": [
+        {
+          "this.rx": 0
+        }
+      ]
+    }
+  ]
+}

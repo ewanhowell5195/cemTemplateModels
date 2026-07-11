@@ -1,0 +1,61 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [32, 32],
+  "texture": "strider_baby.png",
+  "models": [
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -7.25, 0],
+      "boxes": [
+        {"coordinates": [-3.5, 4, -4, 7, 7, 8], "textureOffset": [0, 0]}
+      ]
+    },
+    {
+      "part": "bristle0",
+      "id": "bristle0",
+      "invertAxis": "xy",
+      "translate": [0, -11.5, -2],
+      "boxes": [
+        {"coordinates": [-3.5, 11, 2, 7, 3, 0], "textureOffset": [0, 21]}
+      ]
+    },
+    {
+      "part": "bristle1",
+      "id": "bristle1",
+      "invertAxis": "xy",
+      "translate": [0, -11.5, 0],
+      "boxes": [
+        {"coordinates": [-3.5, 11, 0, 7, 3, 0], "textureOffset": [0, 18]}
+      ]
+    },
+    {
+      "part": "bristle2",
+      "id": "bristle2",
+      "invertAxis": "xy",
+      "translate": [0, -11.5, 2],
+      "boxes": [
+        {"coordinates": [-3.5, 11, -2, 7, 3, 0], "textureOffset": [0, 15]}
+      ]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [1.5, -4, 0],
+      "boxes": [
+        {"coordinates": [-2.5, 0, -1, 2, 4, 2], "textureOffset": [8, 24]}
+      ]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-1.5, -4, 0],
+      "boxes": [
+        {"coordinates": [0.5, 0, -1, 2, 4, 2], "textureOffset": [0, 24]}
+      ]
+    }
+  ]
+}

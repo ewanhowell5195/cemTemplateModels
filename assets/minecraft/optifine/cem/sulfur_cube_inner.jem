@@ -1,0 +1,16 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [128, 128],
+  "texture": "sulfur_cube_inner.png",
+  "models": [
+    {
+      "part": "cube",
+      "id": "cube",
+      "invertAxis": "xy",
+      "translate": [0, -9, 0],
+      "boxes": [
+        {"coordinates": [-8, 1, -8, 16, 16, 16], "textureOffset": [0, 36]}
+      ]
+    }
+  ]
+}
