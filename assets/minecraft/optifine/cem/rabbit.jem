@@ -117,10 +117,10 @@
       "part": "tail",
       "id": "tail",
       "invertAxis": "xy",
-      "translate": [0, -5.9916, -4.0125],
+      "translate": [0, -5.60683, -5.92171],
       "rotate": [22.5, 0, 0],
       "boxes": [
-        {"coordinates": [-2, 5, 3, 4, 4, 4], "textureOffset": [20, 16]}
+        {"coordinates": [-2, 4.61523, 4.90921, 4, 4, 4], "textureOffset": [20, 16]}
       ],
       "animations": [
         {
