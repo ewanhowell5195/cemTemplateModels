@@ -123,8 +123,8 @@
       ]
     },
     {
-      "part": "head_saddle",
-      "id": "head_saddle",
+      "part": "headpiece",
+      "id": "headpiece",
       "invertAxis": "xy",
       "translate": [0, -22, 8.9],
       "boxes": [
@@ -132,8 +132,8 @@
       ]
     },
     {
-      "part": "mouth_saddle_wrap",
-      "id": "mouth_saddle_wrap",
+      "part": "noseband",
+      "id": "noseband",
       "invertAxis": "xy",
       "translate": [0, -22, 9],
       "boxes": [
@@ -141,8 +141,8 @@
       ]
     },
     {
-      "part": "left_saddle_mouth",
-      "id": "left_saddle_mouth",
+      "part": "left_bit",
+      "id": "left_bit",
       "invertAxis": "xy",
       "translate": [0, -22, 9],
       "boxes": [
@@ -150,8 +150,8 @@
       ]
     },
     {
-      "part": "right_saddle_mouth",
-      "id": "right_saddle_mouth",
+      "part": "right_bit",
+      "id": "right_bit",
       "invertAxis": "xy",
       "translate": [0, -22, 9],
       "boxes": [
@@ -159,8 +159,8 @@
       ]
     },
     {
-      "part": "left_saddle_line",
-      "id": "left_saddle_line",
+      "part": "left_rein",
+      "id": "left_rein",
       "invertAxis": "xy",
       "translate": [0, -25.5, 5.5],
       "boxes": [
@@ -168,8 +168,8 @@
       ]
     },
     {
-      "part": "right_saddle_line",
-      "id": "right_saddle_line",
+      "part": "right_rein",
+      "id": "right_rein",
       "invertAxis": "xy",
       "translate": [0, -25.5, 5.5],
       "boxes": [

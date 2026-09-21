@@ -82,8 +82,8 @@
       ]
     },
     {
-      "part": "left_hind_leg",
-      "id": "left_hind_leg",
+      "part": "leg2",
+      "id": "leg2",
       "invertAxis": "xy",
       "translate": [1.5, -4.5, -3],
       "boxes": [
@@ -91,8 +91,8 @@
       ]
     },
     {
-      "part": "right_hind_leg",
-      "id": "right_hind_leg",
+      "part": "leg1",
+      "id": "leg1",
       "invertAxis": "xy",
       "translate": [-1.5, -4.5, -3],
       "boxes": [
@@ -100,8 +100,8 @@
       ]
     },
     {
-      "part": "left_front_leg",
-      "id": "left_front_leg",
+      "part": "leg4",
+      "id": "leg4",
       "invertAxis": "xy",
       "translate": [1.5, -4.5, 2],
       "boxes": [
@@ -109,8 +109,8 @@
       ]
     },
     {
-      "part": "right_front_leg",
-      "id": "right_front_leg",
+      "part": "leg3",
+      "id": "leg3",
       "invertAxis": "xy",
       "translate": [-1.5, -4.5, 2],
       "boxes": [

@@ -84,8 +84,8 @@
       ]
     },
     {
-      "part": "left_haunch",
-      "id": "left_haunch",
+      "part": "left_foot",
+      "id": "left_foot",
       "invertAxis": "xy",
       "translate": [3, -1, -4],
       "rotate": [0, 22.5, 0],
@@ -99,8 +99,8 @@
       ]
     },
     {
-      "part": "right_haunch",
-      "id": "right_haunch",
+      "part": "right_foot",
+      "id": "right_foot",
       "invertAxis": "xy",
       "translate": [-3, -1, -4],
       "rotate": [0, -22.5, 0],

@@ -13,8 +13,8 @@
       ]
     },
     {
-      "part": "hat",
-      "id": "hat",
+      "part": "headwear",
+      "id": "headwear",
       "invertAxis": "xy",
       "translate": [0, -24, 0]
     },

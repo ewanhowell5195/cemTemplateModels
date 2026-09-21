@@ -13,8 +13,8 @@
       ]
     },
     {
-      "part": "hat",
-      "id": "hat",
+      "part": "headwear",
+      "id": "headwear",
       "invertAxis": "xy",
       "translate": [0, -12, 0],
       "boxes": [
@@ -22,8 +22,8 @@
       ]
     },
     {
-      "part": "hat_rim",
-      "id": "hat_rim",
+      "part": "headwear2",
+      "id": "headwear2",
       "invertAxis": "xy",
       "translate": [0, -12.5, 0],
       "boxes": [
@@ -49,8 +49,8 @@
       ]
     },
     {
-      "part": "bb_main",
-      "id": "bb_main",
+      "part": "bodywear",
+      "id": "bodywear",
       "invertAxis": "xy",
       "translate": [0.5, 0, 0],
       "boxes": [

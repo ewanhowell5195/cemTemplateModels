@@ -46,8 +46,8 @@
       ]
     },
     {
-      "part": "left_front_leg",
-      "id": "left_front_leg",
+      "part": "left_arm",
+      "id": "left_arm",
       "invertAxis": "xy",
       "translate": [1, -2.5, 1.5],
       "rotate": [-22.5, 0, 0],
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "part": "right_front_leg",
-      "id": "right_front_leg",
+      "part": "right_arm",
+      "id": "right_arm",
       "invertAxis": "xy",
       "translate": [-1, -2.5, 1.5],
       "rotate": [-22.5, 0, 0],
@@ -92,8 +92,8 @@
       ]
     },
     {
-      "part": "left_haunch",
-      "id": "left_haunch",
+      "part": "left_foot",
+      "id": "left_foot",
       "invertAxis": "xy",
       "translate": [0.5, -0.5, -2],
       "rotate": [0, -135, 0],
@@ -107,8 +107,8 @@
       ]
     },
     {
-      "part": "right_haunch",
-      "id": "right_haunch",
+      "part": "right_foot",
+      "id": "right_foot",
       "invertAxis": "xy",
       "translate": [-1.915, -0.5, -3.414],
       "rotate": [0, 135, 0],
