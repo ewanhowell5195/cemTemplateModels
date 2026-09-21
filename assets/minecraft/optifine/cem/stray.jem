@@ -52,7 +52,7 @@
       "part": "left_leg",
       "id": "left_leg",
       "invertAxis": "xy",
-      "translate": [2, -12, -0.1],
+      "translate": [2, -12, 0],
       "mirrorTexture": "u",
       "boxes": [
         {"coordinates": [-3, 0, -1, 2, 12, 2], "textureOffset": [0, 16]}
@@ -62,7 +62,7 @@
       "part": "right_leg",
       "id": "right_leg",
       "invertAxis": "xy",
-      "translate": [-2, -12, -0.1],
+      "translate": [-2, -12, 0],
       "boxes": [
         {"coordinates": [1, 0, -1, 2, 12, 2], "textureOffset": [0, 16]}
       ]
